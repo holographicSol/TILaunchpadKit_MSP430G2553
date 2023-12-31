@@ -31,4 +31,4 @@ Configuring CCS to flash the microcontroller is outside the scope of these instr
 
 Check the version of the TI Launchpad is correct please before using the examples
 
-![plot](./Screenshots/TILaunchpad.png)
+![plot](./Images/TILaunchpad.png)
