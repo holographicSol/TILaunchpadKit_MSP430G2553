@@ -1,6 +1,7 @@
 # TILaunchpadKit_MSP430G2553
 Provides CCS (Code Compiler Studio) Project Examples For Demo/Learning Microcontrollers and Embedded C Programming. 
 
+
 Hardware Required (Texas Instruments MSP-EXP430G2ET):
 
 Manufacturer Product Number: MSP-EXP430G2ET
@@ -8,6 +9,7 @@ Manufacturer Product Number: MSP-EXP430G2ET
 Description: LAUNCHPAD MSP430G2553 EVAL BRD
 
 Detailed Description: MSP430G2553 LaunchPad™ MSP430G2 MSP430 MCU 16-Bit Embedded Evaluation Board
+
 
 
 In CCS:
