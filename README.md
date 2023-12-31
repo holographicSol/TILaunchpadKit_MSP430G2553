@@ -1,6 +1,8 @@
 # TILaunchpadKit_MSP430G2553
 Provides CCS (Code Compiler Studio) Project Examples For Demo/Learning Microcontrollers and Embedded C Programming. 
 
+The examples provided will typically be Bitwise bit manipulation instructions.
+
 
 Hardware Required (Texas Instruments MSP-EXP430G2ET):
 
