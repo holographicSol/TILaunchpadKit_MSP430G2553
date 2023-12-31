@@ -29,6 +29,7 @@ Detailed Description: MSP430G2553 LaunchPad™ MSP430G2 MSP430 MCU 16-Bit Embedd
 Configuring CCS to flash the microcontroller is outside the scope of these instructions.
 
 
-Check the version of the TI Launchpad is correct please before using the examples.
+**Check the version of the TI Launchpad is correct please before using the examples. I include an image of
+the TI Launchpad and product details.**
 
 ![plot](./Images/TILaunchpad.png)
