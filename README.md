@@ -29,6 +29,6 @@ In CCS:
 Configuring CCS to flash the microcontroller is outside the scope of these instructions.
 
 
-Check the version of the TI Launchpad is correct please before using the examples
+Check the version of the TI Launchpad is correct please before using the examples.
 
 ![plot](./Images/TILaunchpad.png)
