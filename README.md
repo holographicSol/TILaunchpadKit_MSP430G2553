@@ -4,7 +4,7 @@ Provides CCS (Code Compiler Studio) Project Examples For Demo/Learning Microcont
 The examples provided will typically be Bitwise bit manipulation instructions.
 
 
-Hardware Required (Texas Instruments MSP-EXP430G2ET):
+**Hardware Required (Texas Instruments MSP-EXP430G2ET):**
 
 Manufacturer Product Number: MSP-EXP430G2ET
 
@@ -14,7 +14,7 @@ Detailed Description: MSP430G2553 LaunchPad™ MSP430G2 MSP430 MCU 16-Bit Embedd
 
 
 
-In CCS:
+**In CCS:**
 
 1: File -> New Project -> CCS -> CCS Project.
 
