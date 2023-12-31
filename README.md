@@ -1,5 +1,5 @@
 # TILaunchpadKit_MSP430G2553
-Provides CCS (Code Compiler Studio) Project Examples For Demo/Learning Purposes  
+Provides CCS (Code Compiler Studio) Project Examples For Demo/Learning Microcontrollers and Embedded C Programming.  
 
 In CCS:
 
