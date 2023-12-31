@@ -27,3 +27,8 @@ In CCS:
 4: Overwrite/Paste main.c into project.
 
 Configuring CCS to flash the microcontroller is outside the scope of these instructions.
+
+
+Check the version of the TI Launchpad is correct please before using the examples
+
+![plot](./Screenshots/TILaunchpad.png)
