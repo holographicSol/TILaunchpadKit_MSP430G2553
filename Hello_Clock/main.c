@@ -7,6 +7,8 @@
  *      blue:  VLO = 12kHz/1 = 12kHz
  * The Green LED will blink in a way which broadly conveys the slower/higher
  * clock speed.
+ * This program also demonstrates how implementing interrupts would be more reliable
+ * than using delays to debounce.
  *
  * The pushbutton changes the mode.
  *
