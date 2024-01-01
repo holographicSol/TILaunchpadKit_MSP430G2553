@@ -4,6 +4,8 @@
  * This program provides 3 clock frequency modes accessible via the push button
  * Pushbutton cycles clock frequency mode via use of interrupts.
  *
+ * Created by Benjamin Jack Cullen
+ *
  */
 
 #include <msp430.h> 
