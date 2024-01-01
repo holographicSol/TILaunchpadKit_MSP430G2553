@@ -4,8 +4,6 @@
  * This program provides 3 clock frequency modes accessible via the push button
  * Pushbutton cycles clock frequency mode via use of interrupts.
  *
- * Created By Benjamin Jack Cullen
- *
  */
 
 #include <msp430.h> 
@@ -36,9 +34,6 @@ int main(void)
     // setup for serial transmission
     UARTConfigure();
 
-    UARTSendArray("-- finished setting up device.", 34);
-    UARTSendArray("\r\n", 2);
-
     // setup LEDs
     P1DIR |= LEDR;      // set led pin as output
     P1DIR |= LEDG;      // set led pin as output
@@ -64,7 +59,7 @@ int main(void)
     register_settings_for_VLO();        //Register settings for VLO
 
     // set initial clock frequency and display clock frequency mode using RGB LED
-    UARTSendArray("-- setting clock frequency: 1.5kHz", 34);
+    UARTSendArray("-- master clock signal using VLO as clock source at frequency: 1.5kHz (low power mode)", 86);
     UARTSendArray("\r\n", 2);
     P2OUT ^= BIT1;                  // toggle P2.1 (RGB red on: displays clock mode 0)
     P2OUT &=~ (BIT8 + BIT3);        // clear P2.3  (RGB green off)
@@ -83,20 +78,10 @@ int main(void)
 #pragma vector=PORT1_VECTOR
 __interrupt void Port_1(void)
 {
-    // briefly display interrupt occurred when pushbutton released
-//    P1OUT ^= LEDR;
-//    volatile unsigned long d;
-//    for (d = 1; d > 0; d--);
-//    P1OUT ^= LEDR;
-
-    //  UART: transmit interrupt occurred
-    UARTSendArray("-- interrupt triggered", 22);
-    UARTSendArray("\r\n", 2);
-
     // display clock frequency mode conveyed in ascending colour frequency (red->green->blue)
     if(clock_mode==0)
     {
-        UARTSendArray("-- setting clock frequency: 1.5kHz (low power mode)", 51);
+        UARTSendArray("-- master clock signal using VLO as clock source at frequency: 1.5kHz (low power mode)", 86);
         UARTSendArray("\r\n", 2);
         P2OUT ^= BIT1;                  // toggle P2.1 (RGB red on: displays clock mode 0)
         P2OUT &=~ (BIT8 + BIT3);        // clear P2.3  (RGB green off)
@@ -109,7 +94,7 @@ __interrupt void Port_1(void)
     {
         if(clock_mode==1)
         {
-            UARTSendArray("-- setting clock frequency: 3kHz", 34);
+            UARTSendArray("-- master clock signal using VLO as clock source at frequency: 3kHz", 69);
             UARTSendArray("\r\n", 2);
             P2OUT &=~ (BIT8 + BIT1);        // clear P2.1  (RGB red)
             P2OUT ^= BIT3;                  // toggle P2.3 (RGB green: displays clock mode 1)
@@ -122,7 +107,7 @@ __interrupt void Port_1(void)
         {
             if(clock_mode==2)
             {
-                UARTSendArray("-- setting clock frequency: 12kHz", 34);
+                UARTSendArray("-- master clock signal using VLO as clock source at frequency: 12kHz", 69);
                 UARTSendArray("\r\n", 2);
                 P2OUT &=~ (BIT8 + BIT1);        // clear P2.1  (RGB red)
                 P2OUT &=~ (BIT8 + BIT3);        // clear P2.3  (RGB green off)
