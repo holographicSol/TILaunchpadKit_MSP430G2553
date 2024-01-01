@@ -18,6 +18,7 @@
 #define LEDG BIT0
 int clock_mode = 0;
 
+// LFXT1: 0.4s-1MHz
 void register_settings_for_VLO()
 {
    volatile unsigned long i;
@@ -26,7 +27,7 @@ void register_settings_for_VLO()
        IFG1 &= ~OFIFG;                  // Clear oscillator fault flag
        for (i = 50000; i; i--);         // Delay
      } while (IFG1 & OFIFG);            // Test OSC fault flag
-   BCSCTL2 |= SELM_3;                   // MCLK = VLO
+   BCSCTL2 |= SELM_3;                   // MCLK = VLOCLK
 }
 
 int main(void)
@@ -86,13 +87,28 @@ __interrupt void Port_1(void)
     // display clock frequency mode conveyed in ascending colour frequency (red->green->blue)
     if(clock_mode==0)
     {
+        // delay from cycling back from high power
+        volatile unsigned long x;
+        for (x = 50000; x; x--);
+
+        // set display
+        P2OUT &=~ (BIT8 + BIT1);        // clear P2.1  (RGB red off)
+        P2OUT &=~ (BIT8 + BIT3);        // clear P2.3  (RGB green off)
+        P2OUT &=~ (BIT8 + BIT5);        // clear P2.3  (RGB green off)
+        P2OUT ^= BIT1;                  // toggle P2.1 (RGB red on: displays clock mode 0)
+
+        // switch back to VLO clock source for master clock and select LFXT1S clock speed range
+        DCOCTL = CALDCO_1MHZ;           // calibrate DCOCLK frequency
+        BCSCTL3 |= LFXT1S_2;            // LFXT1 = VLOLCK 0.4-1MHz
+        BCSCTL2 |= SELM_3;              // switch to VLOLCK as clock source for MCLK
+        BCSCTL2 &=~ (BIT5 + BIT4);      // reset MCLK Divider
+        BCSCTL2 |= (BIT5 + BIT4);       // MCLK Divider = 12kHz/8 = 1.5kHz
+
+        // transmit debug message over serial
+        UARTSendArray("\r\n", 2);
         UARTSendArray("-- master clock signal using VLO as clock source at frequency: 1.5kHz (low power mode)", 86);
         UARTSendArray("\r\n", 2);
-        P2OUT ^= BIT1;                  // toggle P2.1 (RGB red on: displays clock mode 0)
-        P2OUT &=~ (BIT8 + BIT3);        // clear P2.3  (RGB green off)
-        P2OUT &=~ (BIT8 + BIT5);        // clear P2.5  (RGB blue off)
-        BCSCTL2 &=~ (BIT5 + BIT4);      // reset VLO divider
-        BCSCTL2 |= (BIT5 + BIT4);       // VLO = 12kHz/8 = 1.5kHz
+
         clock_mode = 1;                 // iterate clock mode
     }
     else
@@ -100,12 +116,13 @@ __interrupt void Port_1(void)
         if(clock_mode==1)
         {
             UARTSendArray("-- master clock signal using VLO as clock source at frequency: 3kHz", 69);
-            UARTSendArray("\r\n", 2);
-            P2OUT &=~ (BIT8 + BIT1);        // clear P2.1  (RGB red)
+            UARTSendArray("\r\n", 2);                  // MCLK = VLOCLK
+            P2OUT &=~ (BIT8 + BIT1);        // clear P2.1  (RGB red off)
+            P2OUT &=~ (BIT8 + BIT3);        // clear P2.3  (RGB green off)
+            P2OUT &=~ (BIT8 + BIT5);        // clear P2.3  (RGB green off)
             P2OUT ^= BIT3;                  // toggle P2.3 (RGB green: displays clock mode 1)
-            P2OUT &=~ (BIT8 + BIT5);        // clear P2.5  (RGB blue)
-            BCSCTL2 &=~ (BIT5 + BIT4);      // reset VLO divider
-            BCSCTL2 |= (BIT4);              // VLO = 12kHz/4 = 3kHz
+            BCSCTL2 &=~ (BIT5 + BIT4);      // reset MCLK Divider
+            BCSCTL2 |= (BIT4);              // MCLK Divider = 12kHz/4 = 3kHz
             clock_mode = 2;                 // iterate clock mode
         }
         else
@@ -114,11 +131,47 @@ __interrupt void Port_1(void)
             {
                 UARTSendArray("-- master clock signal using VLO as clock source at frequency: 12kHz", 69);
                 UARTSendArray("\r\n", 2);
-                P2OUT &=~ (BIT8 + BIT1);        // clear P2.1  (RGB red)
+                P2OUT &=~ (BIT8 + BIT1);        // clear P2.1  (RGB red off)
                 P2OUT &=~ (BIT8 + BIT3);        // clear P2.3  (RGB green off)
+                P2OUT &=~ (BIT8 + BIT5);        // clear P2.3  (RGB green off)
                 P2OUT ^= BIT5;                  // toggle P2.5 (RGB blue: displays clock mode 2)
-                BCSCTL2 &=~ (BIT5 + BIT4);      // VLO = 12kHz/1 = 12kHz
-                clock_mode = 0;                 // reset clock mode
+                BCSCTL2 &=~ (BIT5 + BIT4);      // MCLK Divider = 12kHz/1 = 12kHz
+                clock_mode = 3;                 // reset clock mode
+            }
+            else
+            {
+                if(clock_mode==3)
+                {
+                    UARTSendArray("-- master clock signal using DCO as clock source at frequency: 125kHz", 69);
+                    UARTSendArray("\r\n", 2);
+                    P2OUT &=~ (BIT8 + BIT1);        // clear P2.1  (RGB red off)
+                    P2OUT &=~ (BIT8 + BIT3);        // clear P2.3  (RGB green off)
+                    P2OUT &=~ (BIT8 + BIT5);        // clear P2.3  (RGB green off)
+                    P2OUT ^= BIT1;                  // toggle P2.1 (RGB red on: displays clock mode 0)
+                    P2OUT ^= BIT5;                  // toggle P2.5 (RGB blue: displays clock mode 2)
+                    DCOCTL = CALDCO_1MHZ;           // calibrate DCOCLK frequency
+                    BCSCTL2 = SELM0;                // switch to DCOCLK as clock source for MCLK
+                    BCSCTL2 &=~ (BIT5 + BIT4);      // reset MCLK divider
+                    BCSCTL2 |= (BIT5 + BIT4);       // MCLK Divider = 1MHz/8 = 125kHz
+                    clock_mode = 4;                 // reset clock mode
+                }
+                else
+                {
+                    if(clock_mode==4)
+                    {
+                        UARTSendArray("-- master clock signal using DCO as clock source at frequency: 16MHz (high power mode)", 88);
+                        P2OUT &=~ (BIT8 + BIT1);        // clear P2.1  (RGB red off)
+                        P2OUT &=~ (BIT8 + BIT3);        // clear P2.3  (RGB green off)
+                        P2OUT &=~ (BIT8 + BIT5);        // clear P2.3  (RGB green off)
+                        P2OUT ^= BIT1;                  // toggle P2.1 (RGB red on: displays clock mode 0)
+                        P2OUT ^= BIT3;                  // toggle P2.3 (RGB green: displays clock mode 1)
+                        P2OUT ^= BIT5;                  // toggle P2.5 (RGB blue: displays clock mode 2)
+                        DCOCTL = CALDCO_16MHZ;           // calibrate DCOCLK frequency
+                        BCSCTL2 = SELM0;                // switch to DCOCLK as clock source for MCLK
+                        BCSCTL2 &=~ (BIT5 + BIT4);      // reset MCLK divider
+                        clock_mode = 0;                 // reset clock mode
+                    }
+                }
             }
         }
     }
