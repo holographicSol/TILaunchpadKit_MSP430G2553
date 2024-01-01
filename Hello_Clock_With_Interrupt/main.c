@@ -5,7 +5,7 @@
  *
  * 1: Pushbutton cycles clock frequency mode via use of interrupts.
  * 2: RGB LED: intends to display current clock frequency mode (red=15kHz, green=3kHz, blue=12kHz).
- * 3: Green LED: conveys current clock frequency via blink rate.
+ * 3: Green LED: broadly conveys current clock frequency via blink rate.
  *
  * Created by Benjamin Jack Cullen
  *
