@@ -66,13 +66,13 @@ int main(void)
     P2OUT ^= BIT1;                  // toggle P2.1 (RGB red on: displays clock mode 0)
     P2OUT &=~ (BIT8 + BIT3);        // clear P2.3  (RGB green off)
     P2OUT &=~ (BIT8 + BIT5);        // clear P2.5  (RGB blue off)
-    BCSCTL2 &=~ (BIT5 + BIT4);      //Reset VLO divider
-    BCSCTL2 |= (BIT5 + BIT4);       //VLO = 12kHz/8 = 1.5kHz
+    BCSCTL2 &=~ (BIT5 + BIT4);      // reset VLO divider
+    BCSCTL2 |= (BIT5 + BIT4);       // VLO = 12kHz/8 = 1.5kHz
     clock_mode = 1;                 // iterate clock mode
 
     while(1) {
         P1OUT ^= LEDG;                  // toggle led at approximately delay speed
-        for (n = 100; n > 0; n--);        // very short delay
+        for (n = 100; n > 0; n--);      // very short delay
     }
 
 }
@@ -88,8 +88,8 @@ __interrupt void Port_1(void)
         P2OUT ^= BIT1;                  // toggle P2.1 (RGB red on: displays clock mode 0)
         P2OUT &=~ (BIT8 + BIT3);        // clear P2.3  (RGB green off)
         P2OUT &=~ (BIT8 + BIT5);        // clear P2.5  (RGB blue off)
-        BCSCTL2 &=~ (BIT5 + BIT4);      //Reset VLO divider
-        BCSCTL2 |= (BIT5 + BIT4);       //VLO = 12kHz/8 = 1.5kHz
+        BCSCTL2 &=~ (BIT5 + BIT4);      // reset VLO divider
+        BCSCTL2 |= (BIT5 + BIT4);       // VLO = 12kHz/8 = 1.5kHz
         clock_mode = 1;                 // iterate clock mode
     }
     else
@@ -101,8 +101,8 @@ __interrupt void Port_1(void)
             P2OUT &=~ (BIT8 + BIT1);        // clear P2.1  (RGB red)
             P2OUT ^= BIT3;                  // toggle P2.3 (RGB green: displays clock mode 1)
             P2OUT &=~ (BIT8 + BIT5);        // clear P2.5  (RGB blue)
-            BCSCTL2 &=~ (BIT5 + BIT4);      //Reset VLO divider
-            BCSCTL2 |= (BIT4);              //VLO = 12kHz/4 = 3kHz
+            BCSCTL2 &=~ (BIT5 + BIT4);      // reset VLO divider
+            BCSCTL2 |= (BIT4);              // VLO = 12kHz/4 = 3kHz
             clock_mode = 2;                 // iterate clock mode
         }
         else
@@ -114,7 +114,7 @@ __interrupt void Port_1(void)
                 P2OUT &=~ (BIT8 + BIT1);        // clear P2.1  (RGB red)
                 P2OUT &=~ (BIT8 + BIT3);        // clear P2.3  (RGB green off)
                 P2OUT ^= BIT5;                  // toggle P2.5 (RGB blue: displays clock mode 2)
-                BCSCTL2 &=~ (BIT5 + BIT4);      //VLO = 12kHz/1 = 12kHz
+                BCSCTL2 &=~ (BIT5 + BIT4);      // VLO = 12kHz/1 = 12kHz
                 clock_mode = 0;                 // reset clock mode
             }
         }
