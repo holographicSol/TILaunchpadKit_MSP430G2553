@@ -3,6 +3,7 @@ This uses pins P1.1 and P1.2. On the Launchpad these are connected to a USB brid
 for communcation between the board and a Computer using a USB connection.
 The code transmitts "Hello world" and then waits to receive strings terminated with a carriage return.
 The received strings are echoed back
+* This program was not written by me, (Benjamin Jack Cullen)
 */
 
 #include "msp430G2553.h";
