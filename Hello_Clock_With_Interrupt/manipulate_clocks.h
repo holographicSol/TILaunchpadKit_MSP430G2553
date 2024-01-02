@@ -5,12 +5,12 @@ extern int clock_mode;
 void register_settings_for_VLO()
 {
    volatile unsigned long v;
-   BCSCTL3 |= LFXT1S_2;                 // LFXT1 = VLO
+   BCSCTL3 |= LFXT1S_2;             // LFXT1 = VLO
    do{
-       IFG1 &= ~OFIFG;                  // Clear oscillator fault flag
-       for (v = 50000; v; v--);         // Delay
-     } while (IFG1 & OFIFG);            // Test OSC fault flag
-   BCSCTL2 |= SELM_3;                   // MCLK = VLOCLK
+       IFG1 &= ~OFIFG;              // Clear oscillator fault flag
+       for (v = 50000; v; v--);     // Delay
+     } while (IFG1 & OFIFG);        // Test OSC fault flag
+   BCSCTL2 |= SELM_3;               // MCLK = VLOCLK
 }
 
 void MCLK_VLO_1_5kHz()
