@@ -5,7 +5,7 @@ extern int clock_mode;
 void register_settings_for_VLO()
 {
    volatile unsigned long v;
-   BCSCTL3 |= LFXT1S_2;             // LFXT1 = VLO
+   BCSCTL3 |= LFXT1S_2; // LFXT1 = VLO
    do{
        IFG1 &= ~OFIFG;              // Clear oscillator fault flag
        for (v = 50000; v; v--);     // Delay
@@ -16,6 +16,7 @@ void register_settings_for_VLO()
 void MCLK_VLO_1_5kHz()
 {
     clock_mode = 1;                 // iterate clock mode
+    DCOCTL = CALDCO_1MHZ;           // calibrate DCOCLK frequency
     BCSCTL3 |= LFXT1S_2;            // LFXT1 = VLOLCK 0.4-1MHz
     BCSCTL2 |= SELM_3;              // switch to VLOLCK as clock source for MCLK
     BCSCTL2 &=~ (BIT5 + BIT4);      // reset MCLK Divider
@@ -25,6 +26,7 @@ void MCLK_VLO_1_5kHz()
 void MCLK_VLO_3kHz()
 {
     clock_mode = 2;                 // iterate clock mode
+    DCOCTL = CALDCO_1MHZ;           // calibrate DCOCLK frequency
     BCSCTL3 |= LFXT1S_2;            // LFXT1 = VLOLCK 0.4-1MHz
     BCSCTL2 |= SELM_3;              // switch to VLOLCK as clock source for MCLK
     BCSCTL2 &=~ (BIT5 + BIT4);      // reset MCLK Divider
@@ -34,6 +36,7 @@ void MCLK_VLO_3kHz()
 void MCLK_VLO_12kHz()
 {
     clock_mode = 3;                 // iterate clock mode
+    DCOCTL = CALDCO_1MHZ;           // calibrate DCOCLK frequency
     BCSCTL3 |= LFXT1S_2;            // LFXT1 = VLOLCK 0.4-1MHz
     BCSCTL2 |= SELM_3;              // switch to VLOLCK as clock source for MCLK
     BCSCTL2 &=~ (BIT5 + BIT4);      // reset MCLK Divider
