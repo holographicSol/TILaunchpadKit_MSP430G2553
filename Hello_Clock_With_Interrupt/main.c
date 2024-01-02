@@ -21,26 +21,26 @@ int clock_mode = 0;
 
 void setup(){
     // direction led's
-    P1DIR |= BIT6;      // set red led pin as output
-    P1DIR |= BIT0;      // set green led pin as output
+    P1DIR |= BIT6;                      // set red led pin as output
+    P1DIR |= BIT0;                      // set green led pin as output
 
     // direction RGB
-    P2DIR |= BIT1;      // configure P2.1 as output R
-    P2DIR |= BIT3;      // configure P2.3 as output G
-    P2DIR |= BIT5;      // configure P2.5 as output B
+    P2DIR |= BIT1;                      // configure P2.1 as output R
+    P2DIR |= BIT3;                      // configure P2.3 as output G
+    P2DIR |= BIT5;                      // configure P2.5 as output B
 
     // direction switch
-    P1DIR &= ~BIT3;     // set switch pin as input
+    P1DIR &= ~BIT3;                     // set switch pin as input
 
     // startup states RGB
-    P1OUT &=~ (BIT8 + BIT6);    // clear P2.1  (RGB red off)
-    P1OUT &=~ (BIT8 + BIT0);    // clear P2.1  (RGB red off)
+    P1OUT &=~ (BIT8 + BIT6);            // clear P2.1  (RGB red off)
+    P1OUT &=~ (BIT8 + BIT0);            // clear P2.1  (RGB red off)
 
     // startup states switch
-    P1OUT |= BIT3;              // select pull up for switch pin
-    P1REN |= BIT3;              // enable resistor for switch pin
-    P1IES &= ~BIT3;             // select interrupt on rising edge
-    P1IE |= BIT3;               // enable interrupt on switch pin
+    P1OUT |= BIT3;                      // select pull up for switch pin
+    P1REN |= BIT3;                      // enable resistor for switch pin
+    P1IES &= ~BIT3;                     // select interrupt on rising edge
+    P1IE |= BIT3;                       // enable interrupt on switch pin
 }
 
 int main(void)
