@@ -20,6 +20,9 @@
 int clock_mode = 0;
 
 void setup(){
+    volatile unsigned long s;
+    for (s = 50000; s; s--);     // Delay
+
     // direction led's
     P1DIR |= BIT6;                      // set red led pin as output
     P1DIR |= BIT0;                      // set green led pin as output
@@ -53,9 +56,12 @@ int main(void)
 
     __bis_SR_register(GIE);             // enable CPU interrupt
 
-    register_settings_for_VLO();        // initial VLO setup
+//    register_settings_for_VLO();        // initial VLO setup
     MCLK_VLO_1_5kHz();                  // setup initial master clock configuration (low power mode)
     RGB_0_RED();
+
+    char txd[] = "\r\n-- MCLK=VLOCLK DCOCLK=CALDCO_1MHZ MCLK_Divider=8 12kHz/8=1.5kHz\r\n";
+    UARTSendArray(txd, strlen(txd));
 
     volatile unsigned long n;
     while(1) {
@@ -70,9 +76,9 @@ __interrupt void Port_1(void)
     if(clock_mode==0)
     {
         MCLK_VLO_1_5kHz();
-        UARTSendArray("\r\n", 2);
-        UARTSendArray("-- master clock signal using VLO as clock source at frequency: 1.5kHz (low power mode)", 86);
-        UARTSendArray("\r\n", 2);
+        volatile unsigned long c;
+        char txd[] = "-- MCLK=VLOCLK DCOCLK=CALDCO_1MHZ MCLK_Divider=8 12kHz/8=1.5kHz\r\n";
+        UARTSendArray(txd, strlen(txd));
         RGB_0_RED();
     }
     else
@@ -80,8 +86,8 @@ __interrupt void Port_1(void)
         if(clock_mode==1)
         {
             MCLK_VLO_3kHz();
-            UARTSendArray("-- master clock signal using VLO as clock source at frequency: 3kHz", 68);
-            UARTSendArray("\r\n", 2);
+            char txd[] = "-- MCLK=VLOCLK DCOCLK=CALDCO_1MHZ MCLK_Divider=4 12kHz/4=3kHz\r\n";
+            UARTSendArray(txd, strlen(txd));
             RGB_0_GREEN();
         }
         else
@@ -89,8 +95,8 @@ __interrupt void Port_1(void)
             if(clock_mode==2)
             {
                 MCLK_VLO_12kHz();
-                UARTSendArray("-- master clock signal using VLO as clock source at frequency: 12kHz", 69);
-                UARTSendArray("\r\n", 2);
+                char txd[] = "-- MCLK=VLOCLK DCOCLK=CALDCO_1MHZ MCLK_Divider=1 12kHz/1=12kHz\r\n";
+                UARTSendArray(txd, strlen(txd));
                 RGB_0_BLUE();
             }
             else
@@ -98,15 +104,16 @@ __interrupt void Port_1(void)
                 if(clock_mode==3)
                 {
                     MCLK_DCO_125kHz();
-                    UARTSendArray("-- master clock signal using DCO as clock source at frequency: 125kHz", 69);
-                    UARTSendArray("\r\n", 2);
+                    char txd[] = "-- MCLK=DCOCLK DCOCLK=CALDCO_1MHZ MCLK_Divider=8 1MHz/8=125kHz\r\n";
+                    UARTSendArray(txd, strlen(txd));
                     RGB_0_PURPLE();
                 }
                 else
                 {
                     if(clock_mode==4)
                     {
-                        UARTSendArray("-- master clock signal using DCO as clock source at frequency: 16MHz (high power mode)", 88);
+                        char txd[] = "-- MCLK=DCOCLK DCOCLK=CALDCO_16MHZ MCLK_Divider=8 16MHz/1=16MHz\r\n";
+                        UARTSendArray(txd, strlen(txd)+2);
                         RGB_0_WHITE();
                         MCLK_DCO_16MHz();
                     }
