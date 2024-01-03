@@ -56,7 +56,7 @@ int main(void)
 
     __bis_SR_register(GIE);             // enable CPU interrupt
 
-//    register_settings_for_VLO();        // initial VLO setup
+    register_settings_for_VLO();
     MCLK_VLO_1_5kHz();                  // setup initial master clock configuration (low power mode)
     RGB_0_RED();
 
@@ -66,7 +66,7 @@ int main(void)
     volatile unsigned long n;
     while(1) {
         P1OUT ^= BIT0;                  // toggle green led to broadly convey current master clock frequency
-        for (n = 100; n > 0; n--);      // very short delay
+        for (n = 100; n > 0; n--);      // very short delay for user blink rate visibility
     }
 }
 
@@ -75,6 +75,7 @@ __interrupt void Port_1(void)
 {
     if(clock_mode==0)
     {
+        register_settings_for_VLO();
         MCLK_VLO_1_5kHz();
         volatile unsigned long c;
         char txd[] = "-- MCLK=VLOCLK DCOCLK=CALDCO_1MHZ MCLK_Divider=8 12kHz/8=1.5kHz\r\n";
@@ -106,16 +107,26 @@ __interrupt void Port_1(void)
                     MCLK_DCO_125kHz();
                     char txd[] = "-- MCLK=DCOCLK DCOCLK=CALDCO_1MHZ MCLK_Divider=8 1MHz/8=125kHz\r\n";
                     UARTSendArray(txd, strlen(txd));
-                    RGB_0_PURPLE();
+                    RGB_0_LIGHT_BLUE();
                 }
                 else
                 {
                     if(clock_mode==4)
                     {
-                        char txd[] = "-- MCLK=DCOCLK DCOCLK=CALDCO_16MHZ MCLK_Divider=8 16MHz/1=16MHz\r\n";
+                        char txd[] = "-- MCLK=DCOCLK DCOCLK=CALDCO_1MHZ MCLK_Divider=4 1MHz/4=250kHz\r\n";
                         UARTSendArray(txd, strlen(txd)+2);
-                        RGB_0_WHITE();
-                        MCLK_DCO_16MHz();
+                        RGB_0_PURPLE();
+                        MCLK_DCO_250kHz();
+                    }
+                    else
+                    {
+                        if(clock_mode==5)
+                        {
+                            char txd[] = "-- MCLK=DCOCLK DCOCLK=CALDCO_16MHZ MCLK_Divider=8 16MHz/1=16MHz\r\n";
+                            UARTSendArray(txd, strlen(txd)+2);
+                            RGB_0_WHITE();
+                            MCLK_DCO_16MHz();
+                        }
                     }
                 }
             }
