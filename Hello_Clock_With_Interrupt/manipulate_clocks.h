@@ -1,3 +1,5 @@
+// Need oscilloscope to verify this
+
 #include <msp430.h>
 
 extern int clock_mode;
@@ -15,6 +17,7 @@ void register_settings_for_VLO()
 
 void MCLK_VLO_1_5kHz()
 {
+    register_settings_for_VLO();
     clock_mode = 1;                 // Iterate clock mode
     DCOCTL = CALDCO_1MHZ;           // DCOCTL Register calibrate DCOCLK frequency
     BCSCTL3 |= LFXT1S_2;            // BCSCTL3 Register select LFXT1CLK or VLOCLK
