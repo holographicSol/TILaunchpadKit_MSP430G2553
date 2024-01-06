@@ -5,7 +5,7 @@
  * Original by @lpodkalicki
  * https://github.com/lpodkalicki/attiny-tm1637-library
  * Adapted for MSP430 by @eosti
- *
+ * Updated for targeting specific segments by holographic_sol
  *
  */
 
@@ -43,46 +43,6 @@
 static int _config = TM1637_SET_DISPLAY_ON | TM1637_BRIGHTNESS_MAX;
 static int _config_off = TM1637_SET_DISPLAY_OFF | TM1637_BRIGHTNESS_MIN;
 static int _segments = 0xff;
-
-//static const int _digit2segments[] =
-//{
-//    0x3F, // 0
-//    0x06, // 1
-//    0x5B, // 2
-//    0x4F, // 3
-//    0x66, // 4
-//    0x6D, // 5
-//    0x7D, // 6
-//    0x07, // 7
-//    0x7F, // 8
-//    0x6F, // 9
-//    0x01 + 0x20 + 0x02 + 0x10 + 0x04 + 0x40, // A
-//    0x7F,                                    // B
-//    0x01 + 0x20 + 0x10 + 0x08,               // C
-//    0x3F,                                    // D
-//    0x01 + 0x20 + 0x10 + 0x08 + 0x40,        // E
-//    0x01 + 0x20 + 0x10 + 0x40,               // F
-//    0x01 + 0x20 + 0x10 + 0x08 + 0x04,        // G
-//    0x20 + 0x10 + 0x40 + 0x02 + 0x04,        // H
-//    0x20 + 0x10,                             // I
-//    0x02 + 0x04,                             // J
-//    0x02 + 0x04 + 0x08,                      // K
-//    0x40,                                    // L
-//    0x40,                                    // M
-//    0x40,                                    // N
-//    0x3F,                                    // O
-//    0x01 + 0x20 + 0x10 + 0x02 + 0x40,         // P
-//    0x40,                                    // Q
-//    0x40,                                    // R
-//    0x01 + 0x20 + 0x40 + 0x04 + 0x08,        // S
-//    0x02 + 0x01 + 0x04,                      // T
-//    0x20 + 0x04 + 0x08 + 0x10 + 0x02,        // U
-//    0x40,                                    // V
-//    0x40,                                    // W
-//    0x40,                                    // X
-//    0x20 + 0x02 + 0x40 + 0x04,               // Y
-//    0x01 + 0x02 + 0x40 + 0x10 + 0x08,        // Z
-//};
 
 void
 _delay_us(const unsigned long us)
