@@ -47,7 +47,7 @@ int main(void)
         run_circle();
 
         int item = 0;
-        while(item < 36)
+        while(item < 10)
         {
             TM1637_display_segments(4, _digit2segments[item]);
             TM1637_display_segments(3, _digit2segments[item]);
@@ -55,6 +55,17 @@ int main(void)
             TM1637_display_segments(1, _digit2segments[item]);
             _delay_us(1000);
             item = item + 1;
+        }
+
+        int item2 = 0;
+        while(item2 < 36)
+        {
+            TM1637_display_segments(4, _alpha2segments[item2]);
+            TM1637_display_segments(3, _alpha2segments[item2]);
+            TM1637_display_segments(2, _alpha2segments[item2]);
+            TM1637_display_segments(1, _alpha2segments[item2]);
+            _delay_us(1000);
+            item2 = item2 + 1;
         }
     }
 
