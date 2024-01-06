@@ -47,7 +47,7 @@ int main(void)
         run_circle();
 
         int item = 0;
-        while(item < 34)
+        while(item < 36)
         {
             TM1637_display_segments(4, _digit2segments[item]);
             TM1637_display_segments(3, _digit2segments[item]);
