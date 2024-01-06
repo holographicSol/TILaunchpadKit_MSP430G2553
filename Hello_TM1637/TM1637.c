@@ -111,7 +111,18 @@ TM1637_display_digit(const int position, const int digit)
         segments = segments | (_segments & 0x80);
         _segments = segments;
     }
+    TM1637_display_segments(position, segments);
+}
 
+void
+TM1637_display_alpha(const int position, const int digit)
+{
+    int segments = (digit < 10 ? _alpha2segments[digit] : 0x00); // TODO wont work
+
+    if (position == 0x01) {
+        segments = segments | (_segments & 0x80);
+        _segments = segments;
+    }
     TM1637_display_segments(position, segments);
 }
 
