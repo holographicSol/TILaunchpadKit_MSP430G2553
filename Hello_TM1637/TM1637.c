@@ -5,7 +5,7 @@
  * Original by @lpodkalicki
  * https://github.com/lpodkalicki/attiny-tm1637-library
  * Adapted for MSP430 by @eosti
- * Updated for targeting specific segments by holographic_sol
+ * Expanded abstraction layers converting hexadecimal addresses to human language by holographic_sol
  *
  */
 
