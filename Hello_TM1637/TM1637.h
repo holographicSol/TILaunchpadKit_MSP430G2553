@@ -97,7 +97,7 @@ static const int _digit2segments[] =
     0x20 + 0x10,                             // I
     0x02 + 0x04,                             // J
     0x02 + 0x04 + 0x08,                      // K
-    0x40,                                    // L
+    0x20 + 0x10 + 0x08,                      // L
     0x40,                                    // M
     0x40,                                    // N
     0x3F,                                    // O
