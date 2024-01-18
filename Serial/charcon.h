@@ -93,3 +93,13 @@ void slice_inplace(char* str, int start, int end) {
     memmove(str, str + start, end - start + 1);
     str[end - start + 1] = '\0';
 }
+
+void strip(char *s) { // leading spaces
+    while(isspace((unsigned char) *s)) s++;
+
+    if(*s) { // trailing spaces
+        char *p = s + strlen(s) - 1;
+        while(p > s && isspace((unsigned char) *p)) p--;
+        *(p+1) = '\0';
+    }
+}
