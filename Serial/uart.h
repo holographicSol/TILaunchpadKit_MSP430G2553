@@ -1,7 +1,5 @@
 #include <msp430.h>
 #include <rxdexec.h>
-#include <stdio.h>
-#include <stdlib.h>
 
 #define                UART_RXD BIT1
 #define                UART_TXD BIT2
@@ -22,22 +20,11 @@ void UARTConfigure(void){
     IE2 |= UCA0RXIE;                    // Enable USCI_A0 RX interrupt
 }
 
-void convertToString(int num, char* str) {
-    sprintf(str, "%d", num);
-}
-
 void printtxd(char *str){
     while(*str != 0){
         while (!(IFG2&UCA0TXIFG));
         UCA0TXBUF = *str++;
     }
-}
-
-void iprinttxd(int x){
-    int length = snprintf( NULL, 0, "%d", x );
-    char* str = malloc( length + 1 );
-    snprintf( str, length + 1, "%d", x );
-    printtxd(str);
 }
 
 void RESET_UCA0RXBUF(void){memset(UARTRxData, 0, sizeof UARTRxData); buffer_index = 0;}
