@@ -8,8 +8,7 @@ void main(void)
 {
     WDTCTL = WDTPW | WDTHOLD;  // stop WDT timer
     UARTConfigure();           // setup serial communication
-    P1DIR |= BIT0;             // configure P1.0 as output G
-    P1DIR |= BIT6;             // configure P1.6 as output R
+    P1DIR |= BIT0;             // configure P1.0 as output (Green LED)
 
     __bis_SR_register(GIE);    //  Enter   LPM0,   interrupts  enabled
 
