@@ -10,7 +10,7 @@ void main(void)
     __bis_SR_register(GIE);    //  Enter LPM0, interrupts  enabled
 
     volatile unsigned int i;   // volatile to prevent optimisation
-    printtxd("\n[MSP] Serial communication. "); iprinttxd(2024); printtxd("\n");
+    printtxd("\n[MSP] Serial communication.\n");
     while(1)
     {
         P1OUT ^= BIT0;
