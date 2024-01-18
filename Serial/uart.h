@@ -1,12 +1,11 @@
-#include <msp430.h>
 #include <rxdexec.h>
 
 #define                UART_RXD BIT1
 #define                UART_TXD BIT2
 #define                MAX_BUFFER_SIZE 56
-volatile char          UARTRxData[MAX_BUFFER_SIZE];
+char                   UARTRxData[MAX_BUFFER_SIZE];
 volatile char          UARTRxFlag = 0;
-volatile char          UARTRxChar;
+char                   UARTRxChar;
 volatile unsigned int  buffer_index = 0;
 
 void UARTConfigure(void){
@@ -38,7 +37,7 @@ __interrupt void USCI0RX_ISR(void)
     RXD_Exec(UARTRxData);
     RESET_UCA0RXBUF();}
     else if (buffer_index < MAX_BUFFER_SIZE - 1) {UARTRxData[buffer_index++] = UARTRxChar;}
-    else if (buffer_index = MAX_BUFFER_SIZE - 1){printtxd("[MSP_RXD] [OVER_MAX] Max buffer size is 56 bytes.\n");
+    else if (buffer_index == MAX_BUFFER_SIZE - 1){printtxd("[MSP_RXD] [OVER_MAX] Max buffer size is 56 bytes.\n");
         RESET_UCA0RXBUF();
         __delay_cycles(100000);
     }
