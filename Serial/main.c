@@ -1,8 +1,5 @@
 #include <msp430.h>
 #include <uart.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
 
 void main(void)
 {
@@ -13,7 +10,7 @@ void main(void)
     __bis_SR_register(GIE);    //  Enter   LPM0,   interrupts  enabled
 
     volatile unsigned int i;   // volatile to prevent optimisation
-    printtxd("[MSP] Serial communication\n");
+    printtxd("\n[MSP] Serial communication. "); iprinttxd(2024); printtxd("\n");
     while(1)
     {
         P1OUT ^= BIT0;
