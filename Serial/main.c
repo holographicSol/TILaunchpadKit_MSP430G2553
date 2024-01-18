@@ -7,7 +7,7 @@ void main(void)
     UARTConfigure();           // setup serial communication
     P1DIR |= BIT0;             // configure P1.0 as output (Green LED)
 
-    __bis_SR_register(GIE);    //  Enter   LPM0,   interrupts  enabled
+    __bis_SR_register(GIE);    //  Enter LPM0, interrupts  enabled
 
     volatile unsigned int i;   // volatile to prevent optimisation
     printtxd("\n[MSP] Serial communication. "); iprinttxd(2024); printtxd("\n");
