@@ -1,6 +1,8 @@
-#include <msp430.h>
+#include <string.h>
 
-volatile char *com0 = "EXEC0";
+void printtxd(char *str);
+
+char *com0 = "EXEC0";
 
 void RXD_Exec(char *received_chars)
 {
