@@ -1,16 +1,6 @@
 #include <string.h>
 #include <charcon.h>
 
-void strip(char *s) { // leading spaces
-    while(isspace((unsigned char) *s)) s++;
-
-    if(*s) { // trailing spaces
-        char *p = s + strlen(s) - 1;
-        while(p > s && isspace((unsigned char) *p)) p--;
-        *(p+1) = '\0';
-    }
-}
-
 void printtxd(char *str);
 
 char *com0 = "EXEC0";
