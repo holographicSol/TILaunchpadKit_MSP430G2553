@@ -13,12 +13,10 @@ void main(void)
     __bis_SR_register(GIE);    //  Enter   LPM0,   interrupts  enabled
 
     volatile unsigned int i;   // volatile to prevent optimisation
-    int count = 0;             // volatile to prevent optimisation
     printtxd("[MSP] Serial communication\n");
     while(1)
     {
         P1OUT ^= BIT0;
-        count++;
         __delay_cycles(1);
     }
 }
