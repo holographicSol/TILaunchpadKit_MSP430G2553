@@ -1,0 +1,1848 @@
+Archive member included because of file (symbol)
+
+C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+                              ./Photoresistor.o (delay)
+C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+                              ./Photoresistor.o (analogRead)
+C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+                              ./Photoresistor.o (pinMode)
+C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+                              ./Photoresistor.o (Serial)
+C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(main.o)
+                              (main)
+C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o) (Print::write(unsigned char const*, unsigned int))
+C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o) (String::operator[](unsigned int) const)
+C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(atof.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o) (atof)
+C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(dtostrf.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o) (dtostrf)
+C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(itoa.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o) (ltoa)
+C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o) (usci_isr_install)
+C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(new.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o) (__cxa_pure_virtual)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_pow.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(dtostrf.o) (powf)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(sf_scalbn.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_pow.o) (scalbnf)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_sqrt.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_pow.o) (__ieee754_sqrtf)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulqi3.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o) (__mulqi3)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulhi3.o)
+                              ./TM1637.o (__mulhi3)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulsi3.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o) (__mulsi3)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod16.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o) (__udivhi3)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_divmod16.o)
+                              ./Photoresistor.o (__divhi3)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod32.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o) (__udivsi3)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fixunssfsi.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o) (__fixunssfsi)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_addsub_sf.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o) (__addsf3)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mul_sf.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o) (__mulsf3)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_div_sf.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o) (__divsf3)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_gt_sf.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_pow.o) (__gtsf2)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_ge_sf.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fixunssfsi.o) (__gesf2)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_lt_sf.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o) (__ltsf2)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_le_sf.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_pow.o) (__lesf2)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_si_to_sf.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o) (__floatsisf)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_sf_to_si.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o) (__fixsfsi)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_thenan_sf.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_addsub_sf.o) (__thenan_sf)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_usi_to_sf.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o) (__floatunsisf)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clzsi2.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_si_to_sf.o) (__clzsi2)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_pack_sf.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_addsub_sf.o) (__pack_f)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_unpack_sf.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_addsub_sf.o) (__unpack_f)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fpcmp_parts_sf.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_gt_sf.o) (__fpcmp_parts_f)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clz.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clzsi2.o) (__clz_tab)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strchr.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o) (strchr)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcmp.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o) (strcmp)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncmp.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o) (strncmp)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcpy.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o) (strcpy)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncpy.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o) (strncpy)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memcpy.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o) (memcpy)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memmove.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o) (memmove)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strrchr.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o) (strrchr)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strstr.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o) (strstr)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(atol.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o) (atol)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(malloc.o)
+                              ./Photoresistor.o (malloc)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strtol.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(atol.o) (strtol)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(sprintf.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(dtostrf.o) (sprintf)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(vuprintf.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(sprintf.o) (vuprintf)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(ldiv.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strtol.o) (ldiv)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(errno.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strtol.o) (errno)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_divmod32.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(ldiv.o) (__ext_divmod32)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod64.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(vuprintf.o) (__udivdi3)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_reset_vector__.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/crt0ivtbl16.o (_reset_vector__)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__watchdog_support.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_reset_vector__.o) (__watchdog_support)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__init_stack.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_reset_vector__.o) (__init_stack)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__low_level_init.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_reset_vector__.o) (__low_level_init)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_copy_data.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_reset_vector__.o) (__do_copy_data)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_clear_bss.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_reset_vector__.o) (__do_clear_bss)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__stop_progExec__.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_reset_vector__.o) (__stop_progExec__)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_endless_loop__.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_reset_vector__.o) (_endless_loop__)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_unexpected_.o)
+                              c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/crt0ivtbl16.o (_unexpected_)
+c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_ctors430.o)
+                              C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o) (__do_global_ctors)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x2               c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(errno.o)
+SMILLIS_INC         0x2               C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+SFRACT_INC          0x2               C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/crt0ivtbl16.o
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/crt0ivtbl16.o
+ .text.crt0     0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/crt0ivtbl16.o
+ .text          0x00000000        0x0 ./TM1637.o
+ .data          0x00000000        0x0 ./TM1637.o
+ .bss           0x00000000        0x0 ./TM1637.o
+ .text._delay_us
+                0x00000000       0x1c ./TM1637.o
+ .text.TM1637_start
+                0x00000000       0x1c ./TM1637.o
+ .text.TM1637_write_byte
+                0x00000000       0xb0 ./TM1637.o
+ .text.TM1637_stop
+                0x00000000       0x36 ./TM1637.o
+ .text.TM1637_send_config
+                0x00000000       0x30 ./TM1637.o
+ .text._delay_ms
+                0x00000000       0x48 ./TM1637.o
+ .text.TM1637_init
+                0x00000000       0x18 ./TM1637.o
+ .text.TM1637_enable
+                0x00000000        0xe ./TM1637.o
+ .text.TM1637_set_brightness
+                0x00000000       0x12 ./TM1637.o
+ .text.TM1637_display_segments
+                0x00000000       0x3c ./TM1637.o
+ .text.TM1637_display_digit
+                0x00000000       0x28 ./TM1637.o
+ .text.TM1637_display_alpha
+                0x00000000       0x28 ./TM1637.o
+ .text.TM1637_display_colon
+                0x00000000       0x1e ./TM1637.o
+ .text.TM1637_clear
+                0x00000000       0x16 ./TM1637.o
+ .data._config  0x00000000        0x2 ./TM1637.o
+ .rodata._digit2segments
+                0x00000000       0x14 ./TM1637.o
+ .data._segments
+                0x00000000        0x2 ./TM1637.o
+ .rodata._alpha2segments
+                0x00000000       0x26 ./TM1637.o
+ .text          0x00000000        0x0 ./Photoresistor.o
+ .data          0x00000000        0x0 ./Photoresistor.o
+ .bss           0x00000000        0x0 ./Photoresistor.o
+ .text._Z9_delay_msi
+                0x00000000       0x48 ./Photoresistor.o
+ .text._Z13TM1637_enablei
+                0x00000000        0xe ./Photoresistor.o
+ .text._Z20TM1637_display_digitii
+                0x00000000       0x28 ./Photoresistor.o
+ .text._Z20TM1637_display_alphaii
+                0x00000000       0x28 ./Photoresistor.o
+ .bss.previous_v_input
+                0x00000000        0x2 ./Photoresistor.o
+ .bss.v_input   0x00000000        0x2 ./Photoresistor.o
+ .rodata._ZL15_digit2segments
+                0x00000000       0x14 ./Photoresistor.o
+ .rodata._ZL15_alpha2segments
+                0x00000000       0x26 ./Photoresistor.o
+ .text          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+ .data          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+ .bss           0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+ .text.disableWatchDog
+                0x00000000        0x8 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+ .text.enableWatchDog
+                0x00000000        0x6 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+ .text.millis   0x00000000       0x12 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+ .text.delayMicroseconds
+                0x00000000       0x12 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+ .text.sleepSeconds
+                0x00000000       0xa4 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+ .text.sleep    0x00000000       0xca C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+ .text.suspend  0x00000000       0x26 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+ .text          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+ .data          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+ .bss           0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+ .text.analogReference
+                0x00000000        0x6 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+ .text.analogFrequency
+                0x00000000       0x66 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+ .text.analogResolution
+                0x00000000        0x6 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+ .text.analogWrite
+                0x00000000      0x172 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+ .text.analogReadResolution
+                0x00000000        0x6 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+ .data.analog_res
+                0x00000000        0x2 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+ .bss.analog_div
+                0x00000000        0x2 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+ .data.analog_period
+                0x00000000        0x2 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+ .text          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+ .data          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+ .bss           0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+ .rodata.digital_pin_to_timer
+                0x00000000       0x15 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+ .text          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+ .data          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+ .bss           0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+ .text._ZN14HardwareSerial3endEv
+                0x00000000       0x1c C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+ .text._ZN14HardwareSerialcvbEv
+                0x00000000        0x4 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+ .text          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(main.o)
+ .data          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(main.o)
+ .bss           0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(main.o)
+ .text          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .data          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .bss           0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print5printERK6String
+                0x00000000       0x3e C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print5printEPKc
+                0x00000000       0x16 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print5printEc
+                0x00000000        0x6 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print5printERK9Printable
+                0x00000000        0xc C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print7printlnEv
+                0x00000000       0x22 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print7printlnERK6String
+                0x00000000       0x1a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print7printlnEPKc
+                0x00000000       0x1a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print7printlnEc
+                0x00000000       0x1a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print7printlnERK9Printable
+                0x00000000       0x1a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print11printNumberEmh
+                0x00000000       0x98 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print5printEmi
+                0x00000000       0x1e C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print7printlnEmi
+                0x00000000       0x1a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print5printEji
+                0x00000000        0xc C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print7printlnEji
+                0x00000000       0x1a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print5printEhi
+                0x00000000        0xc C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print7printlnEhi
+                0x00000000       0x1a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print5printEli
+                0x00000000       0x64 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print7printlnEli
+                0x00000000       0x1a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print5printEii
+                0x00000000       0x18 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print7printlnEii
+                0x00000000       0x1a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .rodata._ZN5Print10printFloatEdh
+                0x00000000        0x2 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print10printFloatEdh
+                0x00000000      0x10e C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print5printEdi
+                0x00000000        0x6 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text._ZN5Print7printlnEdi
+                0x00000000       0x1a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .rodata._ZTV5Print
+                0x00000000        0x8 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .text          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .data          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .bss           0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6StringD2Ev
+                0x00000000        0x8 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String10invalidateEv
+                0x00000000       0x1e C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String12changeBufferEj
+                0x00000000       0x3e C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String7reserveEj
+                0x00000000       0x32 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String4copyEPKcj
+                0x00000000       0x34 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6StringC2EPKc
+                0x00000000       0x24 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String4copyEPK19__FlashStringHelperj
+                0x00000000       0x34 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6StringaSERKS_
+                0x00000000       0x24 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6StringC2ERKS_
+                0x00000000       0x12 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6StringaSEPKc
+                0x00000000       0x28 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6StringC2Edh
+                0x00000000       0x42 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6StringC2Efh
+                0x00000000       0x42 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6StringC2Emh
+                0x00000000       0x30 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6StringC2Elh
+                0x00000000       0x30 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6StringC2Ejh
+                0x00000000       0x2e C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6StringC2Eih
+                0x00000000       0x2e C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6StringC2Ehh
+                0x00000000       0x2e C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6StringC2Ec
+                0x00000000       0x20 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6StringaSEPK19__FlashStringHelper
+                0x00000000       0x28 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6StringC2EPK19__FlashStringHelper
+                0x00000000       0x12 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String6concatEPKcj
+                0x00000000       0x40 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String6concatERKS_
+                0x00000000        0xc C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String6concatEPKc
+                0x00000000       0x1c C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String6concatEc
+                0x00000000       0x16 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String6concatEh
+                0x00000000       0x30 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String6concatEi
+                0x00000000       0x30 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String6concatEj
+                0x00000000       0x30 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String6concatEl
+                0x00000000       0x34 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String6concatEm
+                0x00000000       0x34 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String6concatEf
+                0x00000000       0x44 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String6concatEd
+                0x00000000       0x44 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String6concatEPK19__FlashStringHelper
+                0x00000000       0x4e C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZplRK15StringSumHelperRK6String
+                0x00000000       0x1e C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZplRK15StringSumHelperPKc
+                0x00000000       0x2c C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZplRK15StringSumHelperc
+                0x00000000       0x18 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZplRK15StringSumHelperh
+                0x00000000       0x18 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZplRK15StringSumHelperi
+                0x00000000       0x18 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZplRK15StringSumHelperj
+                0x00000000       0x18 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZplRK15StringSumHelperl
+                0x00000000       0x18 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZplRK15StringSumHelperm
+                0x00000000       0x18 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZplRK15StringSumHelperf
+                0x00000000       0x18 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZplRK15StringSumHelperd
+                0x00000000       0x18 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZplRK15StringSumHelperPK19__FlashStringHelper
+                0x00000000       0x18 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String9compareToERKS_
+                0x00000000       0x3e C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String6equalsERKS_
+                0x00000000       0x18 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String6equalsEPKc
+                0x00000000       0x36 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6StringltERKS_
+                0x00000000        0xe C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6StringgtERKS_
+                0x00000000       0x12 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6StringleERKS_
+                0x00000000       0x12 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6StringgeERKS_
+                0x00000000       0x10 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String16equalsIgnoreCaseERKS_
+                0x00000000       0x64 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String10startsWithERKS_j
+                0x00000000       0x32 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String10startsWithERKS_
+                0x00000000       0x14 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String8endsWithERKS_
+                0x00000000       0x32 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String9setCharAtEjc
+                0x00000000        0xe C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6StringixEj
+                0x00000000       0x1a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6StringixEj
+                0x00000000       0x1a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String6charAtEj
+                0x00000000        0x6 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String8getBytesEPhjj
+                0x00000000       0x38 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String7indexOfEcj
+                0x00000000       0x48 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String7indexOfEc
+                0x00000000        0x8 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String7indexOfERKS_j
+                0x00000000       0x48 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String7indexOfERKS_
+                0x00000000        0x8 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String11lastIndexOfEcj
+                0x00000000       0x64 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String11lastIndexOfEc
+                0x00000000        0xc C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String11lastIndexOfERKS_j
+                0x00000000       0x98 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String11lastIndexOfERKS_
+                0x00000000        0xe C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .rodata._ZNK6String9substringEjj
+                0x00000000        0x1 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String9substringEjj
+                0x00000000       0x5a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String7replaceEcc
+                0x00000000       0x1a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String7replaceERKS_S1_
+                0x00000000      0x19a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String6removeEjj
+                0x00000000       0x44 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String6removeEj
+                0x00000000        0x8 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String11toLowerCaseEv
+                0x00000000       0x2e C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String11toUpperCaseEv
+                0x00000000       0x2e C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZN6String4trimEv
+                0x00000000       0x98 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String5toIntEv
+                0x00000000       0x12 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String8toDoubleEv
+                0x00000000       0x12 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text._ZNK6String7toFloatEv
+                0x00000000        0x6 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .bss._ZZN6StringixEjE19dummy_writable_char
+                0x00000000        0x1 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .text          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(atof.o)
+ .data          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(atof.o)
+ .bss           0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(atof.o)
+ .text.atof     0x00000000      0x1f6 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(atof.o)
+ .text          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(dtostrf.o)
+ .data          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(dtostrf.o)
+ .bss           0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(dtostrf.o)
+ .rodata.dtostrf
+                0x00000000        0xe C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(dtostrf.o)
+ .text.dtostrf  0x00000000       0xca C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(dtostrf.o)
+ .text          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(itoa.o)
+ .data          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(itoa.o)
+ .bss           0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(itoa.o)
+ .text.ltoa     0x00000000       0xde C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(itoa.o)
+ .text.itoa     0x00000000       0x1a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(itoa.o)
+ .text.ultoa    0x00000000       0xb2 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(itoa.o)
+ .text.utoa     0x00000000        0xe C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(itoa.o)
+ .text          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+ .data          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+ .bss           0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+ .text.eusci_isr_handler
+                0x00000000        0x4 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+ .text.spi_rx_isr
+                0x00000000        0x2 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+ .text.spi_tx_isr
+                0x00000000        0x2 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+ .text          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(new.o)
+ .data          0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(new.o)
+ .bss           0x00000000        0x0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(new.o)
+ .text._Znwj    0x00000000        0x6 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(new.o)
+ .text._Znaj    0x00000000        0x6 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(new.o)
+ .text._ZdlPv   0x00000000        0x6 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(new.o)
+ .text._ZdaPv   0x00000000        0x6 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(new.o)
+ .text.__cxa_guard_acquire
+                0x00000000        0xe C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(new.o)
+ .text.__cxa_guard_release
+                0x00000000        0x6 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(new.o)
+ .text.__cxa_guard_abort
+                0x00000000        0x2 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(new.o)
+ .text.__cxa_pure_virtual
+                0x00000000        0x2 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(new.o)
+ .text          0x00000000      0xd84 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_pow.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_pow.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_pow.o)
+ .rodata        0x00000000       0x18 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_pow.o)
+ .text          0x00000000      0x184 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(sf_scalbn.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(sf_scalbn.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(sf_scalbn.o)
+ .text          0x00000000      0x16e c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_sqrt.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_sqrt.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_sqrt.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulqi3.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulqi3.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulqi3.o)
+ .text.libgcc   0x00000000       0x16 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulqi3.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulhi3.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulhi3.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulhi3.o)
+ .text.libgcc   0x00000000       0x18 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulhi3.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulsi3.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulsi3.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulsi3.o)
+ .text.libgcc   0x00000000       0x2c c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulsi3.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod16.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod16.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod16.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_divmod16.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_divmod16.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_divmod16.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod32.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod32.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod32.o)
+ .text          0x00000000       0x42 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fixunssfsi.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fixunssfsi.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fixunssfsi.o)
+ .text          0x00000000      0x32e c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_addsub_sf.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_addsub_sf.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_addsub_sf.o)
+ .text          0x00000000      0x224 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mul_sf.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mul_sf.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mul_sf.o)
+ .text          0x00000000      0x150 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_div_sf.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_div_sf.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_div_sf.o)
+ .text          0x00000000       0x50 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_gt_sf.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_gt_sf.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_gt_sf.o)
+ .text          0x00000000       0x50 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_ge_sf.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_ge_sf.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_ge_sf.o)
+ .text          0x00000000       0x50 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_lt_sf.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_lt_sf.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_lt_sf.o)
+ .text          0x00000000       0x50 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_le_sf.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_le_sf.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_le_sf.o)
+ .text          0x00000000       0xa6 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_si_to_sf.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_si_to_sf.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_si_to_sf.o)
+ .text          0x00000000       0x90 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_sf_to_si.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_sf_to_si.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_sf_to_si.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_thenan_sf.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_thenan_sf.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_thenan_sf.o)
+ .rodata        0x00000000        0x8 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_thenan_sf.o)
+ .text          0x00000000       0xe2 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_usi_to_sf.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_usi_to_sf.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_usi_to_sf.o)
+ .text          0x00000000       0x72 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clzsi2.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clzsi2.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clzsi2.o)
+ .text          0x00000000      0x1de c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_pack_sf.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_pack_sf.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_pack_sf.o)
+ .text          0x00000000      0x124 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_unpack_sf.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_unpack_sf.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_unpack_sf.o)
+ .text          0x00000000       0xa4 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fpcmp_parts_sf.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fpcmp_parts_sf.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fpcmp_parts_sf.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clz.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clz.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clz.o)
+ .rodata        0x00000000      0x100 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clz.o)
+ .text          0x00000000       0x12 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strchr.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strchr.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strchr.o)
+ .text          0x00000000       0x1e c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcmp.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcmp.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcmp.o)
+ .text          0x00000000       0x28 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncmp.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncmp.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncmp.o)
+ .text          0x00000000       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcpy.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcpy.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcpy.o)
+ .text          0x00000000       0x2a c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncpy.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncpy.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncpy.o)
+ .text          0x00000000       0xfa c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memcpy.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memcpy.o)
+ .text          0x00000000       0xfa c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memmove.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memmove.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memmove.o)
+ .text          0x00000000       0x1e c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strrchr.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strrchr.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strrchr.o)
+ .text          0x00000000       0x56 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strstr.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strstr.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strstr.o)
+ .text          0x00000000        0xc c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(atol.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(atol.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(atol.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(malloc.o)
+ .text          0x00000000      0x1b8 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strtol.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strtol.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strtol.o)
+ .text          0x00000000       0xbc c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(sprintf.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(sprintf.o)
+ .bss           0x00000000        0x4 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(sprintf.o)
+ .text          0x00000000      0x836 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(vuprintf.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(vuprintf.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(vuprintf.o)
+ .rodata        0x00000000        0x7 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(vuprintf.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(ldiv.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(ldiv.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(ldiv.o)
+ .text.ldiv     0x00000000       0x12 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(ldiv.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(errno.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(errno.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(errno.o)
+ COMMON         0x00000000        0x2 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(errno.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_divmod32.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_divmod32.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_divmod32.o)
+ .text.libgcc   0x00000000       0x4c c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_divmod32.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod64.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod64.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod64.o)
+ .text.libgcc   0x00000000       0xf0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod64.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_reset_vector__.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_reset_vector__.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_reset_vector__.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__watchdog_support.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__watchdog_support.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__watchdog_support.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__init_stack.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__init_stack.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__init_stack.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__low_level_init.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__low_level_init.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__low_level_init.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__stop_progExec__.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__stop_progExec__.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__stop_progExec__.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_endless_loop__.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_endless_loop__.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_endless_loop__.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_unexpected_.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_unexpected_.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_unexpected_.o)
+ .text          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_ctors430.o)
+ .data          0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_ctors430.o)
+ .bss           0x00000000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_ctors430.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+sfr              0x00000000         0x00000010
+peripheral_8bit  0x00000010         0x000000f0
+peripheral_16bit 0x00000100         0x00000100
+ram              0x00000200         0x00000200         xw
+infomem          0x00001000         0x00000100
+infod            0x00001000         0x00000040
+infoc            0x00001040         0x00000040
+infob            0x00001080         0x00000040
+infoa            0x000010c0         0x00000040
+rom              0x0000c000         0x00003fe0         xr
+vectors          0x0000ffe0         0x00000020
+bsl              0x00000000         0x00000000
+ram2             0x00000000         0x00000000         xw
+ram_mirror       0x00000000         0x00000000         xw
+signature        0x00000000         0x00000000
+tinyram          0x00000000         0x00000000         xw
+usbram           0x00000000         0x00000000         xw
+far_rom          0x00000000         0x00000000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/crt0ivtbl16.o
+LOAD ./TM1637.o
+LOAD ./Photoresistor.o
+START GROUP
+LOAD C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a
+LOAD c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a
+END GROUP
+LOAD c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a
+LOAD c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a
+LOAD c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a
+LOAD c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a
+                0x00000040                PROVIDE (__info_segment_size, 0x40)
+                0x00001000                PROVIDE (__infod, 0x1000)
+                0x00001040                PROVIDE (__infoc, 0x1040)
+                0x00001080                PROVIDE (__infob, 0x1080)
+                0x000010c0                PROVIDE (__infoa, 0x10c0)
+                0x00000000                __IE1 = 0x0
+                0x00000002                __IFG1 = 0x2
+                0x00000001                __IE2 = 0x1
+                0x00000003                __IFG2 = 0x3
+                0x00000048                __ADC10DTC0 = 0x48
+                0x00000049                __ADC10DTC1 = 0x49
+                0x0000004a                __ADC10AE0 = 0x4a
+                0x000001b0                __ADC10CTL0 = 0x1b0
+                0x000001b2                __ADC10CTL1 = 0x1b2
+                0x000001b4                __ADC10MEM = 0x1b4
+                0x000001bc                __ADC10SA = 0x1bc
+                0x00000056                __DCOCTL = 0x56
+                0x00000057                __BCSCTL1 = 0x57
+                0x00000058                __BCSCTL2 = 0x58
+                0x00000053                __BCSCTL3 = 0x53
+                0x00000059                __CACTL1 = 0x59
+                0x0000005a                __CACTL2 = 0x5a
+                0x0000005b                __CAPD = 0x5b
+                0x00000128                __FCTL1 = 0x128
+                0x0000012a                __FCTL2 = 0x12a
+                0x0000012c                __FCTL3 = 0x12c
+                0x00000020                __P1IN = 0x20
+                0x00000021                __P1OUT = 0x21
+                0x00000022                __P1DIR = 0x22
+                0x00000023                __P1IFG = 0x23
+                0x00000024                __P1IES = 0x24
+                0x00000025                __P1IE = 0x25
+                0x00000026                __P1SEL = 0x26
+                0x00000041                __P1SEL2 = 0x41
+                0x00000027                __P1REN = 0x27
+                0x00000028                __P2IN = 0x28
+                0x00000029                __P2OUT = 0x29
+                0x0000002a                __P2DIR = 0x2a
+                0x0000002b                __P2IFG = 0x2b
+                0x0000002c                __P2IES = 0x2c
+                0x0000002d                __P2IE = 0x2d
+                0x0000002e                __P2SEL = 0x2e
+                0x00000042                __P2SEL2 = 0x42
+                0x0000002f                __P2REN = 0x2f
+                0x00000018                __P3IN = 0x18
+                0x00000019                __P3OUT = 0x19
+                0x0000001a                __P3DIR = 0x1a
+                0x0000001b                __P3SEL = 0x1b
+                0x00000043                __P3SEL2 = 0x43
+                0x00000010                __P3REN = 0x10
+                0x0000012e                __TA0IV = 0x12e
+                0x00000160                __TA0CTL = 0x160
+                0x00000162                __TA0CCTL0 = 0x162
+                0x00000164                __TA0CCTL1 = 0x164
+                0x00000166                __TA0CCTL2 = 0x166
+                0x00000170                __TA0R = 0x170
+                0x00000172                __TA0CCR0 = 0x172
+                0x00000174                __TA0CCR1 = 0x174
+                0x00000176                __TA0CCR2 = 0x176
+                0x0000011e                __TA1IV = 0x11e
+                0x00000180                __TA1CTL = 0x180
+                0x00000182                __TA1CCTL0 = 0x182
+                0x00000184                __TA1CCTL1 = 0x184
+                0x00000186                __TA1CCTL2 = 0x186
+                0x00000190                __TA1R = 0x190
+                0x00000192                __TA1CCR0 = 0x192
+                0x00000194                __TA1CCR1 = 0x194
+                0x00000196                __TA1CCR2 = 0x196
+                0x00000060                __UCA0CTL0 = 0x60
+                0x00000061                __UCA0CTL1 = 0x61
+                0x00000062                __UCA0BR0 = 0x62
+                0x00000063                __UCA0BR1 = 0x63
+                0x00000064                __UCA0MCTL = 0x64
+                0x00000065                __UCA0STAT = 0x65
+                0x00000066                __UCA0RXBUF = 0x66
+                0x00000067                __UCA0TXBUF = 0x67
+                0x0000005d                __UCA0ABCTL = 0x5d
+                0x0000005e                __UCA0IRTCTL = 0x5e
+                0x0000005f                __UCA0IRRCTL = 0x5f
+                0x00000068                __UCB0CTL0 = 0x68
+                0x00000069                __UCB0CTL1 = 0x69
+                0x0000006a                __UCB0BR0 = 0x6a
+                0x0000006b                __UCB0BR1 = 0x6b
+                0x0000006c                __UCB0I2CIE = 0x6c
+                0x0000006d                __UCB0STAT = 0x6d
+                0x0000006e                __UCB0RXBUF = 0x6e
+                0x0000006f                __UCB0TXBUF = 0x6f
+                0x00000118                __UCB0I2COA = 0x118
+                0x0000011a                __UCB0I2CSA = 0x11a
+                0x00000120                __WDTCTL = 0x120
+                0x000010f8                __CALDCO_16MHZ = 0x10f8
+                0x000010f9                __CALBC1_16MHZ = 0x10f9
+                0x000010fa                __CALDCO_12MHZ = 0x10fa
+                0x000010fb                __CALBC1_12MHZ = 0x10fb
+                0x000010fc                __CALDCO_8MHZ = 0x10fc
+                0x000010fd                __CALBC1_8MHZ = 0x10fd
+                0x000010fe                __CALDCO_1MHZ = 0x10fe
+                0x000010ff                __CALBC1_1MHZ = 0x10ff
+                0x000010c0                __TLV_CHECKSUM = 0x10c0
+                0x000010f6                __TLV_DCO_30_TAG = 0x10f6
+                0x000010f7                __TLV_DCO_30_LEN = 0x10f7
+                0x000010da                __TLV_ADC10_1_TAG = 0x10da
+                0x000010db                __TLV_ADC10_1_LEN = 0x10db
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.text
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+
+.rela.text
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+
+.rel.rodata
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+
+.rela.rodata
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+
+.rel.data
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+
+.rela.data
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+
+.rel.bss
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+
+.rela.bss
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000c000      0xdda
+                0x0000c000                . = ALIGN (0x2)
+ *(.init .init.*)
+ *(.init0)
+ .init0         0x0000c000        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_reset_vector__.o)
+                0x0000c000                _reset_vector__
+ *(.init1)
+ .init1         0x0000c000        0xc c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__watchdog_support.o)
+                0x0000c000                __watchdog_support
+ *(.init2)
+ .init2         0x0000c00c        0x4 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__init_stack.o)
+                0x0000c00c                __init_stack
+ *(.init3)
+ .init3         0x0000c010        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__low_level_init.o)
+                0x0000c010                __low_level_init
+ *(.init4)
+ .init4         0x0000c010       0x18 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_copy_data.o)
+                0x0000c010                __do_copy_data
+ .init4         0x0000c028       0x16 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_clear_bss.o)
+                0x0000c028                __do_clear_bss
+ *(.init5)
+ *(.init6)
+ .init6         0x0000c03e       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_ctors430.o)
+                0x0000c03e                __do_global_ctors
+ *(.init7)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000c052       0x1a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(main.o)
+                0x0000c052                main
+ *(.fini9)
+ .fini9         0x0000c06c        0x0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__stop_progExec__.o)
+                0x0000c06c                __stop_progExec__
+ *(.fini8)
+ *(.fini7)
+ *(.fini6)
+ *(.fini5)
+ *(.fini4)
+ *(.fini3)
+ *(.fini2)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000c06c        0x6 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_endless_loop__.o)
+                0x0000c06c                _endless_loop__
+ *(.fini .fini.*)
+                0x0000c072                . = ALIGN (0x2)
+                0x0000c072                __ctors_start = .
+ *(.ctors)
+ .ctors         0x0000c072        0x2 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+                0x0000c074                __ctors_end = .
+                0x0000c074                __dtors_start = .
+ *(.dtors)
+                0x0000c074                __dtors_end = .
+                0x0000c074                . = ALIGN (0x2)
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x0000c074        0x4 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/crt0ivtbl16.o
+                0x0000c074                __isr_14
+                0x0000c074                __isr_4
+                0x0000c074                __isr_11
+                0x0000c074                __isr_2
+                0x0000c074                __isr_0
+                0x0000c074                __isr_8
+                0x0000c074                __isr_3
+                0x0000c074                __isr_12
+                0x0000c074                __isr_13
+                0x0000c074                __isr_9
+                0x0000c074                __isr_1
+ .text._Z9_delay_usm
+                0x0000c078       0x1c ./Photoresistor.o
+                0x0000c078                _delay_us(unsigned long)
+ .text._ZL12TM1637_startv
+                0x0000c094       0x1c ./Photoresistor.o
+ .text._ZL17TM1637_write_bytei
+                0x0000c0b0       0xae ./Photoresistor.o
+ .text._ZL11TM1637_stopv
+                0x0000c15e       0x36 ./Photoresistor.o
+ .text._ZL18TM1637_send_configii
+                0x0000c194       0x30 ./Photoresistor.o
+ .text._Z11TM1637_initii
+                0x0000c1c4       0x18 ./Photoresistor.o
+                0x0000c1c4                TM1637_init(int, int)
+ .text._Z21TM1637_set_brightnessi
+                0x0000c1dc       0x12 ./Photoresistor.o
+                0x0000c1dc                TM1637_set_brightness(int)
+ .text._Z23TM1637_display_segmentsii
+                0x0000c1ee       0x3c ./Photoresistor.o
+                0x0000c1ee                TM1637_display_segments(int, int)
+ .text._Z20TM1637_display_coloni
+                0x0000c22a       0x1e ./Photoresistor.o
+                0x0000c22a                TM1637_display_colon(int)
+ .text._Z12TM1637_clearv
+                0x0000c248       0x16 ./Photoresistor.o
+                0x0000c248                TM1637_clear()
+ .text._Z10intToArrayiPi
+                0x0000c25e       0x84 ./Photoresistor.o
+                0x0000c25e                intToArray(int, int*)
+ .text.setup    0x0000c2e2       0xca ./Photoresistor.o
+                0x0000c2e2                setup
+ .text.loop     0x0000c3ac      0x10a ./Photoresistor.o
+                0x0000c3ac                loop
+ .text.enableXtal
+                0x0000c4b6       0x42 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+                0x0000c4b6                enableXtal
+ .text.enableWatchDogIntervalMode
+                0x0000c4f8        0xc C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+                0x0000c4f8                enableWatchDogIntervalMode
+ .text.initClocks
+                0x0000c504       0x12 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+                0x0000c504                initClocks
+ .text.init     0x0000c516       0x12 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+                0x0000c516                init
+ .text.micros   0x0000c528       0x24 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+                0x0000c528                micros
+ .text.delay    0x0000c54c       0x48 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+                0x0000c54c                delay
+ .text.watchdog_isr
+                0x0000c594       0x82 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+                0x0000c594                __isr_10
+                0x0000c594                watchdog_isr
+ .text.analogRead
+                0x0000c616       0xe4 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+                0x0000c616                analogRead
+ .text.ADC10_ISR
+                0x0000c6fa        0x8 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+                0x0000c6fa                __isr_5
+                0x0000c6fa                ADC10_ISR
+ .text.pinMode  0x0000c702       0x7a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+                0x0000c702                pinMode
+ .text.pinMode_int
+                0x0000c77c       0xa4 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+                0x0000c77c                pinMode_int
+ .text.digitalRead
+                0x0000c820       0x3e C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+                0x0000c820                digitalRead
+ .text.digitalWrite
+                0x0000c85e       0x4a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+                0x0000c85e                digitalWrite
+ .text._ZN14HardwareSerial9availableEv
+                0x0000c8a8       0x12 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+                0x0000c8a8                HardwareSerial::available()
+ .text._ZN14HardwareSerial4peekEv
+                0x0000c8ba       0x1e C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+                0x0000c8ba                HardwareSerial::peek()
+ .text._ZN14HardwareSerial4readEv
+                0x0000c8d8       0x2c C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+                0x0000c8d8                HardwareSerial::read()
+ .text._ZN14HardwareSerial5flushEv
+                0x0000c904       0x12 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+                0x0000c904                HardwareSerial::flush()
+ .text._ZN14HardwareSerial5writeEh
+                0x0000c916       0x3c C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+                0x0000c916                HardwareSerial::write(unsigned char)
+ .text._Z11serialEventv
+                0x0000c952        0x2 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+                0x0000c952                serialEvent()
+ .text._Z14serialEventRunv
+                0x0000c954       0x12 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+                0x0000c954                serialEventRun()
+ .text._ZN14HardwareSerial5beginEmh
+                0x0000c966      0x146 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+                0x0000c966                HardwareSerial::begin(unsigned long, unsigned char)
+ .text.uart_rx_isr
+                0x0000caac       0x26 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+                0x0000caac                uart_rx_isr
+ .text.uart_tx_isr
+                0x0000cad2       0x38 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+                0x0000cad2                uart_tx_isr
+ .text.startup._GLOBAL__sub_I_rx_buffer
+                0x0000cb0a       0x44 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+ .text._ZN5Print5writeEPKhj
+                0x0000cb4e       0x2e C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+                0x0000cb4e                Print::write(unsigned char const*, unsigned int)
+ .text.usci_isr_install
+                0x0000cb7c        0x2 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+                0x0000cb7c                usci_isr_install
+ .text.i2c_state_isr
+                0x0000cb7e        0x4 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+                0x0000cb7e                i2c_state_isr
+ .text.i2c_txrx_isr
+                0x0000cb82        0x4 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+                0x0000cb82                i2c_txrx_isr
+ .text.USCIAB0TX_ISR
+                0x0000cb86       0x5a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+                0x0000cb86                USCIAB0TX_ISR
+                0x0000cb86                __isr_6
+ .text.USCIAB0RX_ISR
+                0x0000cbe0       0x4c C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+                0x0000cbe0                USCIAB0RX_ISR
+                0x0000cbe0                __isr_7
+ .text.libgcc   0x0000cc2c       0x22 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod16.o)
+                0x0000cc2c                __ext_udivmod16
+                0x0000cc2c                __udivhi3
+                0x0000cc46                __umodhi3
+ .text.libgcc   0x0000cc4e       0x3a c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_divmod16.o)
+                0x0000cc4e                __divhi3
+                0x0000cc4e                __ext_divmod16
+                0x0000cc80                __modhi3
+ .text.libgcc   0x0000cc88       0x40 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod32.o)
+                0x0000cc88                __ext_udivmod32
+                0x0000cc88                __udivsi3
+                0x0000ccbe                __umodsi3
+ .text          0x0000ccc8      0x110 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(malloc.o)
+                0x0000ccc8                malloc
+                0x0000cdd0                free
+ .text.crt0     0x0000cdd8        0x2 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_unexpected_.o)
+                0x0000cdd8                _unexpected_
+                0x0000cdda                . = ALIGN (0x2)
+
+.rodata         0x0000cdda       0xd2
+                0x0000cdda                . = ALIGN (0x2)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata._ZL11_digit_addr
+                0x0000cdda       0x14 ./Photoresistor.o
+ .rodata.digital_pin_to_analog_in
+                0x0000cdee       0x54 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+                0x0000cdee                digital_pin_to_analog_in
+ .rodata.digital_pin_to_bit_mask
+                0x0000ce42       0x15 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+                0x0000ce42                digital_pin_to_bit_mask
+ .rodata.digital_pin_to_port
+                0x0000ce57       0x15 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+                0x0000ce57                digital_pin_to_port
+ .rodata.port_to_sel2
+                0x0000ce6c        0x8 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+                0x0000ce6c                port_to_sel2
+ .rodata.port_to_sel0
+                0x0000ce74        0x8 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+                0x0000ce74                port_to_sel0
+ .rodata.port_to_ren
+                0x0000ce7c        0x8 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+                0x0000ce7c                port_to_ren
+ .rodata.port_to_dir
+                0x0000ce84        0x8 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+                0x0000ce84                port_to_dir
+ .rodata.port_to_output
+                0x0000ce8c        0x8 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+                0x0000ce8c                port_to_output
+ .rodata.port_to_input
+                0x0000ce94        0x8 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+                0x0000ce94                port_to_input
+ .rodata._ZTV14HardwareSerial
+                0x0000ce9c       0x10 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+                0x0000ce9c                vtable for HardwareSerial
+                0x0000ceac                . = ALIGN (0x2)
+                0x0000ceac                _etext = .
+
+.data           0x00000200        0xa load address 0x0000ceac
+                0x00000200                . = ALIGN (0x2)
+                0x00000200                PROVIDE (__data_start, .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.analogPin
+                0x00000200        0x2 ./Photoresistor.o
+                0x00000200                analogPin
+ .data.digitalPin
+                0x00000202        0x2 ./Photoresistor.o
+                0x00000202                digitalPin
+ .data._ZL7_config
+                0x00000204        0x2 ./Photoresistor.o
+ .data._ZL9_segments
+                0x00000206        0x2 ./Photoresistor.o
+ .data._readResolution
+                0x00000208        0x2 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+                0x0000020a                . = ALIGN (0x2)
+                0x0000020a                _edata = .
+                0x0000ceac                PROVIDE (__data_load_start, LOADADDR (.data))
+                0x0000000a                PROVIDE (__data_size, SIZEOF (.data))
+
+.bss            0x0000020a       0x5a load address 0x0000ceb6
+                0x0000020a                PROVIDE (__bss_start, .)
+ *(.bss .bss.*)
+ .bss.digitalVal
+                0x0000020a        0x2 ./Photoresistor.o
+                0x0000020a                digitalVal
+ .bss.vlo_freq  0x0000020c        0x2 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+                0x0000020c                vlo_freq
+ .bss.stay_asleep
+                0x0000020e        0x1 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+                0x0000020e                stay_asleep
+ .bss.sleeping  0x0000020f        0x1 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+                0x0000020f                sleeping
+ .bss.wdt_fract
+                0x00000210        0x2 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+                0x00000210                wdt_fract
+ .bss.wdt_millis
+                0x00000212        0x4 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+                0x00000212                wdt_millis
+ .bss.wdt_overflow_count
+                0x00000216        0x4 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+                0x00000216                wdt_overflow_count
+ .bss.analog_reference
+                0x0000021a        0x2 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+                0x0000021a                analog_reference
+ .bss.Serial    0x0000021c       0x1a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+                0x0000021c                Serial
+ .bss.tx_buffer
+                0x00000236       0x14 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+                0x00000236                tx_buffer
+ .bss.rx_buffer
+                0x0000024a       0x14 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+                0x0000024a                rx_buffer
+ .bss.still_asleep
+                0x0000025e        0x1 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+ .bss           0x0000025f        0x1 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(malloc.o)
+ *(COMMON)
+ COMMON         0x00000260        0x4 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+                0x00000260                SMILLIS_INC
+                0x00000262                SFRACT_INC
+                0x00000264                . = ALIGN (0x2)
+                0x00000264                PROVIDE (__bss_end, .)
+                0x0000005a                PROVIDE (__bss_size, SIZEOF (.bss))
+
+.noinit         0x00000264        0x2 load address 0x0000ceb6
+                0x00000264                PROVIDE (__noinit_start, .)
+ *(.noinit .noinit.*)
+ .noinit.crt0   0x00000264        0x2 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__watchdog_support.o)
+                0x00000264                __wdt_clear_value
+                0x00000266                . = ALIGN (0x2)
+                0x00000266                PROVIDE (__noinit_end, .)
+                0x00000266                . = ALIGN (0x2)
+                0x00000266                _end = .
+
+.infomem        0x00001000        0x0
+ *(.infomem)
+                0x00001000                . = ALIGN (0x2)
+ *(.infomem.*)
+
+.infomemnobits  0x00001000        0x0
+ *(.infomemnobits)
+                0x00001000                . = ALIGN (0x2)
+ *(.infomemnobits.*)
+
+.infoa
+ *(.infoa .infoa.*)
+
+.infob
+ *(.infob .infob.*)
+
+.infoc
+ *(.infoc .infoc.*)
+
+.infod
+ *(.infod .infod.*)
+
+.vectors        0x0000ffe0       0x20
+                0x0000ffe0                PROVIDE (__vectors_start, .)
+ *(.vectors*)
+ .vectors       0x0000ffe0       0x20 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/crt0ivtbl16.o
+                0x0000ffe0                __ivtbl_16
+                0x00010000                _vectors_end = .
+
+.fartext        0x00000000        0x0
+                0x00000000                . = ALIGN (0x2)
+ *(.fartext)
+                0x00000000                . = ALIGN (0x2)
+ *(.fartext.*)
+                0x00000000                _efartext = .
+
+.profiler
+ *(.profiler)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x794
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x48 ./TM1637.o
+ .debug_aranges
+                0x00000048       0x54 ./Photoresistor.o
+ .debug_aranges
+                0x0000009c       0x48 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+ .debug_aranges
+                0x000000e4       0x2c C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+ .debug_aranges
+                0x00000110       0x20 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+ .debug_aranges
+                0x00000130       0x44 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+ .debug_aranges
+                0x00000174       0x14 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(main.o)
+ .debug_aranges
+                0x00000188       0x70 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .debug_aranges
+                0x000001f8      0x148 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .debug_aranges
+                0x00000340       0x14 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(atof.o)
+ .debug_aranges
+                0x00000354       0x14 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(dtostrf.o)
+ .debug_aranges
+                0x00000368       0x20 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(itoa.o)
+ .debug_aranges
+                0x00000388       0x30 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+ .debug_aranges
+                0x000003b8       0x30 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(new.o)
+ .debug_aranges
+                0x000003e8       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_pow.o)
+ .debug_aranges
+                0x000003fc       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(sf_scalbn.o)
+ .debug_aranges
+                0x00000410       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_sqrt.o)
+ .debug_aranges
+                0x00000424       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulqi3.o)
+ .debug_aranges
+                0x00000438       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulhi3.o)
+ .debug_aranges
+                0x0000044c       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulsi3.o)
+ .debug_aranges
+                0x00000460       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod16.o)
+ .debug_aranges
+                0x00000474       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_divmod16.o)
+ .debug_aranges
+                0x00000488       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod32.o)
+ .debug_aranges
+                0x0000049c       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fixunssfsi.o)
+ .debug_aranges
+                0x000004b0       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_addsub_sf.o)
+ .debug_aranges
+                0x000004c4       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mul_sf.o)
+ .debug_aranges
+                0x000004d8       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_div_sf.o)
+ .debug_aranges
+                0x000004ec       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_gt_sf.o)
+ .debug_aranges
+                0x00000500       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_ge_sf.o)
+ .debug_aranges
+                0x00000514       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_lt_sf.o)
+ .debug_aranges
+                0x00000528       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_le_sf.o)
+ .debug_aranges
+                0x0000053c       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_si_to_sf.o)
+ .debug_aranges
+                0x00000550       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_sf_to_si.o)
+ .debug_aranges
+                0x00000564       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_usi_to_sf.o)
+ .debug_aranges
+                0x00000578       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x0000058c       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_pack_sf.o)
+ .debug_aranges
+                0x000005a0       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_unpack_sf.o)
+ .debug_aranges
+                0x000005b4       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_aranges
+                0x000005c8       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strchr.o)
+ .debug_aranges
+                0x000005dc       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcmp.o)
+ .debug_aranges
+                0x000005f0       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncmp.o)
+ .debug_aranges
+                0x00000604       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcpy.o)
+ .debug_aranges
+                0x00000618       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncpy.o)
+ .debug_aranges
+                0x0000062c       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memcpy.o)
+ .debug_aranges
+                0x00000640       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memmove.o)
+ .debug_aranges
+                0x00000654       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strrchr.o)
+ .debug_aranges
+                0x00000668       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strstr.o)
+ .debug_aranges
+                0x0000067c       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(atol.o)
+ .debug_aranges
+                0x00000690       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(malloc.o)
+ .debug_aranges
+                0x000006a4       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strtol.o)
+ .debug_aranges
+                0x000006b8       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(sprintf.o)
+ .debug_aranges
+                0x000006cc       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(vuprintf.o)
+ .debug_aranges
+                0x000006e0       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_divmod32.o)
+ .debug_aranges
+                0x000006f4       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod64.o)
+ .debug_aranges
+                0x00000708       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__watchdog_support.o)
+ .debug_aranges
+                0x0000071c       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__init_stack.o)
+ .debug_aranges
+                0x00000730       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_copy_data.o)
+ .debug_aranges
+                0x00000744       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_clear_bss.o)
+ .debug_aranges
+                0x00000758       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_endless_loop__.o)
+ .debug_aranges
+                0x0000076c       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_unexpected_.o)
+ .debug_aranges
+                0x00000780       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_ctors430.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xe697
+ *(.debug_info)
+ .debug_info    0x00000000      0x629 ./TM1637.o
+ .debug_info    0x00000629      0xa13 ./Photoresistor.o
+ .debug_info    0x0000103c      0x5e4 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+ .debug_info    0x00001620      0x881 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+ .debug_info    0x00001ea1      0x98b C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+ .debug_info    0x0000282c     0x1dbc C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+ .debug_info    0x000045e8      0x29b C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(main.o)
+ .debug_info    0x00004883     0x1f03 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .debug_info    0x00006786     0x2b11 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .debug_info    0x00009297       0xd8 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(atof.o)
+ .debug_info    0x0000936f      0x124 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(dtostrf.o)
+ .debug_info    0x00009493      0x221 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(itoa.o)
+ .debug_info    0x000096b4      0x3bd C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+ .debug_info    0x00009a71      0x190 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(new.o)
+ .debug_info    0x00009c01      0x5ea c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_pow.o)
+ .debug_info    0x0000a1eb      0x1e4 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(sf_scalbn.o)
+ .debug_info    0x0000a3cf      0x208 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_sqrt.o)
+ .debug_info    0x0000a5d7       0x8d c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulqi3.o)
+ .debug_info    0x0000a664       0x8d c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulhi3.o)
+ .debug_info    0x0000a6f1       0x8d c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulsi3.o)
+ .debug_info    0x0000a77e       0x8d c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod16.o)
+ .debug_info    0x0000a80b       0x8d c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_divmod16.o)
+ .debug_info    0x0000a898       0x8d c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod32.o)
+ .debug_info    0x0000a925       0xb5 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fixunssfsi.o)
+ .debug_info    0x0000a9da      0x425 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_addsub_sf.o)
+ .debug_info    0x0000adff      0x3c9 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mul_sf.o)
+ .debug_info    0x0000b1c8      0x35c c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_div_sf.o)
+ .debug_info    0x0000b524      0x26e c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_gt_sf.o)
+ .debug_info    0x0000b792      0x26e c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_ge_sf.o)
+ .debug_info    0x0000ba00      0x26e c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_lt_sf.o)
+ .debug_info    0x0000bc6e      0x26e c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_le_sf.o)
+ .debug_info    0x0000bedc      0x20b c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_si_to_sf.o)
+ .debug_info    0x0000c0e7      0x289 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_sf_to_si.o)
+ .debug_info    0x0000c370      0x144 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_thenan_sf.o)
+ .debug_info    0x0000c4b4      0x204 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_usi_to_sf.o)
+ .debug_info    0x0000c6b8      0x109 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clzsi2.o)
+ .debug_info    0x0000c7c1      0x2b1 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_pack_sf.o)
+ .debug_info    0x0000ca72      0x23e c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_unpack_sf.o)
+ .debug_info    0x0000ccb0      0x1d5 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_info    0x0000ce85       0xa0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clz.o)
+ .debug_info    0x0000cf25       0xa7 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strchr.o)
+ .debug_info    0x0000cfcc       0xa4 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcmp.o)
+ .debug_info    0x0000d070       0xbb c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncmp.o)
+ .debug_info    0x0000d12b       0xb6 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcpy.o)
+ .debug_info    0x0000d1e1       0xe1 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncpy.o)
+ .debug_info    0x0000d2c2      0x113 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memcpy.o)
+ .debug_info    0x0000d3d5      0x113 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memmove.o)
+ .debug_info    0x0000d4e8       0xb7 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strrchr.o)
+ .debug_info    0x0000d59f       0xe0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strstr.o)
+ .debug_info    0x0000d67f       0x95 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(atol.o)
+ .debug_info    0x0000d714      0x151 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(malloc.o)
+ .debug_info    0x0000d865      0x1d7 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strtol.o)
+ .debug_info    0x0000da3c      0x277 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(sprintf.o)
+ .debug_info    0x0000dcb3      0x565 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(vuprintf.o)
+ .debug_info    0x0000e218       0x39 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(errno.o)
+ .debug_info    0x0000e251       0x8d c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_divmod32.o)
+ .debug_info    0x0000e2de       0x8d c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod64.o)
+ .debug_info    0x0000e36b       0x74 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__watchdog_support.o)
+ .debug_info    0x0000e3df       0x74 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__init_stack.o)
+ .debug_info    0x0000e453       0x74 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_copy_data.o)
+ .debug_info    0x0000e4c7       0x74 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_clear_bss.o)
+ .debug_info    0x0000e53b       0x74 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_endless_loop__.o)
+ .debug_info    0x0000e5af       0x74 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_unexpected_.o)
+ .debug_info    0x0000e623       0x74 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_ctors430.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x3da3
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x176 ./TM1637.o
+ .debug_abbrev  0x00000176      0x262 ./Photoresistor.o
+ .debug_abbrev  0x000003d8      0x1eb C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+ .debug_abbrev  0x000005c3      0x227 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+ .debug_abbrev  0x000007ea      0x15d C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+ .debug_abbrev  0x00000947      0x4b0 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+ .debug_abbrev  0x00000df7       0x91 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(main.o)
+ .debug_abbrev  0x00000e88      0x396 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .debug_abbrev  0x0000121e      0x3a9 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .debug_abbrev  0x000015c7       0x85 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(atof.o)
+ .debug_abbrev  0x0000164c       0xc3 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(dtostrf.o)
+ .debug_abbrev  0x0000170f       0xaf C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(itoa.o)
+ .debug_abbrev  0x000017be      0x141 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+ .debug_abbrev  0x000018ff       0xee C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(new.o)
+ .debug_abbrev  0x000019ed      0x140 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_pow.o)
+ .debug_abbrev  0x00001b2d       0xf4 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(sf_scalbn.o)
+ .debug_abbrev  0x00001c21      0x14a c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_sqrt.o)
+ .debug_abbrev  0x00001d6b       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulqi3.o)
+ .debug_abbrev  0x00001d7f       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulhi3.o)
+ .debug_abbrev  0x00001d93       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulsi3.o)
+ .debug_abbrev  0x00001da7       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod16.o)
+ .debug_abbrev  0x00001dbb       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_divmod16.o)
+ .debug_abbrev  0x00001dcf       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod32.o)
+ .debug_abbrev  0x00001de3       0x5d c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fixunssfsi.o)
+ .debug_abbrev  0x00001e40      0x1ab c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_addsub_sf.o)
+ .debug_abbrev  0x00001feb      0x1d9 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mul_sf.o)
+ .debug_abbrev  0x000021c4      0x1c4 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_div_sf.o)
+ .debug_abbrev  0x00002388      0x151 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_gt_sf.o)
+ .debug_abbrev  0x000024d9      0x151 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_ge_sf.o)
+ .debug_abbrev  0x0000262a      0x151 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_lt_sf.o)
+ .debug_abbrev  0x0000277b      0x151 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_le_sf.o)
+ .debug_abbrev  0x000028cc      0x164 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_si_to_sf.o)
+ .debug_abbrev  0x00002a30      0x160 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_sf_to_si.o)
+ .debug_abbrev  0x00002b90       0xba c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_thenan_sf.o)
+ .debug_abbrev  0x00002c4a      0x173 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_usi_to_sf.o)
+ .debug_abbrev  0x00002dbd       0xac c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x00002e69      0x192 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_pack_sf.o)
+ .debug_abbrev  0x00002ffb      0x15a c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_unpack_sf.o)
+ .debug_abbrev  0x00003155      0x10b c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_abbrev  0x00003260       0x61 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clz.o)
+ .debug_abbrev  0x000032c1       0x6f c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strchr.o)
+ .debug_abbrev  0x00003330       0x60 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcmp.o)
+ .debug_abbrev  0x00003390       0x7c c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncmp.o)
+ .debug_abbrev  0x0000340c       0x7e c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcpy.o)
+ .debug_abbrev  0x0000348a       0x94 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncpy.o)
+ .debug_abbrev  0x0000351e       0x97 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memcpy.o)
+ .debug_abbrev  0x000035b5       0x97 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memmove.o)
+ .debug_abbrev  0x0000364c       0x7e c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strrchr.o)
+ .debug_abbrev  0x000036ca       0x8b c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strstr.o)
+ .debug_abbrev  0x00003755       0x60 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(atol.o)
+ .debug_abbrev  0x000037b5      0x104 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(malloc.o)
+ .debug_abbrev  0x000038b9      0x112 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strtol.o)
+ .debug_abbrev  0x000039cb      0x105 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(sprintf.o)
+ .debug_abbrev  0x00003ad0      0x1ef c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(vuprintf.o)
+ .debug_abbrev  0x00003cbf       0x30 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(errno.o)
+ .debug_abbrev  0x00003cef       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_divmod32.o)
+ .debug_abbrev  0x00003d03       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod64.o)
+ .debug_abbrev  0x00003d17       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__watchdog_support.o)
+ .debug_abbrev  0x00003d2b       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__init_stack.o)
+ .debug_abbrev  0x00003d3f       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_copy_data.o)
+ .debug_abbrev  0x00003d53       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_clear_bss.o)
+ .debug_abbrev  0x00003d67       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_endless_loop__.o)
+ .debug_abbrev  0x00003d7b       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_unexpected_.o)
+ .debug_abbrev  0x00003d8f       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_ctors430.o)
+
+.debug_line     0x00000000     0x459f
+ *(.debug_line)
+ .debug_line    0x00000000      0x209 ./TM1637.o
+ .debug_line    0x00000209      0x3ba ./Photoresistor.o
+ .debug_line    0x000005c3      0x310 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+ .debug_line    0x000008d3      0x291 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+ .debug_line    0x00000b64      0x247 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+ .debug_line    0x00000dab      0x39a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+ .debug_line    0x00001145      0x1ac C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(main.o)
+ .debug_line    0x000012f1      0x438 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .debug_line    0x00001729      0x81c C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .debug_line    0x00001f45       0xef C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(atof.o)
+ .debug_line    0x00002034      0x13c C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(dtostrf.o)
+ .debug_line    0x00002170      0x10a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(itoa.o)
+ .debug_line    0x0000227a      0x253 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+ .debug_line    0x000024cd      0x181 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(new.o)
+ .debug_line    0x0000264e      0x1c6 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_pow.o)
+ .debug_line    0x00002814       0x97 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(sf_scalbn.o)
+ .debug_line    0x000028ab       0xb7 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_sqrt.o)
+ .debug_line    0x00002962       0x73 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulqi3.o)
+ .debug_line    0x000029d5       0x74 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulhi3.o)
+ .debug_line    0x00002a49       0x7e c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mulsi3.o)
+ .debug_line    0x00002ac7       0x77 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod16.o)
+ .debug_line    0x00002b3e       0x82 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_divmod16.o)
+ .debug_line    0x00002bc0       0x86 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod32.o)
+ .debug_line    0x00002c46       0x6f c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fixunssfsi.o)
+ .debug_line    0x00002cb5      0x117 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_addsub_sf.o)
+ .debug_line    0x00002dcc      0x10f c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mul_sf.o)
+ .debug_line    0x00002edb       0xd1 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_div_sf.o)
+ .debug_line    0x00002fac       0x89 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_gt_sf.o)
+ .debug_line    0x00003035       0x89 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_ge_sf.o)
+ .debug_line    0x000030be       0x89 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_lt_sf.o)
+ .debug_line    0x00003147       0x89 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_le_sf.o)
+ .debug_line    0x000031d0       0xa1 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_si_to_sf.o)
+ .debug_line    0x00003271       0x97 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_sf_to_si.o)
+ .debug_line    0x00003308       0x6c c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_thenan_sf.o)
+ .debug_line    0x00003374       0x9e c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_usi_to_sf.o)
+ .debug_line    0x00003412       0x99 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clzsi2.o)
+ .debug_line    0x000034ab       0xda c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_pack_sf.o)
+ .debug_line    0x00003585       0xb5 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_unpack_sf.o)
+ .debug_line    0x0000363a       0xc0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_line    0x000036fa       0x5b c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clz.o)
+ .debug_line    0x00003755       0x44 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strchr.o)
+ .debug_line    0x00003799       0x49 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcmp.o)
+ .debug_line    0x000037e2       0x82 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncmp.o)
+ .debug_line    0x00003864       0x4d c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcpy.o)
+ .debug_line    0x000038b1       0x85 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncpy.o)
+ .debug_line    0x00003936       0xf6 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memcpy.o)
+ .debug_line    0x00003a2c       0xf6 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memmove.o)
+ .debug_line    0x00003b22       0x47 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strrchr.o)
+ .debug_line    0x00003b69       0x86 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strstr.o)
+ .debug_line    0x00003bef       0x3d c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(atol.o)
+ .debug_line    0x00003c2c       0xce c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(malloc.o)
+ .debug_line    0x00003cfa      0x10b c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strtol.o)
+ .debug_line    0x00003e05       0xa9 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(sprintf.o)
+ .debug_line    0x00003eae      0x2df c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(vuprintf.o)
+ .debug_line    0x0000418d       0x31 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(errno.o)
+ .debug_line    0x000041be       0x8b c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_divmod32.o)
+ .debug_line    0x00004249       0xcc c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_udivmod64.o)
+ .debug_line    0x00004315       0x5c c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__watchdog_support.o)
+ .debug_line    0x00004371       0x5a c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(__init_stack.o)
+ .debug_line    0x000043cb       0x60 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_copy_data.o)
+ .debug_line    0x0000442b       0x60 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_clear_bss.o)
+ .debug_line    0x0000448b       0x5b c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_endless_loop__.o)
+ .debug_line    0x000044e6       0x5a c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_unexpected_.o)
+ .debug_line    0x00004540       0x5f c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libcrt0.a(_ctors430.o)
+
+.debug_frame    0x00000000     0x1b54
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x116 ./TM1637.o
+ .debug_frame   0x00000116      0x18a ./Photoresistor.o
+ .debug_frame   0x000002a0      0x154 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+ .debug_frame   0x000003f4       0x8c C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+ .debug_frame   0x00000480       0x94 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+ .debug_frame   0x00000514       0xf8 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+ .debug_frame   0x0000060c       0x1e C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(main.o)
+ .debug_frame   0x0000062a      0x32a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .debug_frame   0x00000954      0x7e8 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .debug_frame   0x0000113c       0x6e C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(atof.o)
+ .debug_frame   0x000011aa       0x82 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(dtostrf.o)
+ .debug_frame   0x0000122c       0xec C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(itoa.o)
+ .debug_frame   0x00001318       0xba C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+ .debug_frame   0x000013d2       0x72 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(new.o)
+ .debug_frame   0x00001444       0x56 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_pow.o)
+ .debug_frame   0x0000149a       0x44 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(sf_scalbn.o)
+ .debug_frame   0x000014de       0x62 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_sqrt.o)
+ .debug_frame   0x00001540       0x28 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x00001568       0x6a c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_addsub_sf.o)
+ .debug_frame   0x000015d2       0x4a c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mul_sf.o)
+ .debug_frame   0x0000161c       0x3a c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_div_sf.o)
+ .debug_frame   0x00001656       0x22 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_gt_sf.o)
+ .debug_frame   0x00001678       0x22 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_ge_sf.o)
+ .debug_frame   0x0000169a       0x22 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_lt_sf.o)
+ .debug_frame   0x000016bc       0x22 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_le_sf.o)
+ .debug_frame   0x000016de       0x2c c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_si_to_sf.o)
+ .debug_frame   0x0000170a       0x22 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_sf_to_si.o)
+ .debug_frame   0x0000172c       0x36 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_usi_to_sf.o)
+ .debug_frame   0x00001762       0x2e c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clzsi2.o)
+ .debug_frame   0x00001790       0x38 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_pack_sf.o)
+ .debug_frame   0x000017c8       0x28 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_unpack_sf.o)
+ .debug_frame   0x000017f0       0x24 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_frame   0x00001814       0x1e c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strchr.o)
+ .debug_frame   0x00001832       0x1e c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcmp.o)
+ .debug_frame   0x00001850       0x24 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncmp.o)
+ .debug_frame   0x00001874       0x1e c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcpy.o)
+ .debug_frame   0x00001892       0x24 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncpy.o)
+ .debug_frame   0x000018b6       0x38 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memcpy.o)
+ .debug_frame   0x000018ee       0x38 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memmove.o)
+ .debug_frame   0x00001926       0x24 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strrchr.o)
+ .debug_frame   0x0000194a       0x38 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strstr.o)
+ .debug_frame   0x00001982       0x1e c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(atol.o)
+ .debug_frame   0x000019a0       0x52 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(malloc.o)
+ .debug_frame   0x000019f2       0x4a c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strtol.o)
+ .debug_frame   0x00001a3c       0x68 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(sprintf.o)
+ .debug_frame   0x00001aa4       0xb0 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(vuprintf.o)
+
+.debug_str      0x00000000     0x32b0
+ *(.debug_str)
+ .debug_str     0x00000000      0x450 ./TM1637.o
+                                0x4bf (size before relaxing)
+ .debug_str     0x00000450      0x2d4 ./Photoresistor.o
+                                0x781 (size before relaxing)
+ .debug_str     0x00000724      0x1d4 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+                                0x3e7 (size before relaxing)
+ .debug_str     0x000008f8      0x5ab C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+                                0x7f4 (size before relaxing)
+ .debug_str     0x00000ea3      0x16c C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+                                0x779 (size before relaxing)
+ .debug_str     0x0000100f     0x1044 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+                               0x12be (size before relaxing)
+ .debug_str     0x00002053       0x6c C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(main.o)
+                                0x25b (size before relaxing)
+ .debug_str     0x000020bf      0x3fd C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+                                0xf3a (size before relaxing)
+ .debug_str     0x000024bc      0x26d C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+                                0xcbd (size before relaxing)
+ .debug_str     0x00002729       0x81 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(atof.o)
+                                 0xe4 (size before relaxing)
+ .debug_str     0x000027aa       0x8d C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(dtostrf.o)
+                                0x175 (size before relaxing)
+ .debug_str     0x00002837       0x7b C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(itoa.o)
+                                0x150 (size before relaxing)
+ .debug_str     0x000028b2      0x117 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+                                0x2f1 (size before relaxing)
+ .debug_str     0x000029c9       0xd5 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(new.o)
+                                0x1e1 (size before relaxing)
+ .debug_str     0x00002a9e       0xcc c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_pow.o)
+                                0x197 (size before relaxing)
+ .debug_str     0x00002b6a       0x2f c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(sf_scalbn.o)
+                                0x15a (size before relaxing)
+ .debug_str     0x00002b99       0x26 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_sqrt.o)
+                                0x152 (size before relaxing)
+ .debug_str     0x00002bbf       0x86 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fixunssfsi.o)
+                                0x13e (size before relaxing)
+ .debug_str     0x00002c45      0x13d c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_addsub_sf.o)
+                                0x238 (size before relaxing)
+ .debug_str     0x00002d82       0x27 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mul_sf.o)
+                                0x1f1 (size before relaxing)
+ .debug_str     0x00002da9       0x35 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_div_sf.o)
+                                0x1fa (size before relaxing)
+ .debug_str     0x00002dde        0x8 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_gt_sf.o)
+                                0x1bf (size before relaxing)
+ .debug_str     0x00002de6        0x8 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_ge_sf.o)
+                                0x1bf (size before relaxing)
+ .debug_str     0x00002dee        0x8 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_lt_sf.o)
+                                0x1bf (size before relaxing)
+ .debug_str     0x00002df6        0x8 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_le_sf.o)
+                                0x1bf (size before relaxing)
+ .debug_str     0x00002dfe       0x27 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_si_to_sf.o)
+                                0x1ae (size before relaxing)
+ .debug_str     0x00002e25        0xa c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_sf_to_si.o)
+                                0x1c8 (size before relaxing)
+ .debug_str     0x00000000      0x16a c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_thenan_sf.o)
+ .debug_str     0x00002e2f        0xe c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_usi_to_sf.o)
+                                0x1aa (size before relaxing)
+ .debug_str     0x00002e3d       0x17 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clzsi2.o)
+                                0x14a (size before relaxing)
+ .debug_str     0x00002e54       0x10 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_pack_sf.o)
+                                0x1c7 (size before relaxing)
+ .debug_str     0x00002e64        0xb c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_unpack_sf.o)
+                                0x1a9 (size before relaxing)
+ .debug_str     0x00002e6f       0x10 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fpcmp_parts_sf.o)
+                                0x18d (size before relaxing)
+ .debug_str     0x00000000      0x12d c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clz.o)
+ .debug_str     0x00002e7f       0x19 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strchr.o)
+                                 0xfd (size before relaxing)
+ .debug_str     0x00002e98       0x19 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcmp.o)
+                                 0xfd (size before relaxing)
+ .debug_str     0x00002eb1       0x1b c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncmp.o)
+                                0x106 (size before relaxing)
+ .debug_str     0x00002ecc       0x1e c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcpy.o)
+                                0x107 (size before relaxing)
+ .debug_str     0x00002eea       0x1b c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncpy.o)
+                                0x106 (size before relaxing)
+ .debug_str     0x00002f05       0x28 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memcpy.o)
+                                0x11f (size before relaxing)
+ .debug_str     0x00002f2d       0x1b c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memmove.o)
+                                0x121 (size before relaxing)
+ .debug_str     0x00002f48       0x1b c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strrchr.o)
+                                0x104 (size before relaxing)
+ .debug_str     0x00002f63       0x19 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strstr.o)
+                                0x109 (size before relaxing)
+ .debug_str     0x00002f7c       0x15 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(atol.o)
+                                 0xf9 (size before relaxing)
+ .debug_str     0x00002f91       0x55 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(malloc.o)
+                                0x145 (size before relaxing)
+ .debug_str     0x00002fe6       0x47 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strtol.o)
+                                0x138 (size before relaxing)
+ .debug_str     0x0000302d       0x85 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(sprintf.o)
+                                0x198 (size before relaxing)
+ .debug_str     0x000030b2      0x1ed c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(vuprintf.o)
+                                0x37e (size before relaxing)
+ .debug_str     0x0000329f       0x11 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(errno.o)
+                                 0x7c (size before relaxing)
+
+.debug_loc      0x00000000     0x479a
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x109 ./TM1637.o
+ .debug_loc     0x00000109      0x1ad ./Photoresistor.o
+ .debug_loc     0x000002b6      0x10b C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+ .debug_loc     0x000003c1      0x106 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+ .debug_loc     0x000004c7      0x211 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+ .debug_loc     0x000006d8      0x130 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+ .debug_loc     0x00000808      0x6e4 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .debug_loc     0x00000eec      0xe9b C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .debug_loc     0x00001d87      0x129 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(atof.o)
+ .debug_loc     0x00001eb0       0x52 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(dtostrf.o)
+ .debug_loc     0x00001f02      0x23a C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(itoa.o)
+ .debug_loc     0x0000213c       0x24 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+ .debug_loc     0x00002160       0x37 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(new.o)
+ .debug_loc     0x00002197      0x6d7 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_pow.o)
+ .debug_loc     0x0000286e      0x16d c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(sf_scalbn.o)
+ .debug_loc     0x000029db      0x1b4 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libm.a(ef_sqrt.o)
+ .debug_loc     0x00002b8f       0x44 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fixunssfsi.o)
+ .debug_loc     0x00002bd3      0x2ca c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_addsub_sf.o)
+ .debug_loc     0x00002e9d      0x23c c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mul_sf.o)
+ .debug_loc     0x000030d9      0x110 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_div_sf.o)
+ .debug_loc     0x000031e9       0x3c c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_gt_sf.o)
+ .debug_loc     0x00003225       0x3c c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_ge_sf.o)
+ .debug_loc     0x00003261       0x3c c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_lt_sf.o)
+ .debug_loc     0x0000329d       0x3c c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_le_sf.o)
+ .debug_loc     0x000032d9       0xa2 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_si_to_sf.o)
+ .debug_loc     0x0000337b       0x3c c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_sf_to_si.o)
+ .debug_loc     0x000033b7       0x6c c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_usi_to_sf.o)
+ .debug_loc     0x00003423       0x80 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clzsi2.o)
+ .debug_loc     0x000034a3      0x181 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_pack_sf.o)
+ .debug_loc     0x00003624       0x83 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_unpack_sf.o)
+ .debug_loc     0x000036a7       0x5b c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_loc     0x00003702        0xb c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strchr.o)
+ .debug_loc     0x0000370d       0x24 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcmp.o)
+ .debug_loc     0x00003731       0x38 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncmp.o)
+ .debug_loc     0x00003769       0x12 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strcpy.o)
+ .debug_loc     0x0000377b       0x45 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strncpy.o)
+ .debug_loc     0x000037c0      0x1e9 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memcpy.o)
+ .debug_loc     0x000039a9      0x1e9 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(memmove.o)
+ .debug_loc     0x00003b92       0x39 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strrchr.o)
+ .debug_loc     0x00003bcb       0xa9 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strstr.o)
+ .debug_loc     0x00003c74        0xb c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(atol.o)
+ .debug_loc     0x00003c7f      0x12e c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(malloc.o)
+ .debug_loc     0x00003dad      0x1f6 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(strtol.o)
+ .debug_loc     0x00003fa3       0xeb c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(sprintf.o)
+ .debug_loc     0x0000408e      0x70c c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(vuprintf.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x3f4
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x3c ./TM1637.o
+ .debug_ranges  0x0000003c       0x48 ./Photoresistor.o
+ .debug_ranges  0x00000084       0x3c C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring.o)
+ .debug_ranges  0x000000c0       0x20 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_analog.o)
+ .debug_ranges  0x000000e0       0x14 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(wiring_digital.o)
+ .debug_ranges  0x000000f4       0x38 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(HardwareSerial.o)
+ .debug_ranges  0x0000012c        0x8 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(main.o)
+ .debug_ranges  0x00000134       0x70 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(Print.o)
+ .debug_ranges  0x000001a4      0x154 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(WString.o)
+ .debug_ranges  0x000002f8        0x8 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(atof.o)
+ .debug_ranges  0x00000300        0x8 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(dtostrf.o)
+ .debug_ranges  0x00000308       0x14 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(itoa.o)
+ .debug_ranges  0x0000031c       0x24 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(usci_isr_handler.o)
+ .debug_ranges  0x00000340       0x24 C:/Users/Benjamin/workspace_v9/msp430_MSP-EXP430G2553LP_core/Debug\libmsp430_MSP-EXP430G2553LP_core.a(new.o)
+ .debug_ranges  0x00000364       0x14 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_addsub_sf.o)
+ .debug_ranges  0x00000378       0x28 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_mul_sf.o)
+ .debug_ranges  0x000003a0       0x24 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_div_sf.o)
+ .debug_ranges  0x000003c4        0xc c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3\libgcc.a(_clzsi2.o)
+ .debug_ranges  0x000003d0        0xc c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(malloc.o)
+ .debug_ranges  0x000003dc       0x18 c:/users/benjamin/appdata/local/energia15/packages/energia/tools/msp430-gcc/4.6.6/bin/../lib/gcc/msp430/4.6.3/../../../../msp430/lib\libc.a(vuprintf.o)
+                0x00000400                PROVIDE (__stack, (ORIGIN (ram) + 0x200))
+                0x0000ceac                PROVIDE (__data_start_rom, _etext)
+                0x0000ceb6                PROVIDE (__data_end_rom, (_etext + SIZEOF (.data)))
+OUTPUT(Photoresistor.out elf32-msp430)
