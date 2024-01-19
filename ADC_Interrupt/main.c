@@ -12,6 +12,8 @@ char               STRADC10MEM[5];          // string type of ADC10MEM
 char               STRVOLTADC10MEM[5];      // string type of ADC10MEM converted to voltage
 char               STRRMDRADC10MEM[5];      // string type of ADC10MEM remainder from voltage conversion
 
+void VOLTAGESTABALIZATIONADC10MEM(){P1REN |= BIT4; P1OUT &= ~BIT4;}  // optionally enable resistor pull-down (reduce flicker when no sensor)
+
 void main(void)
 {
     WDTCTL = WDTPW + WDTHOLD;                                           // Stop WDT
@@ -52,4 +54,6 @@ __interrupt void ADC10_IRS(void)
         memset(STRRMDRADC10MEM, 0, sizeof STRRMDRADC10MEM);
         IDXBUFFADC10MEM = 0;
     }
+    ADC10CTL0 &= ~(ADC10IFG);
+
 }
