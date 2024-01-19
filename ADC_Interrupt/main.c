@@ -8,9 +8,9 @@
 volatile unsigned  IDXBUFFADC10MEM  = 0;    // iterating ADC10MEM buffer index
 float              VOLTADC10MEM     = 0;    // hard voltage read from ADC10MEM
 float              SVOLTADC10MEM    = 3.3;  // soft voltage for equations with ADC10MEM voltage
-char               STRADC10MEM[16];          // string type of ADC10MEM
-char               STRVOLTADC10MEM[16];      // string type of ADC10MEM converted to voltage
-char               STRRMDRADC10MEM[16];      // string type of ADC10MEM remainder from voltage conversion
+char               STRADC10MEM[16];         // string type of ADC10MEM
+char               STRVOLTADC10MEM[16];     // string type of ADC10MEM converted to voltage
+char               STRRMDRADC10MEM[16];     // string type of ADC10MEM remainder from voltage conversion
 
 void VOLTAGESTABALIZATIONADC10MEM(){P1REN |= BIT4; P1OUT &= ~BIT4;}  // optionally enable resistor pull-down (reduce flicker when no sensor)
 
