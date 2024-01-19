@@ -21,11 +21,9 @@ void main(void)
     ADC10CTL0 = SREF_0 + ADC10SHT_2 + REFON + ADC10ON + ADC10IE + MSC;  // Set ADC module
     ADC10CTL1 = CONSEQ_0 + INCH_4 + ADC10DIV_0;                         // Set ADC module
     ADC10DTC0 = ADC10CT;                                                // Set ADC module
-    ADC10AE0 = BIT4;                                                    //P1.3 also above, INCH_3
-    ADC10CTL0 |= ENC + ADC10SC;
-
-    __bis_SR_register(GIE);
-
+    ADC10AE0 = BIT4;                                                    // P1.4 ADC option select
+    ADC10CTL0 |= ENC + ADC10SC;                                         // Start Sampling and conversion
+    __bis_SR_register(GIE);                                             // Enable Interrupts
     while(1){
         ADC10CTL0 |= ADC10SC;
     }
@@ -35,7 +33,6 @@ void main(void)
 __interrupt void ADC10_IRS(void)
 {
     while (ADC10CTL1 & ADC10BUSY);
-
     if(IDXBUFFADC10MEM < 16){
         IDXBUFFADC10MEM++;
     }
@@ -55,5 +52,4 @@ __interrupt void ADC10_IRS(void)
         IDXBUFFADC10MEM = 0;
     }
     ADC10CTL0 &= ~(ADC10IFG);
-
 }
