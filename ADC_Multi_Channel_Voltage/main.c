@@ -1,3 +1,5 @@
+// Credits to drselim MSP430 & Multiple ADC (https://youtu.be/Ev871bhGFt0).
+// Update includes value padding for alignment and voltage readings. 
 #include <msp430.h>
 #include <stdlib.h>
 #include <stdio.h>
