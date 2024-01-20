@@ -1,5 +1,6 @@
 // Credits to drselim MSP430 & Multiple ADC (https://youtu.be/Ev871bhGFt0).
 // Update includes value padding for alignment and voltage readings. 
+// If TXD output in your serial monitor is not in perfect columns then reduce your consoles font size. 
 #include <msp430.h>
 #include <stdlib.h>
 #include <stdio.h>
