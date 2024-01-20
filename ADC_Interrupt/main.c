@@ -5,12 +5,12 @@
 #include <math.h>
 #include <uart.h>
 
-volatile unsigned  IDXBUFFADC10MEM  = 0;    // iterating ADC10MEM buffer index
-float              VOLTADC10MEM     = 0;    // hard voltage read from ADC10MEM
-float              SVOLTADC10MEM    = 3.3;  // soft voltage for equations with ADC10MEM voltage
-char               STRADC10MEM[16];         // string type of ADC10MEM
-char               STRVOLTADC10MEM[16];     // string type of ADC10MEM converted to voltage
-char               STRRMDRADC10MEM[16];     // string type of ADC10MEM remainder from voltage conversion
+volatile unsigned  IDXBUFFADC10MEM       =  0;    // iterating ADC10MEM buffer index
+float              VOLTADC10MEM          =  0;    // hard voltage read from ADC10MEM
+float              SVOLTADC10MEM         =  3.3;  // soft voltage for equations with ADC10MEM voltage
+char               STRADC10MEM[16];               // string type of ADC10MEM
+char               STRVOLTADC10MEM[16];           // string type of ADC10MEM converted to voltage
+char               STRRMDRADC10MEM[16];           // string type of ADC10MEM remainder from voltage conversion
 
 void VOLTAGESTABALIZATIONADC10MEM(){P1REN |= BIT4; P1OUT &= ~BIT4;}  // optionally enable resistor pull-down (reduce flicker when no sensor)
 
@@ -24,6 +24,7 @@ void main(void)
     ADC10AE0 = BIT4;                                                    // P1.4 ADC option select
     ADC10CTL0 |= ENC + ADC10SC;                                         // Start Sampling and conversion
     __bis_SR_register(GIE);                                             // Enable Interrupts
+
     while(1){
         ADC10CTL0 |= ADC10SC;                                           // Start conversion
         __bis_SR_register(CPUOFF + GIE);
@@ -46,8 +47,8 @@ __interrupt void ADC10_IRS(void)
         ltoa(VINTADC10MEM,STRVOLTADC10MEM);
         ltoa((long)RMDRADCMEM10,STRRMDRADC10MEM);
 
-        printtxd("\n[MSP ADC10MEM] "); printtxd(STRADC10MEM); printtxd("\n");
-        printtxd("[MSP ADC10MEM V] "); printtxd(STRVOLTADC10MEM); printtxd("."); printtxd(STRRMDRADC10MEM); printtxd("\n");
+        printtxd("\n[MSP ADC10MEM] "); printtxd(STRADC10MEM); printtxd("\r\n");
+        printtxd("[MSP ADC10MEM V] "); printtxd(STRVOLTADC10MEM); printtxd("."); printtxd(STRRMDRADC10MEM); printtxd("\r\n");
         VOLTADC10MEM = 0;
         memset(STRVOLTADC10MEM, 0, sizeof STRVOLTADC10MEM);
         memset(STRADC10MEM, 0, sizeof STRADC10MEM);
