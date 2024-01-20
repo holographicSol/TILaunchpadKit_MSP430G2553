@@ -6,35 +6,46 @@
 #include <string.h>
 #include <math.h>
 
-float  VOLTADC10MEM = 0;
-float  volts0    = 3.3;
-float  volts1    = 3.3;
-float  volts2    = 3.3;
-float  volts3    = 3.3;
-float  volts4    = 3.3;
-float  volts5    = 5.0;
-float  volts6    = 5.0;
-float  volts7    = 5.0;
-char   volta0[]  = "  A0: ";
-char   volta1[]  = "  A1(RXD): ";
-char   volta2[]  = "  A2(TXD): ";
-char   volta3[]  = "  A3: ";
-char   volta4[]  = "  A4: ";
-char   volta5[]  = "  A5: ";
-char   volta6[]  = "  A6: ";
-char   volta7[]  = "  A7: ";
-char   newline[] = " \r\n";
+const int    main_delay   = 1;
+float        VOLTADC10MEM = 0;
+int          digiathresh0 = 0;
+int          digiathresh3 = 0;
+int          digiathresh4 = 0;
+int          digiathresh5 = 0;
+int          digiathresh6 = 0;
+int          digiathresh7 = 0;
+const int    athresh0     = 50;   // tunable digital threshold
+const int    athresh3     = 800;  // tunable digital threshold
+const int    athresh4     = 50;   // tunable digital threshold
+const int    athresh5     = 50;   // tunable digital threshold
+const int    athresh6     = 50;   // tunable digital threshold
+const int    athresh7     = 50;   // tunable digital threshold
+const float  volts0       = 3.3;  // set actual pin voltage
+const float  volts3       = 3.3;  // set actual pin voltage
+const float  volts4       = 3.3;  // set actual pin voltage
+const float  volts5       = 3.0;  // set actual pin voltage
+const float  volts6       = 3.0;  // set actual pin voltage
+const float  volts7       = 3.0;  // set actual pin voltage
+char         volta0[]     = "  A0: ";
+char         volta3[]     = "  A3: ";
+char         volta4[]     = "  A4: ";
+char         volta5[]     = "  A5: ";
+char         volta6[]     = "  A6: ";
+char         volta7[]     = "  A7: ";
+char         newline[]    = " \r\n";
+char *sdigiathresh0;
+char *sdigiathresh3;
+char *sdigiathresh4;
+char *sdigiathresh5;
+char *sdigiathresh6;
+char *sdigiathresh7;
 char vt_charv0[16];
-char vt_charv1[16];
-char vt_charv2[16];
 char vt_charv3[16];
 char vt_charv4[16];
 char vt_charv5[16];
 char vt_charv6[16];
 char vt_charv7[16];
 char vt_chara0[5];
-char vt_chara1[5];
-char vt_chara2[5];
 char vt_chara3[5];
 char vt_chara4[5];
 char vt_chara5[5];
@@ -43,9 +54,12 @@ char vt_chara7[5];
 char STRVOLTADC10MEM[20];
 char STRRMDRADC10MEM[20];
 unsigned int adc[8];
+#define RELAY BIT3;
+
 void ser_output(char *str);
 void pads(char *str, int sl);
 void svolt(char *vstr, unsigned int av, float v);
+void set_digital_a_values(void);
 void main(void)
 {
     WDTCTL     = WDTPW | WDTHOLD;
@@ -65,27 +79,45 @@ void main(void)
     ADC10CTL0  = SREF_0 + ADC10SHT_2 + MSC + ADC10ON;
     ADC10AE0   = BIT7 + BIT6 + BIT5 + BIT4 + BIT3 + BIT0;
     ADC10DTC1  = 8;
+    P2OUT &= ~RELAY;
+    P2DIR |= RELAY;
     while(1){
         ADC10CTL0 &= ~ENC;
         while (ADC10CTL1 & BUSY);
         ADC10CTL0 |= ENC + ADC10SC;
         ADC10SA = (unsigned int)adc;
-        ltoa(adc[7],vt_chara0); ltoa(adc[6],vt_chara1); ltoa(adc[5],vt_chara2);
-        ltoa(adc[4],vt_chara3); ltoa(adc[3],vt_chara4); ltoa(adc[2],vt_chara5);
-        ltoa(adc[1],vt_chara6); ltoa(adc[0],vt_chara7);
-        pads(vt_chara0,4); pads(vt_chara1,4); pads(vt_chara2,4);
-        pads(vt_chara3,4); pads(vt_chara4,4); pads(vt_chara5,4);
-        pads(vt_chara6,4); pads(vt_chara7,4);
-        svolt(vt_charv0, adc[7],volts0);  svolt(vt_charv1,adc[6],volts1);  svolt(vt_charv2,adc[5],volts2);
-        svolt(vt_charv3, adc[4],volts3);  svolt(vt_charv4,adc[3],volts4);  svolt(vt_charv5,adc[2],volts5);
+        ltoa(adc[7],vt_chara0); ltoa(adc[4],vt_chara3);
+        ltoa(adc[3],vt_chara4); ltoa(adc[0],vt_chara7);
+        ltoa(adc[1],vt_chara6); ltoa(adc[2],vt_chara5);
+        pads(vt_chara0,4); pads(vt_chara3,4); pads(vt_chara4,4);
+        pads(vt_chara5,4); pads(vt_chara6,4); pads(vt_chara7,4);
+        set_digital_a_values();
+        svolt(vt_charv0, adc[7],volts0); svolt(vt_charv3, adc[4],volts3);
+        svolt(vt_charv4,adc[3],volts4);  svolt(vt_charv5,adc[2],volts5);
         svolt(vt_charv6, adc[1],volts6);  svolt(vt_charv7,adc[0],volts7);
-        ser_output(volta0); ser_output(vt_chara0); ser_output(vt_charv0); ser_output(volta1); ser_output(vt_chara1); ser_output(vt_charv1);
-        ser_output(volta2); ser_output(vt_chara2); ser_output(vt_charv2); ser_output(volta3); ser_output(vt_chara3); ser_output(vt_charv3);
-        ser_output(volta4); ser_output(vt_chara4); ser_output(vt_charv4); ser_output(volta5); ser_output(vt_chara5); ser_output(vt_charv5);
-        ser_output(volta6); ser_output(vt_chara6); ser_output(vt_charv6); ser_output(volta7); ser_output(vt_chara7); ser_output(vt_charv7);
+        ser_output(volta0); ser_output(sdigiathresh0); ser_output(" "); ser_output(vt_chara0); ser_output(vt_charv0);
+        ser_output(volta3); ser_output(sdigiathresh3); ser_output(" "); ser_output(vt_chara3); ser_output(vt_charv3);
+        ser_output(volta4); ser_output(sdigiathresh4); ser_output(" "); ser_output(vt_chara4); ser_output(vt_charv4);
+        ser_output(volta5); ser_output(sdigiathresh5); ser_output(" "); ser_output(vt_chara5); ser_output(vt_charv5);
+        ser_output(volta6); ser_output(sdigiathresh6); ser_output(" "); ser_output(vt_chara6); ser_output(vt_charv6);
+        ser_output(volta7); ser_output(sdigiathresh7); ser_output(" "); ser_output(vt_chara7); ser_output(vt_charv7);
         ser_output(newline);
-        __delay_cycles(100000);
+        if(main_delay==1){__delay_cycles(100000);}
     }
+}
+void set_digital_a_values(void){  // tunable operators
+    if     (adc[7]  <=  athresh0){digiathresh0=1; sdigiathresh0="1";}  //P1.0
+    else if(adc[7]  >   athresh0){digiathresh0=0; sdigiathresh0="0";}  //P1.0
+    if     (adc[4]  >=  athresh3){digiathresh3=1; sdigiathresh3="1";}  //P1.3
+    else if(adc[4]  <   athresh3){digiathresh3=0; sdigiathresh3="0";}  //P1.3
+    if     (adc[3]  <=  athresh4){digiathresh4=1; sdigiathresh4="1";}  //P1.4
+    else if(adc[3]  >   athresh4){digiathresh4=0; sdigiathresh4="0";}  //P1.4
+    if     (adc[2]  <=  athresh5){digiathresh5=1; sdigiathresh5="1";}  //P1.5
+    else if(adc[2]  >   athresh5){digiathresh5=0; sdigiathresh5="0";}  //P1.5
+    if     (adc[1]  <=  athresh6){digiathresh6=1; sdigiathresh6="1";}  //P1.6
+    else if(adc[1]  >   athresh6){digiathresh6=0; sdigiathresh6="0";}  //P1.6
+    if     (adc[0]  <=  athresh7){digiathresh7=1; sdigiathresh7="1";}  //P1.7
+    else if(adc[0]  >   athresh7){digiathresh7=0; sdigiathresh7="0";}  //P1.7
 }
 void ser_output(char *str){
     while(*str != 0){
@@ -114,3 +146,4 @@ void svolt(char *vstr, unsigned int av, float v){
     strcat(vstr, STRRMDRADC10MEM);
     pads(vstr, 9);
 }
+
