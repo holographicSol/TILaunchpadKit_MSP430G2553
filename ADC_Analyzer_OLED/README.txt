@@ -2,3 +2,5 @@
 SCK P1.7
 SDA P1.6
 +   5v
+
+ADC Analyzer is currently passive.
