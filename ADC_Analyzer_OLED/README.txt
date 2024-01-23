@@ -1,1 +1,1 @@
-
+OLED 1306 128x64px - SCK P1.7 SDA P1.6 
