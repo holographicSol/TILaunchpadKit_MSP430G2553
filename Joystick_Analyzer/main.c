@@ -17,7 +17,7 @@ char vt_chara4[5];
 unsigned int adc[8];
 
 void ser_output(char *str);
-void set_digital_a_values(void);
+void joystick_0(void);
 void main(void)
 {
     WDTCTL     = WDTPW | WDTHOLD;
@@ -39,7 +39,7 @@ void main(void)
         ltoa(adc[5], vt_chara2);
         ltoa(adc[4], vt_chara3);
         ltoa(adc[3], vt_chara4);
-        set_digital_a_values();
+        joystick_0();
         ssd1306_printText(0, 2, "            ");
         ssd1306_printText(0, 2, "A2"); ssd1306_printText(20, 2, vt_chara2);
         ssd1306_printText(0, 3, "            ");
@@ -50,7 +50,7 @@ void main(void)
         }
 }
 
-void set_digital_a_values(void){  // tunable operators
+void joystick_0(void){  // tunable operators
     if      (adc[5] <=  490) {YU=0; YD=0; XR=0; XL=1; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[LEFT]");}
     else if(adc[5]  >=  600) {YU=0; YD=0; XR=1; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[RIGHT]");}
     else if(adc[4]  <=  490) {YU=1; YD=0; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[UP]");}
