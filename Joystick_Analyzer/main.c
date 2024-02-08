@@ -74,7 +74,6 @@ void joystick_0(void){
     ay = adc[4];
     ac = adc[3];
 
-    ssd1306_printText(0, 7, "                   ");
     if      ((ay  <=  535) && (ax  <=  500)) {x0=(500-ax);  x1=0;       y0=(500-ay);  y1=0;       ssd1306_printText(0, 7, "[ULEFT] ");}
     else if ((ay  <=  535) && (ax  >=  510)) {x0=0;         x1=(ax/2);  y0=(500-ay);  y1=0;       ssd1306_printText(0, 7, "[URIGHT]");}
     else if ((ay  >=  545) && (ax  <=  500)) {x0=(500-ax);  x1=0;       y0=0;         y1=(ay/2);  ssd1306_printText(0, 7, "[DLEFT] ");}
