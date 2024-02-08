@@ -28,7 +28,6 @@ char vt_chara3[5];
 char vt_chara4[5];
 unsigned int adc[8];
 
-void ser_output(char *str);
 void joystick_0(void);
 void main(void)
 {
@@ -58,14 +57,14 @@ void main(void)
         ltoa(y0, y0_char);
         ltoa(y1, y1_char);
         ltoa(c0, c0_char);
-        ssd1306_printText(0, 2, "X      ");  ssd1306_printText(15, 2, vt_chara2);
-        ssd1306_printText(0, 3, "X0     ");  ssd1306_printText(15, 3, x0_char);
-        ssd1306_printText(0, 4, "X1     ");  ssd1306_printText(15, 4, x1_char);
-        ssd1306_printText(45, 2, "Y      "); ssd1306_printText(60, 2, vt_chara2);
-        ssd1306_printText(45, 3, "Y0     "); ssd1306_printText(60, 3, y0_char);
-        ssd1306_printText(45, 4, "Y1     "); ssd1306_printText(60, 4, y1_char);
-        ssd1306_printText(90, 2, "C     ");  ssd1306_printText(100, 2, vt_chara4);
-        ssd1306_printText(90, 3, "C0    ");  ssd1306_printText(105, 3, c0_char);
+        ssd1306_printText(0,  2, "X      ");  ssd1306_printText(15,  2, vt_chara2);
+        ssd1306_printText(0,  3, "X0     ");  ssd1306_printText(15,  3, x0_char);
+        ssd1306_printText(0,  4, "X1     ");  ssd1306_printText(15,  4, x1_char);
+        ssd1306_printText(45, 2, "Y      ");  ssd1306_printText(60,  2, vt_chara2);
+        ssd1306_printText(45, 3, "Y0     ");  ssd1306_printText(60,  3, y0_char);
+        ssd1306_printText(45, 4, "Y1     ");  ssd1306_printText(60,  4, y1_char);
+        ssd1306_printText(90, 2, "C     ");   ssd1306_printText(100, 2, vt_chara4);
+        ssd1306_printText(90, 3, "C0    ");   ssd1306_printText(105, 3, c0_char);
         }
 }
 
@@ -75,7 +74,7 @@ void joystick_0(void){
     ay = adc[4];
     ac = adc[3];
 
-    // Zero to 500 converter: converts analogue values to 0-500 numbers for standard handling, like thrust for example. TODO: offsets to calibrate (precision)
+    // Zero to 500 converter: converts two analogue values to four 0-500 numbers. TODO -> offset calibration (my joystick fluctuates at idle so in my case my idle buffer range is about 10).
     if      ((ay  <=  535) && (ax  <=  500)) {x0=(500-ax);  x1=0;       y0=(500-ay);  y1=0;       ssd1306_printText(0, 7, "[ULEFT] ");}
     else if ((ay  <=  535) && (ax  >=  510)) {x0=0;         x1=(ax/2);  y0=(500-ay);  y1=0;       ssd1306_printText(0, 7, "[URIGHT]");}
     else if ((ay  >=  545) && (ax  <=  500)) {x0=(500-ax);  x1=0;       y0=0;         y1=(ay/2);  ssd1306_printText(0, 7, "[DLEFT] ");}
