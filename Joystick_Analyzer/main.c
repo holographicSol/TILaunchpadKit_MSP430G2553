@@ -46,16 +46,38 @@ void main(void)
         ssd1306_printText(0, 3, "A3"); ssd1306_printText(20, 3, vt_chara3);
         ssd1306_printText(0, 4, "            ");
         ssd1306_printText(0, 4, "A4"); ssd1306_printText(20, 4, vt_chara4);
-        if(main_delay==1){__delay_cycles(10000000);}
         }
 }
 
 void joystick_0(void){  // tunable operators
-    if      (adc[5] <=  490) {YU=0; YD=0; XR=0; XL=1; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[LEFT]");}
-    else if(adc[5]  >=  600) {YU=0; YD=0; XR=1; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[RIGHT]");}
-    else if(adc[4]  <=  490) {YU=1; YD=0; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[UP]");}
-    else if(adc[4]  >=  600) {YU=0; YD=1; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[DOWN]");}
-    else{YU=0; YD=0; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[NONE]");}
-    if      (adc[3] ==  0) {CLICKED=1; ssd1306_printText(70, 7, "[CLICKED]");}
-    else                   {CLICKED=0; ssd1306_printText(70, 7, "         ");}
+    if      ((adc[5] <=  500) &&  (adc[5] >=  400))  {YU=0; YD=0; XR=0; XL=1; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[LEFT]     <");}
+    else if ((adc[5] <=  399) &&  (adc[5] >=  300))  {YU=0; YD=0; XR=0; XL=1; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[LEFT]    <<");}
+    else if ((adc[5] <=  299) &&  (adc[5] >=  200))  {YU=0; YD=0; XR=0; XL=1; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[LEFT]   <<<");}
+    else if ((adc[5] <=  199) &&  (adc[5] >=  100))  {YU=0; YD=0; XR=0; XL=1; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[LEFT]  <<<<");}
+    else if ((adc[5] <=  99)  &&  (adc[5] >=    0))  {YU=0; YD=0; XR=0; XL=1; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[LEFT] <<<<<");}
+
+    else if((adc[5]  >=  600)  && (adc[5] <=  699))  {YU=0; YD=0; XR=1; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[RIGHT] >    ");}
+    else if((adc[5]  >=  700)  && (adc[5] <=  799))  {YU=0; YD=0; XR=1; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[RIGHT] >>   ");}
+    else if((adc[5]  >=  800)  && (adc[5] <=  899))  {YU=0; YD=0; XR=1; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[RIGHT] >>>  ");}
+    else if((adc[5]  >=  900)  && (adc[5] <=  999))  {YU=0; YD=0; XR=1; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[RIGHT] >>>> ");}
+    else if((adc[5]  >=  1000) && (adc[5] <=  1024)) {YU=0; YD=0; XR=1; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[RIGHT] >>>>>");}
+
+    else if((adc[4] <=  500) &&  (adc[4] >=  400)) {YU=1; YD=0; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[UP] >    ");}
+    else if((adc[4] <=  399) &&  (adc[4] >=  300)) {YU=1; YD=0; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[UP] >>   ");}
+    else if((adc[4] <=  299) &&  (adc[4] >=  200)) {YU=1; YD=0; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[UP] >>>  ");}
+    else if((adc[4] <=  199) &&  (adc[4] >=  100)) {YU=1; YD=0; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[UP] >>>> ");}
+    else if((adc[4] <=  99)  &&  (adc[4] >=  0))   {YU=1; YD=0; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[UP] >>>>>");}
+
+
+    else if((adc[4]  >=  600)   && (adc[4] <=  699))  {YU=0; YD=1; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[DOWN]     <");}
+    else if((adc[4]  >=  700)   && (adc[4] <=  799))  {YU=0; YD=1; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[DOWN]    <<");}
+    else if((adc[4]  >=  800)   && (adc[4] <=  899))  {YU=0; YD=1; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[DOWN]   <<<");}
+    else if((adc[4]  >=  900)   && (adc[4] <=  999))  {YU=0; YD=1; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[DOWN]  <<<<");}
+    else if((adc[4]  >=  1000)  && (adc[4] <=  1024)) {YU=0; YD=1; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[DOWN] <<<<<");}
+
+
+    else{YU=0; YD=0; XR=0; XL=0; ssd1306_printText(0, 7,       "         "); ssd1306_printText(0, 7, "[NONE]       ");}
+
+    if      (adc[3] ==  0) {CLICKED=1; ssd1306_printText(0, 6, "[CLICKED]");}
+    else                   {CLICKED=0; ssd1306_printText(0, 6, "         ");}
 }
