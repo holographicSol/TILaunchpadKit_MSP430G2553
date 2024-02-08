@@ -1,5 +1,6 @@
 /*
  * Joystick Analyzer: This setup increases/decreases values from approximately 0 to 500 for each direction.
+ * All calls to ssd1306_printText can be removed outside of testing purposes, leaving only desired values being populated to remain.
  */
 
 #include <msp430.h>
