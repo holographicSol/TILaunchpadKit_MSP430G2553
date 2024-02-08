@@ -76,7 +76,7 @@ void joystick_0(void){
     ac = adc[3];
 
     // Zero to 500 converter: converts two analogue values to four 0-500 numbers.
-    // An offset of 10 is also applied that accounts for a fluctuation range of 10 when my particular joy stick is idle (x=500-510, y=535-545).
+    // An offset of 10 is also applied that accounts for a fluctuation range of 10 when my particular joy stick is idle (x=500-510, y=535-545). (A software patch for hardware problem).
     if       ((ay  <=  535) && (ax  <=  500))  {x0=abs(500-ax);  x1=0;               y0=abs((500-ay));  y1=0;               ssd1306_printText(0, 7, "[ULEFT] ");}
     else if  ((ay  <=  535) && (ax  >=  510))  {x0=0;            x1=abs((ax/2)-10);  y0=abs(500-ay);    y1=0;               ssd1306_printText(0, 7, "[URIGHT]");}
     else if  ((ay  >=  545) && (ax  <=  500))  {x0=abs(500-ax);  x1=0;               y0=0;              y1=abs((ay/2)-10);  ssd1306_printText(0, 7, "[DLEFT] ");}
