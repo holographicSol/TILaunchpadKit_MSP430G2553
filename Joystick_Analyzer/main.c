@@ -94,7 +94,7 @@ void joystick_0(void){
     if (y0 < 0 ){y0=0;}      // ensure   0 minimum
     if (x1 < 0 ){x1=0;}      // ensure   0 minimum
     if (y1 < 0 ){y1=0;}      // ensure   0 minimum
-    if (y0 >= 496){y0=500;}  // in my case y goes no lower than 4 on analogue value so i will force 500 at from 496
+    if (y0 >= 496){y0=500;}  // in my case y goes no lower than 4 on analogue value so i will force 500 from 496
 
     if       (ac  ==     0)                    {c0=1;}
     else                                       {c0=0;}
