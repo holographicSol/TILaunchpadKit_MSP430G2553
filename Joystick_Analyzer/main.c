@@ -6,11 +6,19 @@
 #include "SSD1306.h"
 #include "i2c.h"
 
-int YU = 0;
-int YD = 0;
-int XL = 0;
-int XR = 0;
-int CLICKED = 0;
+int ax = 0;
+int ay = 0;
+int ac = 0;
+int x0 = 0;
+int x1 = 0;
+int y0 = 0;
+int y1 = 0;
+int c0 = 0;
+char x0_char[5];
+char x1_char[5];
+char y0_char[5];
+char y1_char[5];
+char c0_char[5];
 char vt_chara2[5];
 char vt_chara3[5];
 char vt_chara4[5];
@@ -20,6 +28,7 @@ void ser_output(char *str);
 void joystick_0(void);
 void main(void)
 {
+
     WDTCTL     = WDTPW | WDTHOLD;
     i2c_init();
     ssd1306_init();
@@ -40,44 +49,41 @@ void main(void)
         ltoa(adc[4], vt_chara3);
         ltoa(adc[3], vt_chara4);
         joystick_0();
-        ssd1306_printText(0, 2, "            ");
-        ssd1306_printText(0, 2, "A2"); ssd1306_printText(20, 2, vt_chara2);
-        ssd1306_printText(0, 3, "            ");
-        ssd1306_printText(0, 3, "A3"); ssd1306_printText(20, 3, vt_chara3);
-        ssd1306_printText(0, 4, "            ");
-        ssd1306_printText(0, 4, "A4"); ssd1306_printText(20, 4, vt_chara4);
+        ltoa(x0, x0_char);
+        ltoa(x1, x1_char);
+        ltoa(y0, y0_char);
+        ltoa(y1, y1_char);
+        ltoa(c0, c0_char);
+
+        ssd1306_printText(0, 2, "X      "); ssd1306_printText(15, 2, vt_chara2);
+        ssd1306_printText(0, 3, "X0     "); ssd1306_printText(15, 3, x0_char);
+        ssd1306_printText(0, 4, "X1     "); ssd1306_printText(15, 4, x1_char);
+
+        ssd1306_printText(45, 2, "Y      "); ssd1306_printText(60, 2, vt_chara2);
+        ssd1306_printText(45, 3, "Y0     "); ssd1306_printText(60, 3, y0_char);
+        ssd1306_printText(45, 4, "Y1     "); ssd1306_printText(60, 4, y1_char);
+
+        ssd1306_printText(90, 2, "C     ");  ssd1306_printText(100, 2, vt_chara4);
+        ssd1306_printText(90, 3, "C0    ");  ssd1306_printText(105, 3, c0_char);
         }
 }
 
-void joystick_0(void){  // tunable operators
-    if      ((adc[5] <=  500) &&  (adc[5] >=  400))  {YU=0; YD=0; XR=0; XL=1; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[LEFT]     <");}
-    else if ((adc[5] <=  399) &&  (adc[5] >=  300))  {YU=0; YD=0; XR=0; XL=1; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[LEFT]    <<");}
-    else if ((adc[5] <=  299) &&  (adc[5] >=  200))  {YU=0; YD=0; XR=0; XL=1; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[LEFT]   <<<");}
-    else if ((adc[5] <=  199) &&  (adc[5] >=  100))  {YU=0; YD=0; XR=0; XL=1; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[LEFT]  <<<<");}
-    else if ((adc[5] <=  99)  &&  (adc[5] >=    0))  {YU=0; YD=0; XR=0; XL=1; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[LEFT] <<<<<");}
+void joystick_0(void){
 
-    else if((adc[5]  >=  600)  && (adc[5] <=  699))  {YU=0; YD=0; XR=1; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[RIGHT] >    ");}
-    else if((adc[5]  >=  700)  && (adc[5] <=  799))  {YU=0; YD=0; XR=1; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[RIGHT] >>   ");}
-    else if((adc[5]  >=  800)  && (adc[5] <=  899))  {YU=0; YD=0; XR=1; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[RIGHT] >>>  ");}
-    else if((adc[5]  >=  900)  && (adc[5] <=  999))  {YU=0; YD=0; XR=1; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[RIGHT] >>>> ");}
-    else if((adc[5]  >=  1000) && (adc[5] <=  1024)) {YU=0; YD=0; XR=1; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[RIGHT] >>>>>");}
+    ax = adc[5];
+    ay = adc[4];
+    ac = adc[3];
 
-    else if((adc[4] <=  500) &&  (adc[4] >=  400)) {YU=1; YD=0; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[UP] >    ");}
-    else if((adc[4] <=  399) &&  (adc[4] >=  300)) {YU=1; YD=0; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[UP] >>   ");}
-    else if((adc[4] <=  299) &&  (adc[4] >=  200)) {YU=1; YD=0; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[UP] >>>  ");}
-    else if((adc[4] <=  199) &&  (adc[4] >=  100)) {YU=1; YD=0; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[UP] >>>> ");}
-    else if((adc[4] <=  99)  &&  (adc[4] >=  0))   {YU=1; YD=0; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[UP] >>>>>");}
-
-
-    else if((adc[4]  >=  600)   && (adc[4] <=  699))  {YU=0; YD=1; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[DOWN]     <");}
-    else if((adc[4]  >=  700)   && (adc[4] <=  799))  {YU=0; YD=1; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[DOWN]    <<");}
-    else if((adc[4]  >=  800)   && (adc[4] <=  899))  {YU=0; YD=1; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[DOWN]   <<<");}
-    else if((adc[4]  >=  900)   && (adc[4] <=  999))  {YU=0; YD=1; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[DOWN]  <<<<");}
-    else if((adc[4]  >=  1000)  && (adc[4] <=  1024)) {YU=0; YD=1; XR=0; XL=0; ssd1306_printText(0, 7, "       "); ssd1306_printText(0, 7, "[DOWN] <<<<<");}
-
-
-    else{YU=0; YD=0; XR=0; XL=0; ssd1306_printText(0, 7,       "         "); ssd1306_printText(0, 7, "[NONE]       ");}
-
-    if      (adc[3] ==  0) {CLICKED=1; ssd1306_printText(0, 6, "[CLICKED]");}
-    else                   {CLICKED=0; ssd1306_printText(0, 6, "         ");}
+    ssd1306_printText(0, 7, "                   ");
+    if      ((ay  <=  535) && (ax  <=  500)) {x0=(500-ax);  x1=0;       y0=(500-ay);  y1=0;       ssd1306_printText(0, 7, "[ULEFT] ");}
+    else if ((ay  <=  535) && (ax  >=  510)) {x0=0;         x1=(ax/2);  y0=(500-ay);  y1=0;       ssd1306_printText(0, 7, "[URIGHT]");}
+    else if ((ay  >=  545) && (ax  <=  500)) {x0=(500-ax);  x1=0;       y0=0;         y1=(ay/2);  ssd1306_printText(0, 7, "[DLEFT] ");}
+    else if ((ay  >=  545) && (ax  >=  510)) {x0=0;         x1=(ax/2);  y0=0;         y1=(ay/2);  ssd1306_printText(0, 7, "[DRIGHT]");}
+    else if (ax  <=   500)                   {x0=(500-ax);  x1=0;       y0=0;         y1=0;       ssd1306_printText(0, 7, "[LEFT]  ");}
+    else if (ax  >=   510)                   {x0=0;         x1=(ax/2);  y0=0;         y1=0;       ssd1306_printText(0, 7, "[RIGHT] ");}
+    else if (ay  <=   535)                   {x0=0;         x1=0;       y0=(500-ay);  y1=0;       ssd1306_printText(0, 7, "[UP]    ");}
+    else if (ay  >=   545)                   {x0=0;         x1=0;       y0=0;         y1=(ay/2);  ssd1306_printText(0, 7, "[DOWN]  ");}
+    else                                     {x0=0; x1=0; y0=0; y1=0;                             ssd1306_printText(0, 7, "[NONE]  ");}
+    if      (ac  ==     0)                   {c0=1;                                               }
+    else                                     {c0=0;                                               }
 }
