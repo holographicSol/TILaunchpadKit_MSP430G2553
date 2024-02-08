@@ -75,7 +75,7 @@ void joystick_0(void){
     ac = adc[3];
 
     /* Zero to 500 converter: converts two analogue values to four 0-500 numbers.
-     * This setup enables normalisation of the four values derived from the 2 analogue values.
+     * This setup enables normalisation of the four values derived from the 2 analogue values x, y.
      * TODO -> Offset calibration (my joy stick fluctuates at idle (x=505-507, y=540-541) so in my case my idle buffer range is about 10, (x=500-510, y=535-545).
      */
     if      ((ay  <=  535) && (ax  <=  500)) {x0=(500-ax);  x1=0;       y0=(500-ay);  y1=0;       ssd1306_printText(0, 7, "[ULEFT] ");}
