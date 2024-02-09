@@ -1,5 +1,5 @@
 /*
- * Analogue Joy Stick. Written by Benjamin Jack Cullen
+ * Analogue Joy Stick.
  * Map:
  *    j0_x0 = left  = range(0,500)
  *    j0_x1 = right = range(0,500)
@@ -21,6 +21,7 @@ int j0_x0 = 0;
 int j0_x1 = 0;
 int j0_y0 = 0;
 int j0_y1 = 0;
+int j0_c0 = 0;
 
 void interpret_joy_0(int j0_ax, int j0_ay, int j0_ac){
     // Zero to 500 converter: converts two analogue values to four 0-500 numbers.
@@ -43,5 +44,7 @@ void interpret_joy_0(int j0_ax, int j0_ay, int j0_ac){
     if (j0_y0 < 0 ){j0_y0=0;}      // ensure   0 minimum
     if (j0_x1 < 0 ){j0_x1=0;}      // ensure   0 minimum
     if (j0_y1 < 0 ){j0_y1=0;}      // ensure   0 minimum
-    if (j0_y0 >= 496){j0_y0=500;}  // in my case y goes no lower than 4 on analogue value so i will force 500 at from 496
+    if (j0_y0 >= 490){j0_y0=500;}  // in my case y goes no lower than 4 on analogue value so i will force 500 at from 490
+    if (j0_ac == 0){j0_c0=1;}
+    else{j0_c0=0;}
 }
