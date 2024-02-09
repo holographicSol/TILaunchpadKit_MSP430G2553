@@ -37,13 +37,13 @@ void main(void)
         j0_ax = adc[5]; j0_ay = adc[4]; j0_ac = adc[3];
         interpret_joy_0(adc[5], adc[4], adc[3]);
 
-        ssd1306_printText(0,  2, "X     ");   ssd1306_printUI32(15,  2, j0_ax, HCENTERUL_OFF, ComSep=0);
+        ssd1306_printText(0,  2, "X      ");   ssd1306_printUI32(15,  2, j0_ax, HCENTERUL_OFF, ComSep=0);
         ssd1306_printText(0,  3, "X0     ");  ssd1306_printUI32(15,  3, j0_x0, HCENTERUL_OFF, ComSep=0);
         ssd1306_printText(0,  4, "X1     ");  ssd1306_printUI32(15,  4, j0_x1, HCENTERUL_OFF, ComSep=0);
-        ssd1306_printText(45, 2, "Y     ");   ssd1306_printUI32(60,  2, j0_ay, HCENTERUL_OFF, ComSep=0);
+        ssd1306_printText(45, 2, "Y      ");   ssd1306_printUI32(60,  2, j0_ay, HCENTERUL_OFF, ComSep=0);
         ssd1306_printText(45, 3, "Y0     ");  ssd1306_printUI32(60,  3, j0_y0, HCENTERUL_OFF, ComSep=0);
         ssd1306_printText(45, 4, "Y1     ");  ssd1306_printUI32(60,  4, j0_y1, HCENTERUL_OFF, ComSep=0);
-        ssd1306_printText(90, 2, "C     ");   ssd1306_printUI32(100, 2, j0_ac, HCENTERUL_OFF, ComSep=0);
-        ssd1306_printText(90, 3, "C0   ");    ssd1306_printUI32(110, 3, j0_c0, HCENTERUL_OFF, ComSep=0);
+        ssd1306_printText(90, 2, "C      ");   ssd1306_printUI32(100, 2, j0_ac, HCENTERUL_OFF, ComSep=0);
+        ssd1306_printText(90, 3, "C0     ");    ssd1306_printUI32(110, 3, j0_c0, HCENTERUL_OFF, ComSep=0);
         }
 }
