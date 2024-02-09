@@ -10,6 +10,8 @@
 #include <string.h>
 #include "i2c.h"
 
+int ComSep;
+
 unsigned char buffer[17];                                                     // buffer for data transmission to screen
 
 /* ====================================================================
@@ -84,10 +86,10 @@ void ssd1306_clearDisplay(void);
 void ssd1306_setPosition(uint8_t, uint8_t);
 void ssd1306_printText(uint8_t, uint8_t, char *);
 void ssd1306_printTextBlock(uint8_t, uint8_t, char *);
-void ssd1306_printUI32(uint8_t, uint8_t, uint32_t, uint8_t);
+void ssd1306_printUI32(uint8_t, uint8_t, uint32_t, uint8_t, int);
 
 uint8_t digits(uint32_t);
-void ultoa(uint32_t, char *);
+void ultoa(uint32_t, char *, int);
 void reverse(char *);
 
 #endif /* SSD1306_H_ */
