@@ -1,5 +1,5 @@
 /*
- * Analogue Joy Stick.
+ * Analogue Joy Stick. Written by Benjamin Jack Cullen
  * Map:
  *    j0_x0 = left  = range(0,500)
  *    j0_x1 = right = range(0,500)
