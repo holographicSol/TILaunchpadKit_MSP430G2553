@@ -45,6 +45,6 @@ void interpret_joy_0(int j0_ax, int j0_ay, int j0_ac){
     if (j0_y0 <= (0+xyminmaxstabalizer))  {j0_y0=0;}             // sanitise minimum: 0 minimum
     if (j0_x1 <= (0+xyminmaxstabalizer))  {j0_x1=0;}             // sanitise minimum: 0 minimum
     if (j0_y1 <= (0+xyminmaxstabalizer))  {j0_y1=0;}             // sanitise minimum: 0 minimum
-    if (j0_ac == 0)  {j0_c0=1;}    // zero one logic for click
+    if (j0_ac == 0)  {j0_c0=1;}                                  // zero one logic for click
     else{j0_c0=0;}
 }
