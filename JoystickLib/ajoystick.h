@@ -14,14 +14,14 @@
 #include <string.h>
 #include <math.h>
 
-int j0_ax = 0;
-int j0_ay = 0;
-int j0_ac = 0;
-int j0_x0 = 0;
-int j0_x1 = 0;
-int j0_y0 = 0;
-int j0_y1 = 0;
-int j0_c0 = 0;
+int j0_ax = 0;  // analogue x axis
+int j0_ay = 0;  // analogue y axis
+int j0_ac = 0;  // analogue click
+int j0_x0 = 0;  // left     0-500
+int j0_x1 = 0;  // right    0-500
+int j0_y0 = 0;  // up       0-500
+int j0_y1 = 0;  // down     0-500
+int j0_c0 = 0;  // clicked  zero/one
 
 void interpret_joy_0(int j0_ax, int j0_ay, int j0_ac){
     // Zero to 500 converter: converts two analogue values to four 0-500 numbers.
