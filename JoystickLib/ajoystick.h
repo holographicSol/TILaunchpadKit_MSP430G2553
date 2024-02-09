@@ -25,7 +25,7 @@ int j0_y1 = 0;
 void interpret_joy_0(int j0_ax, int j0_ay, int j0_ac){
     // Zero to 500 converter: converts two analogue values to four 0-500 numbers.
     // An offset of 10 is also applied that accounts for a fluctuation range of 10 when my particular joy stick is idle (x=500-510, y=535-545). (A software patch for hardware problem).
-    if       ((j0_ay  <=  535) && (j0_ax  <=  500))  {j0_x0=abs(500-j0_ax);  j0_x1=0;                  j0_y0=abs((500-j0_ay));  j0_y1=0;}
+    if       ((j0_ay  <=  535) && (j0_ax  <=  500))  {j0_x0=abs(500-j0_ax);  j0_x1=0;                  j0_y0=abs(500-j0_ay);    j0_y1=0;}
     else if  ((j0_ay  <=  535) && (j0_ax  >=  510))  {j0_x0=0;               j0_x1=abs((j0_ax/2)-10);  j0_y0=abs(500-j0_ay);    j0_y1=0;}
     else if  ((j0_ay  >=  545) && (j0_ax  <=  500))  {j0_x0=abs(500-j0_ax);  j0_x1=0;                  j0_y0=0;                 j0_y1=abs((j0_ay/2)-10);}
     else if  ((j0_ay  >=  545) && (j0_ax  >=  510))  {j0_x0=0;               j0_x1=abs((j0_ax/2)-10);  j0_y0=0;                 j0_y1=abs((j0_ay/2)-10);}
