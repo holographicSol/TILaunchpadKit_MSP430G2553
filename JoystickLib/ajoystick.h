@@ -6,7 +6,7 @@
 #include <string.h>
 #include <math.h>
 
-// --- ---------------------------------------------calibration start
+// --------------------------------------------------- calibration start
 const int xyresolution       = 500;                 // ideally 512 however for lower precision joy sticks we can trade some resolution for stabilisation. resolution should be approximately proportional to offset
 const int xidlemin           = 500;                 // stabilise no x input using an x idle minimum
 const int xidlemax           = 510;                 // stabilise no x input using an x idle minimum
@@ -15,7 +15,7 @@ const int yidlemax           = 545;                 // stabilise no y input usin
 const int x_offset           = (xidlemax-xidlemin); // idle range between x idle minimum and x idle maximum
 const int y_offset           = (yidlemax-yidlemin); // idle range between y idle minimum and y idle maximum
 const int xyminmaxstabalizer = 10;                  // stabilise x,y minimum and max input
-// --- ---------------------------------------------calibration  end
+// --------------------------------------------------- calibration  end
 int j0_ax = 0;  // analogue x axis
 int j0_ay = 0;  // analogue y axis
 int j0_ac = 0;  // analogue click
