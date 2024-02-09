@@ -35,14 +35,14 @@ void interpret_joy_0(int j0_ax, int j0_ay, int j0_ac){
     else if  (j0_ay   >=  yidlemax)                            {j0_x0=0;                        j0_x1=0;                        j0_y0=0;                          j0_y1=abs((j0_ay/2)-y_offset);}
     else                                                       {j0_x0=0;                        j0_x1=0;                        j0_y0=0;                          j0_y1=0;}
     // sanitise: ensures values are between 0 and 500 and also adds stability for max and minimum when values in range of max and minimum
-    if (j0_x0 >= (500-xyminmaxstabalizer)){j0_x0=500;}  // sanitise max:     500 max
-    if (j0_y0 >= (500-xyminmaxstabalizer)){j0_y0=500;}  // sanitise max:     500 max
-    if (j0_x1 >= (500-xyminmaxstabalizer)){j0_x1=500;}  // sanitise max:     500 max
-    if (j0_y1 >= (500-xyminmaxstabalizer)){j0_y1=500;}  // sanitise max:     500 max
-    if (j0_x0 <= (0+xyminmaxstabalizer))  {j0_x0=0;}    // sanitise minimum: 0 minimum
-    if (j0_y0 <= (0+xyminmaxstabalizer))  {j0_y0=0;}    // sanitise minimum: 0 minimum
-    if (j0_x1 <= (0+xyminmaxstabalizer))  {j0_x1=0;}    // sanitise minimum: 0 minimum
-    if (j0_y1 <= (0+xyminmaxstabalizer))  {j0_y1=0;}    // sanitise minimum: 0 minimum
+    if (j0_x0 >= (500-xyminmaxstabalizer)){j0_x0=xyresolution;}  // sanitise max:     n max
+    if (j0_y0 >= (500-xyminmaxstabalizer)){j0_y0=xyresolution;}  // sanitise max:     n max
+    if (j0_x1 >= (500-xyminmaxstabalizer)){j0_x1=xyresolution;}  // sanitise max:     n max
+    if (j0_y1 >= (500-xyminmaxstabalizer)){j0_y1=xyresolution;}  // sanitise max:     n max
+    if (j0_x0 <= (0+xyminmaxstabalizer))  {j0_x0=0;}             // sanitise minimum: 0 minimum
+    if (j0_y0 <= (0+xyminmaxstabalizer))  {j0_y0=0;}             // sanitise minimum: 0 minimum
+    if (j0_x1 <= (0+xyminmaxstabalizer))  {j0_x1=0;}             // sanitise minimum: 0 minimum
+    if (j0_y1 <= (0+xyminmaxstabalizer))  {j0_y1=0;}             // sanitise minimum: 0 minimum
     if (j0_ac == 0)  {j0_c0=1;}    // zero one logic for click
     else{j0_c0=0;}
 }
