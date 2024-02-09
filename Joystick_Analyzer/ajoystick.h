@@ -35,16 +35,15 @@ void interpret_joy_0(int j0_ax, int j0_ay, int j0_ac){
     else if  (j0_ay   <=  535)                       {j0_x0=0;               j0_x1=0;                  j0_y0=abs(500-j0_ay);    j0_y1=0;}
     else if  (j0_ay   >=  545)                       {j0_x0=0;               j0_x1=0;                  j0_y0=0;                 j0_y1=abs((j0_ay/2)-10);}
     else                                             {j0_x0=0;               j0_x1=0;                  j0_y0=0;                 j0_y1=0;}
-    // sanitise the normalisation (again joy stick specific, may not be necessary depending on quality of joy stick). this does not report corrections, only corrects:
-    if (j0_x0 > 500 ){j0_x0=500;}  // ensure 500 max
-    if (j0_y0 > 500 ){j0_y0=500;}  // ensure 500 max
-    if (j0_x1 > 500 ){j0_x1=500;}  // ensure 500 max
-    if (j0_y1 > 500 ){j0_y1=500;}  // ensure 500 max
-    if (j0_x0 < 0 ){j0_x0=0;}      // ensure   0 minimum
-    if (j0_y0 < 0 ){j0_y0=0;}      // ensure   0 minimum
-    if (j0_x1 < 0 ){j0_x1=0;}      // ensure   0 minimum
-    if (j0_y1 < 0 ){j0_y1=0;}      // ensure   0 minimum
-    if (j0_y0 >= 490){j0_y0=500;}  // in my case y goes no lower than 4 on analogue value so i will force 500 at from 490
-    if (j0_ac == 0){j0_c0=1;}
+    // sanitise: ensures values are between 0 and 500 and also adds stability for max and minimum when values in range of max and minimum
+    if (j0_x0 >= 490){j0_x0=500;}  // sanitise max:     500 max
+    if (j0_y0 >= 490){j0_y0=500;}  // sanitise max:     500 max
+    if (j0_x1 >= 490){j0_x1=500;}  // sanitise max:     500 max
+    if (j0_y1 >= 490){j0_y1=500;}  // sanitise max:     500 max
+    if (j0_x0 <= 10) {j0_x0=0;}    // sanitise minimum: 0 minimum
+    if (j0_y0 <= 10) {j0_y0=0;}    // sanitise minimum: 0 minimum
+    if (j0_x1 <= 10) {j0_x1=0;}    // sanitise minimum: 0 minimum
+    if (j0_y1 <= 10) {j0_y1=0;}    // sanitise minimum: 0 minimum
+    if (j0_ac == 0)  {j0_c0=1;}    // zero one logic for click
     else{j0_c0=0;}
 }
