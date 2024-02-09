@@ -26,7 +26,7 @@ int j0_y1                    = 0;                    // mapped down:    0-500
 int j0_c0                    = 0;                    // mapped clicked: zero/one
 
 void interpret_joy_0(int j0_ax, int j0_ay, int j0_ac){
-    // mapping: converts two analogue values to four numbers between 0 and 500.
+    // mapping: converts two analogue values to four numbers between 0 and 500 and converts one analogue number to zero or one.
     if       ((j0_ay  <=  yidlemin) && (j0_ax  <=  xidlemin))  {j0_x0=abs(xyresolution-j0_ax);  j0_x1=0;                                   j0_y0=abs(xyresolution-j0_ay);    j0_y1=0;}                                   // left up
     else if  ((j0_ay  <=  yidlemin) && (j0_ax  >=  xidlemax))  {j0_x0=0;                        j0_x1=abs((j0_ax-xyresolution)-x_offset);  j0_y0=abs(xyresolution-j0_ay);    j0_y1=0;}                                   // right up
     else if  ((j0_ay  >=  yidlemax) && (j0_ax  <=  xidlemin))  {j0_x0=abs(xyresolution-j0_ax);  j0_x1=0;                                   j0_y0=0;                          j0_y1=abs((j0_ay-xyresolution)-y_offset);}  // left down
@@ -35,7 +35,8 @@ void interpret_joy_0(int j0_ax, int j0_ay, int j0_ac){
     else if  (j0_ax   >=  xidlemax)                            {j0_x0=0;                        j0_x1=(j0_ax-xyresolution)-x_offset;       j0_y0=0;                          j0_y1=0;}                                   // right
     else if  (j0_ay   <=  yidlemin)                            {j0_x0=0;                        j0_x1=0;                                   j0_y0=abs(xyresolution-j0_ay);    j0_y1=0;}                                   // up
     else if  (j0_ay   >=  yidlemax)                            {j0_x0=0;                        j0_x1=0;                                   j0_y0=0;                          j0_y1=abs((j0_ay-xyresolution)-y_offset);}  // down
-    else                                                       {j0_x0=0;                        j0_x1=0;                                   j0_y0=0;                          j0_y1=0;}
+    else                                                       {j0_x0=0;                        j0_x1=0;                                   j0_y0=0;                          j0_y1=0;}                                   // none
+    if(j0_ac == 0){j0_c0=1;} else{j0_c0=0;}                                                                                                                                                                              // click
 
     // sanitise: ensures values are between 0 and 500 and add stability for max and minimum when values in range of max and minimum.
     if (j0_x0 >= (xyresolution))                     {j0_x0=xyresolution;}  // sanitise max:     n max
@@ -46,6 +47,4 @@ void interpret_joy_0(int j0_ax, int j0_ay, int j0_ac){
     if (j0_y0 <= (0+xyminmaxstabalizer))             {j0_y0=0;}             // sanitise minimum: 0 minimum
     if (j0_x1 <= (0+xyminmaxstabalizer))             {j0_x1=0;}             // sanitise minimum: 0 minimum
     if (j0_y1 <= (0+xyminmaxstabalizer))             {j0_y1=0;}             // sanitise minimum: 0 minimum
-    if (j0_ac == 0)                                  {j0_c0=1;}             // clicked:          zero/one
-    else{j0_c0=0;}
 }
