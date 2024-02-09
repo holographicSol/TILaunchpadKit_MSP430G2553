@@ -1,6 +1,6 @@
 /*
- * Joystick Analyzer: This setup increases/decreases values from approximately 0 to 500 for each direction.
- * All calls to ssd1306_printText can be removed outside of testing purposes, leaving only desired values being populated to remain.
+ * Joy Stick Analyzer: For calibrating ajoystick.h library.
+ *
  */
 #include <msp430.h>
 #include <stdlib.h>
@@ -12,7 +12,6 @@
 #include <ajoystick.h>
 
 unsigned int adc[8];
-
 void joystick_0(void);
 void main(void)
 {
@@ -33,10 +32,8 @@ void main(void)
         while (ADC10CTL1 & BUSY);
         ADC10CTL0 |= ENC + ADC10SC;
         ADC10SA = (unsigned int)adc;
-
         j0_ax = adc[5]; j0_ay = adc[4]; j0_ac = adc[3];
-        interpret_joy_0(adc[5], adc[4], adc[3]);
-
+        interpret_joy(adc[5], adc[4], adc[3], 500, 500, 510, 535, 545, 10, 0);
         ssd1306_printText(0,  2, "X      ");   ssd1306_printUI32(15,  2, j0_ax, HCENTERUL_OFF, ComSep=0);
         ssd1306_printText(0,  3, "X0     ");  ssd1306_printUI32(15,  3, j0_x0, HCENTERUL_OFF, ComSep=0);
         ssd1306_printText(0,  4, "X1     ");  ssd1306_printUI32(15,  4, j0_x1, HCENTERUL_OFF, ComSep=0);
