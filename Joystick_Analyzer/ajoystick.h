@@ -1,5 +1,5 @@
 /*
- * Analogue Joy Stick.
+ * Analogue Joy Stick. Written by Benjamin Jack Cullen.
  * j0: Joy stick zero. This library can be reproduced with j0 replaced with jN for more Joy Sticks.
  */
 #include <stdlib.h>
