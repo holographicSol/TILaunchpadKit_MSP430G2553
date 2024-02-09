@@ -16,14 +16,14 @@ const int x_offset           = (xidlemax-xidlemin);  // idle range between x idl
 const int y_offset           = (yidlemax-yidlemin);  // idle range between y idle minimum and y idle maximum.       (high-end=0)    (sets automatically)
 const int xyminmaxstabalizer = 10;                   // stabilise x,y minimum and max input                         (high-end=0)
 // ---------------------------------------------------- calibration end.
-int j0_ax                    = 0;  // raw analogue:   x axis
-int j0_ay                    = 0;  // raw analogue:   y axis
-int j0_ac                    = 0;  // raw analogue:   click
-int j0_x0                    = 0;  // mapped left:    0-500
-int j0_x1                    = 0;  // mapped right:   0-500
-int j0_y0                    = 0;  // mapped up:      0-500
-int j0_y1                    = 0;  // mapped down:    0-500
-int j0_c0                    = 0;  // mapped clicked: zero/one
+int j0_ax                    = 0;                    // raw analogue:   x axis
+int j0_ay                    = 0;                    // raw analogue:   y axis
+int j0_ac                    = 0;                    // raw analogue:   click
+int j0_x0                    = 0;                    // mapped left:    0-500
+int j0_x1                    = 0;                    // mapped right:   0-500
+int j0_y0                    = 0;                    // mapped up:      0-500
+int j0_y1                    = 0;                    // mapped down:    0-500
+int j0_c0                    = 0;                    // mapped clicked: zero/one
 
 void interpret_joy_0(int j0_ax, int j0_ay, int j0_ac){
     // mapping: converts two analogue values to four numbers between 0 and 500.
