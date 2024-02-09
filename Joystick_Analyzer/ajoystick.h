@@ -31,9 +31,9 @@ void interpret_joy_0(int j0_ax, int j0_ay, int j0_ac){
     else if  ((j0_ay  <=  yidlemin) && (j0_ax  >=  xidlemax))  {j0_x0=0;                        j0_x1=abs((j0_ax-xyresolution)-x_offset);  j0_y0=abs(xyresolution-j0_ay);    j0_y1=0;}                                   // right up
     else if  ((j0_ay  >=  yidlemax) && (j0_ax  <=  xidlemin))  {j0_x0=abs(xyresolution-j0_ax);  j0_x1=0;                                   j0_y0=0;                          j0_y1=abs((j0_ay-xyresolution)-y_offset);}  // left down
     else if  ((j0_ay  >=  yidlemax) && (j0_ax  >=  xidlemax))  {j0_x0=0;                        j0_x1=abs((j0_ax-xyresolution)-x_offset);  j0_y0=0;                          j0_y1=abs((j0_ay-xyresolution)-y_offset);}  // right down
-    if       (j0_ax   <=  xidlemin)                            {j0_x0=abs(xyresolution-j0_ax);  j0_x1=0;                                   j0_y0=0;                          j0_y1=0;}                                   // left
+    else if  (j0_ax   <=  xidlemin)                            {j0_x0=abs(xyresolution-j0_ax);  j0_x1=0;                                   j0_y0=0;                          j0_y1=0;}                                   // left
     else if  (j0_ax   >=  xidlemax)                            {j0_x0=0;                        j0_x1=(j0_ax-xyresolution)-x_offset;       j0_y0=0;                          j0_y1=0;}                                   // right
-    if       (j0_ay   <=  yidlemin)                            {j0_x0=0;                        j0_x1=0;                                   j0_y0=abs(xyresolution-j0_ay);    j0_y1=0;}                                   // up
+    else if  (j0_ay   <=  yidlemin)                            {j0_x0=0;                        j0_x1=0;                                   j0_y0=abs(xyresolution-j0_ay);    j0_y1=0;}                                   // up
     else if  (j0_ay   >=  yidlemax)                            {j0_x0=0;                        j0_x1=0;                                   j0_y0=0;                          j0_y1=abs((j0_ay-xyresolution)-y_offset);}  // down
     else                                                       {j0_x0=0;                        j0_x1=0;                                   j0_y0=0;                          j0_y1=0;}
 
