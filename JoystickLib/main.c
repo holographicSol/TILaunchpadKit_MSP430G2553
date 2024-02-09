@@ -1,6 +1,6 @@
 /*
- * Joystick Analyzer: This setup increases/decreases values from approximately 0 to 500 for each direction.
- * All calls to ssd1306_printText can be removed outside of testing purposes, leaving only desired values being populated to remain.
+ * Joystick Lib Example.
+ * Populate x0(left), x1(right), y0(up), y1(down) ac(clicked=0) with values from 0 to 500 with function call: interpret_joy_0
  */
 #include <msp430.h>
 #include <stdlib.h>
