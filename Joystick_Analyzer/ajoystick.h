@@ -66,6 +66,6 @@ void interpret_joy(int jx_ax, int jx_ay, int jx_ac, int xyresolution, int xidlem
     if (jx_x1 <= (0+xyminmaxstabalizer))             {jx_x1=0;}             // sanitise minimum: 0 minimum
     if (jx_y1 <= (0+xyminmaxstabalizer))             {jx_y1=0;}             // sanitise minimum: 0 minimum
 
-    // ----- set values for joy stick selected: copy/paste this statement for more joy.
+    // ----- set values for joy stick selected: copy/paste this statement as jN and joy stick selected for more joy.
     if      (joystickselect==0){j0_x0=jx_x0; j0_x1=jx_x1; j0_y0=jx_y0; j0_y1=jx_y1; j0_c0=jx_c0;}
 }
