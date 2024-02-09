@@ -27,18 +27,14 @@ int j0_c0                    = 0;                    // mapped clicked: zero/one
 
 void interpret_joy_0(int j0_ax, int j0_ay, int j0_ac){
     // mapping: converts two analogue values to four numbers between 0 and 500.
-    if       ((j0_ay  <=  yidlemin) && (j0_ax  <=  xidlemin))  {j0_x0=abs(xyresolution-j0_ax);  j0_x1=0;                        j0_y0=abs(xyresolution-j0_ay);    j0_y1=0;}                        // left up
-    else if  ((j0_ay  <=  yidlemin) && (j0_ax  >=  xidlemax))  {j0_x0=0;                        j0_x1=abs((j0_ax/2)-x_offset);  j0_y0=abs(xyresolution-j0_ay);    j0_y1=0;}                        // right up
-    else if  ((j0_ay  >=  yidlemax) && (j0_ax  <=  xidlemin))  {j0_x0=abs(xyresolution-j0_ax);  j0_x1=0;                        j0_y0=0;                          j0_y1=abs((j0_ay/2)-y_offset);}  // left down
-    else if  ((j0_ay  >=  yidlemax) && (j0_ax  >=  xidlemax))  {j0_x0=0;                        j0_x1=abs((j0_ax/2)-x_offset);  j0_y0=0;                          j0_y1=abs((j0_ay/2)-y_offset);}  // right down
-
-
+    if       ((j0_ay  <=  yidlemin) && (j0_ax  <=  xidlemin))  {j0_x0=abs(xyresolution-j0_ax);  j0_x1=0;                              j0_y0=abs(xyresolution-j0_ay);    j0_y1=0;}                        // left up
+    else if  ((j0_ay  <=  yidlemin) && (j0_ax  >=  xidlemax))  {j0_x0=0;                        j0_x1=abs((j0_ax/2)-x_offset);        j0_y0=abs(xyresolution-j0_ay);    j0_y1=0;}                        // right up
+    else if  ((j0_ay  >=  yidlemax) && (j0_ax  <=  xidlemin))  {j0_x0=abs(xyresolution-j0_ax);  j0_x1=0;                              j0_y0=0;                          j0_y1=abs((j0_ay/2)-y_offset);}  // left down
+    else if  ((j0_ay  >=  yidlemax) && (j0_ax  >=  xidlemax))  {j0_x0=0;                        j0_x1=abs((j0_ax/2)-x_offset);        j0_y0=0;                          j0_y1=abs((j0_ay/2)-y_offset);}  // right down
     else if  (j0_ax   <=  xidlemin)                            {j0_x0=abs(xyresolution-j0_ax);  j0_x1=0;                              j0_y0=0;                          j0_y1=0;}                        // left
     else if  (j0_ax   >=  xidlemax)                            {j0_x0=0;                        j0_x1=(j0_ax-xyresolution)-x_offset;  j0_y0=0;                          j0_y1=0;}                        // right
-
     else if  (j0_ay   <=  yidlemin)                            {j0_x0=0;                        j0_x1=0;                              j0_y0=abs(xyresolution-j0_ay);    j0_y1=0;}                        // up
     else if  (j0_ay   >=  yidlemax)                            {j0_x0=0;                        j0_x1=0;                              j0_y0=0;                          j0_y1=abs((j0_ay-xyresolution)-y_offset);}  // down
-
     else                                                       {j0_x0=0;                        j0_x1=0;                              j0_y0=0;                          j0_y1=0;}
 
     // sanitise: ensures values are between 0 and 500 and add stability for max and minimum when values in range of max and minimum.
