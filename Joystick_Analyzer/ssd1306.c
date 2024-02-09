@@ -161,10 +161,10 @@ void ssd1306_printTextBlock(uint8_t x, uint8_t y, char *ptString) {
 }
 
 
-void ssd1306_printUI32( uint8_t x, uint8_t y, uint32_t val, uint8_t Hcenter ) {
+void ssd1306_printUI32( uint8_t x, uint8_t y, uint32_t val, uint8_t Hcenter, int ComSep) {
     char text[14];
 
-    ultoa(val, text);
+    ultoa(val, text, ComSep);
     if (Hcenter) {
         ssd1306_printText(HcenterUL[digits(val)], y, text);
     } else {
@@ -196,17 +196,17 @@ uint8_t digits(uint32_t n) {
     }
 } // end digits
 
-void ultoa(uint32_t val, char *string) {
+void ultoa(uint32_t val, char *string, int ComSep) {
     uint8_t i = 0;
     uint8_t j = 0;
                                                                         // use do loop to convert val to string
     do {
-        if (j==3) {                                                     // we have reached a separator position
+        if ((j==3)&&(ComSep==1)) {                                                     // we have reached a separator position
             string[i++] = ',';                                          // add a separator to the number string
             j=0;                                                        // reset separator indexer thingy
         }
-            string[i++] = val%10 + '0';                                 // add the ith digit to the number string
-            j++;                                                        // increment counter to keep track of separator placement
+        string[i++] = val%10 + '0';                                     // add the ith digit to the number string
+        j++;                                                            // increment counter to keep track of separator placement
     } while ((val/=10) > 0);
 
     string[i++] = '\0';                                                 // add termination to string
