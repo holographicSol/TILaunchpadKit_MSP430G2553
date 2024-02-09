@@ -25,7 +25,7 @@ void main(void)
         while (ADC10CTL1 & BUSY);
         ADC10CTL0 |= ENC + ADC10SC;
         ADC10SA = (unsigned int)adc;
-        interpret_joy_0(adc[5], adc[4], adc[3]);
+        interpret_joy(adc[5], adc[4], adc[3], 500, 500, 510, 535, 545, 10, 0);
         // do stuff with x0,x1,y0,y1,ac...
         }
 }
