@@ -1,12 +1,5 @@
 /*
- * Analogue Joy Stick.
- * Map:
- *    j0_x0 = left  = range(0,500)
- *    j0_x1 = right = range(0,500)
- *    j0_y0 = up    = range(0,500)
- *    j0_y1 = down  = range(0,500)
- *    j0_ac = click =            0 = clicked
- *
+ * Analogue Joy Stick. Written by Benjamin Jack Cullen.
  * j0: Joy stick zero. This library can be reproduced with j0 replaced with jN for more Joy Sticks.
  */
 #include <stdlib.h>
