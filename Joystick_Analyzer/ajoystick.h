@@ -6,24 +6,24 @@
 #include <string.h>
 #include <math.h>
 
-// --------------------------------------------------- calibration start
-const int xyresolution       = 500;                 // ideally 512 however for lower precision joy sticks we can trade some resolution for stabilisation. resolution should be approximately proportional to offset
-const int xidlemin           = 500;                 // stabilise no x input using an x idle minimum
-const int xidlemax           = 510;                 // stabilise no x input using an x idle minimum
-const int yidlemin           = 535;                 // stabilise no y input using an y idle minimum
-const int yidlemax           = 545;                 // stabilise no y input using an y idle max
-const int x_offset           = (xidlemax-xidlemin); // idle range between x idle minimum and x idle maximum
-const int y_offset           = (yidlemax-yidlemin); // idle range between y idle minimum and y idle maximum
-const int xyminmaxstabalizer = 10;                  // stabilise x,y minimum and max input
-// --------------------------------------------------- calibration  end
-int j0_ax = 0;  // analogue x axis
-int j0_ay = 0;  // analogue y axis
-int j0_ac = 0;  // analogue click
-int j0_x0 = 0;  // left     0-500
-int j0_x1 = 0;  // right    0-500
-int j0_y0 = 0;  // up       0-500
-int j0_y1 = 0;  // down     0-500
-int j0_c0 = 0;  // clicked  zero/one
+// ---------------------------------------------------- calibration start
+const int xyresolution       = 500;                  // ideally 512 however for lower precision joy sticks we can trade some resolution for stabilisation. resolution should be approximately proportional to offset
+const int xidlemin           = 500;                  // stabilise no x input using an x idle minimum
+const int xidlemax           = 510;                  // stabilise no x input using an x idle minimum
+const int yidlemin           = 535;                  // stabilise no y input using an y idle minimum
+const int yidlemax           = 545;                  // stabilise no y input using an y idle max
+const int x_offset           = (xidlemax-xidlemin);  // idle range between x idle minimum and x idle maximum
+const int y_offset           = (yidlemax-yidlemin);  // idle range between y idle minimum and y idle maximum
+const int xyminmaxstabalizer = 10;                   // stabilise x,y minimum and max input
+// ---------------------------------------------------- calibration  end
+int j0_ax                    = 0;  // analogue x axis
+int j0_ay                    = 0;  // analogue y axis
+int j0_ac                    = 0;  // analogue click
+int j0_x0                    = 0;  // left     0-500
+int j0_x1                    = 0;  // right    0-500
+int j0_y0                    = 0;  // up       0-500
+int j0_y1                    = 0;  // down     0-500
+int j0_c0                    = 0;  // clicked  zero/one
 
 void interpret_joy_0(int j0_ax, int j0_ay, int j0_ac){
     // mapping: converts two analogue values to four 0-500 numbers.
