@@ -10,7 +10,8 @@
  *                           (w) a single analogue joy stick.
  *                           (x) multiple analogue joy sticks, each overwriting stick zero place holder values.
  *                           (y) multiple analogue joy sticks using their own place holder values.
- *                           (z) 0-N input values that can be used as 'if not zero' and or as 'if input value specifically in N range or equal to N'.
+ *                           (z) 0-N input values that can be used as 'if not zero' (is left/right/up/down) and or as
+ *                               'if input value for left/right/up/down specifically in N range or equal to N'.
  */
 #include <stdlib.h>
 #include <stdio.h>
