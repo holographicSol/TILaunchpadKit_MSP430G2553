@@ -33,7 +33,7 @@ void main(void)
         ADC10CTL0 |= ENC + ADC10SC;
         ADC10SA = (unsigned int)adc;
         j0_ax = adc[5]; j0_ay = adc[4]; j0_ac = adc[3];
-        interpret_joy(adc[5], adc[4], adc[3], 500, 500, 510, 535, 545, 10, 0);
+        interpret_joy(adc[5], adc[4], adc[3], 500, 490, 510, 530, 550, 10, 0);
         ssd1306_printText(0,  2, "X      ");  ssd1306_printUI32(15,  2, j0_ax, HCENTERUL_OFF, ComSep=0);
         ssd1306_printText(0,  3, "X0     ");  ssd1306_printUI32(15,  3, j0_x0, HCENTERUL_OFF, ComSep=0);
         ssd1306_printText(0,  4, "X1     ");  ssd1306_printUI32(15,  4, j0_x1, HCENTERUL_OFF, ComSep=0);
