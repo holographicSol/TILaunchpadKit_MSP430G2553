@@ -4,11 +4,11 @@
  * 1: copy/paste joy stick value place holders.
  * 2: copy/paste set joy stick value place holders.
  * 3: call interpret_joy with adc values for a joy stick, joy stick calibration and joy stick selected.
- * This library is setup for different requirements like (a) one joy stick (b) multiple joy sticks (c) memory requirements,
+ * This library is setup for different requirements like: (a) one joy stick (b) multiple joy sticks (c) memory requirements,
  * by facilitating the following:
  *                           (x) a single analogue joy stick.
  *                           (y) multiple analogue joy sticks, each overwriting stick zero place holder values.
- *                           (z) multiple analogue joy sticks using their own place holders.
+ *                           (z) multiple analogue joy sticks using their own place holder values.
  */
 #include <stdlib.h>
 #include <stdio.h>
