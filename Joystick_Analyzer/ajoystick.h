@@ -81,7 +81,8 @@ void interpret_joy(int jx_ax, int jx_ay, int jx_ac, int xyresolution, int xidlem
     if (jx_x1 <= (0+xyminmaxstabalizer))             {jx_x1=0;}             // sanitise minimum: 0 minimum
     if (jx_y1 <= (0+xyminmaxstabalizer))             {jx_y1=0;}             // sanitise minimum: 0 minimum
 
-    // set force: third abstraction layer creates predefined ranges of 'force'. relative degrees of force are predicated upon joy stick stability, reasonable user ability and resolution divisibility.
+    // set force: third abstraction layer creates predefined ranges of 'force'. relative degrees of force are predicated upon joy stick stability, reasonable user ability and resolution divisibility,
+    // meaning degrees of force can be further divided or less divided. update may result in degrees of force range 20 instead of 50, providing further degrees of force.
     if     ((jx_x0 > 0)  &&(jx_x0 <= 50 )){jx_x2=1;} else if((jx_x0 > 50) &&(jx_x0 <= 100)){jx_x2=1;} else if((jx_x0 > 100)&&(jx_x0 <= 150)){jx_x2=2;} else if((jx_x0 > 150)&&(jx_x0 <= 200)){jx_x2=3;}
     else if((jx_x0 > 200)&&(jx_x0 <= 250)){jx_x2=4;} else if((jx_x0 > 250)&&(jx_x0 <= 300)){jx_x2=5;} else if((jx_x0 > 300)&&(jx_x0 <= 350)){jx_x2=6;} else if((jx_x0 > 350)&&(jx_x0 <= 400)){jx_x2=7;}
     else if((jx_x0 > 400)&&(jx_x0 <= 450)){jx_x2=8;} else if((jx_x0 > 450)&&(jx_x0 <= 500)){jx_x2=8;} else if((jx_x0 > 500)&&(jx_x0 <= 550)){jx_x2=9;} else if(jx_x0==0){jx_x2=0;}
