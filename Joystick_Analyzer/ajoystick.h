@@ -1,17 +1,11 @@
 /*
- * Analogue Joy Stick. Written by Benjamin Jack Cullen.
- * Designed for multiple joy sticks.
- * 1: copy/paste joy stick value place holders.
- * 2: copy/paste set joy stick value place holders.
- * 3: call interpret_joy with adc values for a joy stick, joy stick calibration and joy stick selected.
- * This library is setup for different requirements like: (a) one joy stick (b) multiple joy sticks (c) memory requirements,
- * (d) precision as in N on or N off or is input exactly N or in range or N?
- * by facilitating the following:
- *                           (w) a single analogue joy stick.
- *                           (x) multiple analogue joy sticks, each overwriting stick zero place holder values.
- *                           (y) multiple analogue joy sticks using their own place holder values.
- *                           (z) 0-N input values that can be used as 'if not zero' (is left/right/up/down) and or as
- *                               'if input value for left/right/up/down specifically in N range or equal to N'.
+ * AJoyStick - Heavy - Written by Benjamin Jack Cullen
+ *
+ * Multiple Joy Sticks      Yes
+ * Dynamic Range            Yes
+ * Force                    Yes
+ * Stabilisation            Yes
+ *
  */
 #include <stdlib.h>
 #include <stdio.h>
