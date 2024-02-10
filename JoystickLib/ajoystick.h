@@ -5,10 +5,12 @@
  * 2: copy/paste set joy stick value place holders.
  * 3: call interpret_joy with adc values for a joy stick, joy stick calibration and joy stick selected.
  * This library is setup for different requirements like: (a) one joy stick (b) multiple joy sticks (c) memory requirements,
+ * (d) precision as in all on all off or is input some degree between some range?
  * by facilitating the following:
- *                           (x) a single analogue joy stick.
- *                           (y) multiple analogue joy sticks, each overwriting stick zero place holder values.
- *                           (z) multiple analogue joy sticks using their own place holder values.
+ *                           (w) a single analogue joy stick.
+ *                           (x) multiple analogue joy sticks, each overwriting stick zero place holder values.
+ *                           (y) multiple analogue joy sticks using their own place holder values.
+ *                           (z) 0-N input values that can be used as 'if not zero' and or as 'if input value specifically in N range or equal to N'.
  */
 #include <stdlib.h>
 #include <stdio.h>
