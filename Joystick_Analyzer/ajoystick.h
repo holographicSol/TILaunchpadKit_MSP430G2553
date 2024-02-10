@@ -86,15 +86,12 @@ void interpret_joy(int jx_ax, int jx_ay, int jx_ac, int xyresolution, int xidlem
     if     ((jx_x0 > 0)  &&(jx_x0 <= 50 )){jx_x2=1;} else if((jx_x0 > 50) &&(jx_x0 <= 100)){jx_x2=1;} else if((jx_x0 > 100)&&(jx_x0 <= 150)){jx_x2=2;} else if((jx_x0 > 150)&&(jx_x0 <= 200)){jx_x2=3;}
     else if((jx_x0 > 200)&&(jx_x0 <= 250)){jx_x2=4;} else if((jx_x0 > 250)&&(jx_x0 <= 300)){jx_x2=5;} else if((jx_x0 > 300)&&(jx_x0 <= 350)){jx_x2=6;} else if((jx_x0 > 350)&&(jx_x0 <= 400)){jx_x2=7;}
     else if((jx_x0 > 400)&&(jx_x0 <= 450)){jx_x2=8;} else if((jx_x0 > 450)&&(jx_x0 <= 500)){jx_x2=8;} else if((jx_x0 > 500)&&(jx_x0 <= 550)){jx_x2=9;} else if(jx_x0==0){jx_x2=0;}
-
     if     ((jx_x1 > 0)  &&(jx_x1 <= 50 )){jx_x3=1;} else if((jx_x1 > 50) &&(jx_x1 <= 100)){jx_x3=1;} else if((jx_x1 > 100)&&(jx_x1 <= 150)){jx_x3=2;} else if((jx_x1 > 150)&&(jx_x1 <= 200)){jx_x3=3;}
     else if((jx_x1 > 200)&&(jx_x1 <= 250)){jx_x3=4;} else if((jx_x1 > 250)&&(jx_x1 <= 300)){jx_x3=5;} else if((jx_x1 > 300)&&(jx_x1 <= 350)){jx_x3=6;} else if((jx_x1 > 350)&&(jx_x1 <= 400)){jx_x3=7;}
     else if((jx_x1 > 400)&&(jx_x1 <= 450)){jx_x3=8;} else if((jx_x1 > 450)&&(jx_x1 <= 500)){jx_x3=8;} else if((jx_x1 > 500)&&(jx_x1 <= 550)){jx_x3=9;} else if(jx_x1==0){jx_x3=0;}
-
     if     ((jx_y0 > 0)  &&(jx_y0 <= 50 )){jx_y2=1;} else if((jx_y0 > 50) &&(jx_y0 <= 100)){jx_y2=1;} else if((jx_y0 > 100)&&(jx_y0 <= 150)){jx_y2=2;} else if((jx_y0 > 150)&&(jx_y0 <= 200)){jx_y2=3;}
     else if((jx_y0 > 200)&&(jx_y0 <= 250)){jx_y2=4;} else if((jx_y0 > 250)&&(jx_y0 <= 300)){jx_y2=5;} else if((jx_y0 > 300)&&(jx_y0 <= 350)){jx_y2=6;} else if((jx_y0 > 350)&&(jx_y0 <= 400)){jx_y2=7;}
     else if((jx_y0 > 400)&&(jx_y0 <= 450)){jx_y2=8;} else if((jx_y0 > 450)&&(jx_y0 <= 500)){jx_y2=8;} else if((jx_y0 > 500)&&(jx_y0 <= 550)){jx_y2=9;} else if (jx_y0==0){jx_y2=0;}
-
     if     ((jx_y1 > 0)  &&(jx_y1 <= 50 )){jx_y3=1;} else if((jx_y1 > 50) &&(jx_y1 <= 100)){jx_y3=1;} else if((jx_y1 > 100)&&(jx_y1 <= 150)){jx_y3=2;} else if((jx_y1 > 150)&&(jx_y1 <= 200)){jx_y3=3;}
     else if((jx_y1 > 200)&&(jx_y1 <= 250)){jx_y3=4;} else if((jx_y1 > 250)&&(jx_y1 <= 300)){jx_y3=5;} else if((jx_y1 > 300)&&(jx_y1 <= 350)){jx_y3=6;} else if((jx_y1 > 350)&&(jx_y1 <= 400)){jx_y3=7;}
     else if((jx_y1 > 400)&&(jx_y1 <= 450)){jx_y3=8;} else if((jx_y1 > 450)&&(jx_y1 <= 500)){jx_y3=8;} else if((jx_y1 > 500)&&(jx_y1 <= 550)){jx_y3=9;} else if (jx_y1==0){jx_y3=0;}
