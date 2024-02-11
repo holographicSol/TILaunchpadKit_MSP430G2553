@@ -55,7 +55,7 @@ short map(short x, short in_min, short in_max, short out_min, short out_max) {
   return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
 }
 
-void interpret_joy(int jx_ax, int jx_ay, int jx_ac, int xyresolution, int xidlemin, int xidlemax, int yidlemin, int yidlemax, int xyminmaxstabalizer, int joystickselect){
+void interpret_joy(int jx_ax, int jx_ay, int jx_ac, int xyresolution, int xidlemin, int xidlemax, int yidlemin, int yidlemax, int xyminmaxstabalizer, int force_resolution, int joystickselect){
     // mapping: converts two analogue values to four numbers between 0 and 500 and converts one analogue number to zero or one.
     x_offset = (xidlemax-xidlemin);
     y_offset = (yidlemax-yidlemin);
