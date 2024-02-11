@@ -1,5 +1,5 @@
 /*
- * Joy Stick Analyzer: For calibrating ajoystick.h library.
+ * Joy Stick Analyzer: For calibrating ajoystick.h library for a specific joy stick.
  *
  */
 #include <msp430.h>
@@ -11,6 +11,9 @@
 #include <i2c.h>
 #include <ajoystick.h>
 
+int px = 5;  // x adc[5] = p1.2
+int py = 4;  // y adc[4] = p1.3
+int pc = 3;  // c adc[3] = p1.4
 unsigned int adc[8];
 void joystick_0(void);
 void main(void)
@@ -32,8 +35,8 @@ void main(void)
         while (ADC10CTL1 & BUSY);
         ADC10CTL0 |= ENC + ADC10SC;
         ADC10SA = (unsigned int)adc;
-        j0_ax = adc[5]; j0_ay = adc[4]; j0_ac = adc[3];
-        interpret_joy(adc[5], adc[4], adc[3], 500, 490, 510, 530, 550, 10, 0);
+        j0_ax = adc[px]; j0_ay = adc[py]; j0_ac = adc[pc];
+        interpret_joy(adc[px], adc[py], adc[pc], 500, 490, 510, 530, 550, 10, 16, 0);
         ssd1306_printText(0,  2, "X      ");  ssd1306_printUI32(15,  2, j0_ax, HCENTERUL_OFF, ComSep=0);
         ssd1306_printText(0,  3, "X0     ");  ssd1306_printUI32(15,  3, j0_x0, HCENTERUL_OFF, ComSep=0);
         ssd1306_printText(0,  4, "X1     ");  ssd1306_printUI32(15,  4, j0_x1, HCENTERUL_OFF, ComSep=0);
@@ -46,5 +49,7 @@ void main(void)
         ssd1306_printText(45, 6, "Y3     ");  ssd1306_printUI32(60,  6, j0_y3, HCENTERUL_OFF, ComSep=0);
         ssd1306_printText(90, 2, "C      ");  ssd1306_printUI32(100, 2, j0_ac, HCENTERUL_OFF, ComSep=0);
         ssd1306_printText(90, 3, "C0     ");  ssd1306_printUI32(110, 3, j0_c0, HCENTERUL_OFF, ComSep=0);
+
+        ssd1306_printText(90, 5, "MX0   ");   ssd1306_printUI32(110, 5, mx0,   HCENTERUL_OFF, ComSep=0);
         }
 }
