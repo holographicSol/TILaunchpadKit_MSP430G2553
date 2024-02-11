@@ -49,7 +49,5 @@ void main(void)
         ssd1306_printText(45, 6, "Y3     ");  ssd1306_printUI32(60,  6, j0_y3, HCENTERUL_OFF, ComSep=0);
         ssd1306_printText(90, 2, "C      ");  ssd1306_printUI32(100, 2, j0_ac, HCENTERUL_OFF, ComSep=0);
         ssd1306_printText(90, 3, "C0     ");  ssd1306_printUI32(110, 3, j0_c0, HCENTERUL_OFF, ComSep=0);
-
-        ssd1306_printText(90, 5, "MX0   ");   ssd1306_printUI32(110, 5, mx0,   HCENTERUL_OFF, ComSep=0);
         }
 }
