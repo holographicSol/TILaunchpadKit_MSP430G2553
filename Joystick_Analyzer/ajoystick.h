@@ -19,6 +19,7 @@ int xidlemax;            // stabilise no x input using an x idle minimum.       
 int yidlemin;            // stabilise no y input using an y idle minimum.               (high-end=512)
 int yidlemax;            // stabilise no y input using an y idle max.                   (high-end=512)
 int xyminmaxstabalizer;  // stabilise x,y minimum and max input                         (high-end=0)
+int force_resolution;    // maps 0-xyresolution to a new specified range                (8 for low end, can be stable higher than 8 on better joy sticks)
 int x_offset;            // idle range between x idle minimum and x idle maximum.       (high-end=0)    (sets automatically)
 int y_offset;            // idle range between y idle minimum and y idle maximum.       (high-end=0)    (sets automatically)
 
@@ -50,6 +51,10 @@ int j0_y2                    = 0;  // force:          up
 int j0_y3                    = 0;  // force:          down
 int j0_c0                    = 0;  // mapped clicked: zero/one
 
+short map(short x, short in_min, short in_max, short out_min, short out_max) {
+  return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+}
+
 void interpret_joy(int jx_ax, int jx_ay, int jx_ac, int xyresolution, int xidlemin, int xidlemax, int yidlemin, int yidlemax, int xyminmaxstabalizer, int joystickselect){
     // mapping: converts two analogue values to four numbers between 0 and 500 and converts one analogue number to zero or one.
     x_offset = (xidlemax-xidlemin);
@@ -76,19 +81,11 @@ void interpret_joy(int jx_ax, int jx_ay, int jx_ac, int xyresolution, int xidlem
     if (jx_y1 <= (0+xyminmaxstabalizer))             {jx_y1=0;}             // sanitise minimum: 0 minimum
 
     // set force: third abstraction layer creates predefined ranges of 'force'. relative degrees of force are predicated upon joy stick stability, reasonable user ability and resolution divisibility,
-    // meaning degrees of force can be further divided or less divided. update may result in degrees of force range 20 instead of 50, providing further degrees of force.
-    if     ((jx_x0 > 0)  &&(jx_x0 <= 50 )){jx_x2=1;} else if((jx_x0 > 50) &&(jx_x0 <= 100)){jx_x2=1;} else if((jx_x0 > 100)&&(jx_x0 <= 150)){jx_x2=2;} else if((jx_x0 > 150)&&(jx_x0 <= 200)){jx_x2=3;}
-    else if((jx_x0 > 200)&&(jx_x0 <= 250)){jx_x2=4;} else if((jx_x0 > 250)&&(jx_x0 <= 300)){jx_x2=5;} else if((jx_x0 > 300)&&(jx_x0 <= 350)){jx_x2=6;} else if((jx_x0 > 350)&&(jx_x0 <= 400)){jx_x2=7;}
-    else if((jx_x0 > 400)&&(jx_x0 <= 450)){jx_x2=8;} else if((jx_x0 > 450)&&(jx_x0 <= 500)){jx_x2=8;} else if((jx_x0 > 500)&&(jx_x0 <= 550)){jx_x2=9;} else if(jx_x0==0){jx_x2=0;}
-    if     ((jx_x1 > 0)  &&(jx_x1 <= 50 )){jx_x3=1;} else if((jx_x1 > 50) &&(jx_x1 <= 100)){jx_x3=1;} else if((jx_x1 > 100)&&(jx_x1 <= 150)){jx_x3=2;} else if((jx_x1 > 150)&&(jx_x1 <= 200)){jx_x3=3;}
-    else if((jx_x1 > 200)&&(jx_x1 <= 250)){jx_x3=4;} else if((jx_x1 > 250)&&(jx_x1 <= 300)){jx_x3=5;} else if((jx_x1 > 300)&&(jx_x1 <= 350)){jx_x3=6;} else if((jx_x1 > 350)&&(jx_x1 <= 400)){jx_x3=7;}
-    else if((jx_x1 > 400)&&(jx_x1 <= 450)){jx_x3=8;} else if((jx_x1 > 450)&&(jx_x1 <= 500)){jx_x3=8;} else if((jx_x1 > 500)&&(jx_x1 <= 550)){jx_x3=9;} else if(jx_x1==0){jx_x3=0;}
-    if     ((jx_y0 > 0)  &&(jx_y0 <= 50 )){jx_y2=1;} else if((jx_y0 > 50) &&(jx_y0 <= 100)){jx_y2=1;} else if((jx_y0 > 100)&&(jx_y0 <= 150)){jx_y2=2;} else if((jx_y0 > 150)&&(jx_y0 <= 200)){jx_y2=3;}
-    else if((jx_y0 > 200)&&(jx_y0 <= 250)){jx_y2=4;} else if((jx_y0 > 250)&&(jx_y0 <= 300)){jx_y2=5;} else if((jx_y0 > 300)&&(jx_y0 <= 350)){jx_y2=6;} else if((jx_y0 > 350)&&(jx_y0 <= 400)){jx_y2=7;}
-    else if((jx_y0 > 400)&&(jx_y0 <= 450)){jx_y2=8;} else if((jx_y0 > 450)&&(jx_y0 <= 500)){jx_y2=8;} else if((jx_y0 > 500)&&(jx_y0 <= 550)){jx_y2=9;} else if (jx_y0==0){jx_y2=0;}
-    if     ((jx_y1 > 0)  &&(jx_y1 <= 50 )){jx_y3=1;} else if((jx_y1 > 50) &&(jx_y1 <= 100)){jx_y3=1;} else if((jx_y1 > 100)&&(jx_y1 <= 150)){jx_y3=2;} else if((jx_y1 > 150)&&(jx_y1 <= 200)){jx_y3=3;}
-    else if((jx_y1 > 200)&&(jx_y1 <= 250)){jx_y3=4;} else if((jx_y1 > 250)&&(jx_y1 <= 300)){jx_y3=5;} else if((jx_y1 > 300)&&(jx_y1 <= 350)){jx_y3=6;} else if((jx_y1 > 350)&&(jx_y1 <= 400)){jx_y3=7;}
-    else if((jx_y1 > 400)&&(jx_y1 <= 450)){jx_y3=8;} else if((jx_y1 > 450)&&(jx_y1 <= 500)){jx_y3=8;} else if((jx_y1 > 500)&&(jx_y1 <= 550)){jx_y3=9;} else if (jx_y1==0){jx_y3=0;}
+    // meaning degrees of force can be further divided or less divided depending on needs and hardware ability.
+    jx_x2 = map(jx_x0, 0, 500, 0, force_resolution);
+    jx_x3 = map(jx_x1, 0, 500, 0, force_resolution);
+    jx_y2 = map(jx_y0, 0, 500, 0, force_resolution);
+    jx_y3 = map(jx_y1, 0, 500, 0, force_resolution);
 
     // ----- set values for joy stick selected: copy/paste this statement as jN and joy stick selected to save more joy.
     if      (joystickselect==0){j0_x0=jx_x0; j0_x1=jx_x1; j0_y0=jx_y0; j0_y1=jx_y1; j0_x2=jx_x2; j0_x3=jx_x3; j0_y2=jx_y2; j0_y3=jx_y3; j0_c0=jx_c0;}
