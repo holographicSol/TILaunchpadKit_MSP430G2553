@@ -19,7 +19,7 @@ int xidlemax;            // stabilise no x input using an x idle minimum.       
 int yidlemin;            // stabilise no y input using an y idle minimum.               (high-end=512)
 int yidlemax;            // stabilise no y input using an y idle max.                   (high-end=512)
 int xyminmaxstabalizer;  // stabilise x,y minimum and max input                         (high-end=0)
-int force_resolution;    // maps 0-xyresolution to a new specified range                (8 for low end, can be stable higher than 8 on better joy sticks)
+int force_resolution;    // maps 0-xyresolution to a new specified range                (concept here is use a number that will result in a stable, consistent use of force when force is applied)
 int x_offset;            // idle range between x idle minimum and x idle maximum.       (high-end=0)    (sets automatically)
 int y_offset;            // idle range between y idle minimum and y idle maximum.       (high-end=0)    (sets automatically)
 
@@ -82,10 +82,10 @@ void interpret_joy(int jx_ax, int jx_ay, int jx_ac, int xyresolution, int xidlem
 
     // set force: third abstraction layer creates predefined ranges of 'force'. relative degrees of force are predicated upon joy stick stability, reasonable user ability and resolution divisibility,
     // meaning degrees of force can be further divided or less divided depending on needs and hardware ability.
-    jx_x2 = map(jx_x0, 0, 500, 0, force_resolution);
-    jx_x3 = map(jx_x1, 0, 500, 0, force_resolution);
-    jx_y2 = map(jx_y0, 0, 500, 0, force_resolution);
-    jx_y3 = map(jx_y1, 0, 500, 0, force_resolution);
+    jx_x2 = map(jx_x0, 0, xyresolution, 0, force_resolution);
+    jx_x3 = map(jx_x1, 0, xyresolution, 0, force_resolution);
+    jx_y2 = map(jx_y0, 0, xyresolution, 0, force_resolution);
+    jx_y3 = map(jx_y1, 0, xyresolution, 0, force_resolution);
 
     // ----- set values for joy stick selected: copy/paste this statement as jN and joy stick selected to save more joy.
     if      (joystickselect==0){j0_x0=jx_x0; j0_x1=jx_x1; j0_y0=jx_y0; j0_y1=jx_y1; j0_x2=jx_x2; j0_x3=jx_x3; j0_y2=jx_y2; j0_y3=jx_y3; j0_c0=jx_c0;}
