@@ -26,3 +26,7 @@ int xyminmaxstabalizer;  // stabilise x,y minimum and max input                 
 
 Demonstration:
 https://www.youtube.com/watch?v=2h-quhcb83I
+
+
+Magnetic field experiments can be performed for critical applications to further improve calibration therefore
+improving overall joystick input stability.
